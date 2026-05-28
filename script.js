@@ -3,6 +3,20 @@ const CONFIG_PATH = "config/app-config.json";
 const MANIFEST_FILENAME = "procedimentos-manifest.json";
 const SUPPORTED_EXTENSIONS = [".json", ".txt"];
 const DEBUG_PREFIX = "[Guia LACIR]";
+const DISPLAY_CATEGORIES = [
+  "Lesões de pele e subcutâneo",
+  "Suturas, feridas e curativos",
+  "Sondas e drenos",
+  "Acessos vasculares",
+  "Via aérea e oxigenoterapia",
+  "Trauma e emergência",
+  "Cavidade abdominal e peritônio",
+  "Procedimentos torácicos",
+  "Urologia",
+  "Punções e anestesia",
+  "Cirurgia plástica e reconstrução",
+  "Outros procedimentos"
+];
 const DEFAULT_APP_CONFIG = {
   github: {
     owner: "JoaoFiscina",
@@ -1362,10 +1376,18 @@ function compareBySourcePriority(a, b) {
 }
 
 function sortProcedures(a, b) {
-  const categoryDifference = a.categoria.localeCompare(b.categoria, "pt-BR");
+  const categoryA = getDisplayCategory(a);
+  const categoryB = getDisplayCategory(b);
+  const categoryDifference = getDisplayCategoryOrder(categoryA) - getDisplayCategoryOrder(categoryB);
 
   if (categoryDifference !== 0) {
     return categoryDifference;
+  }
+
+  const categoryNameDifference = categoryA.localeCompare(categoryB, "pt-BR");
+
+  if (categoryNameDifference !== 0) {
+    return categoryNameDifference;
   }
 
   return a.nome.localeCompare(b.nome, "pt-BR");
@@ -1424,8 +1446,8 @@ function syncSelectionAndProgress() {
 }
 
 function populateCategoryFilter() {
-  const categories = [...new Set(appState.procedures.map((item) => item.categoria))].sort((a, b) =>
-    a.localeCompare(b, "pt-BR")
+  const categories = [...new Set(appState.procedures.map((item) => getDisplayCategory(item)))].sort(
+    compareDisplayCategories
   );
 
   elements.categoryFilter.innerHTML = `
@@ -1570,7 +1592,7 @@ function renderProcedureList() {
 
       return `
         <article class="procedure-card ${procedure.id === appState.selectedProcedureId ? "is-active" : ""}" data-procedure-id="${escapeHtml(procedure.id)}">
-          <span class="badge muted">${escapeHtml(procedure.categoria)}</span>
+          <span class="badge muted">${escapeHtml(getDisplayCategory(procedure))}</span>
           <h3>${escapeHtml(procedure.nome)}</h3>
           <p>${escapeHtml(procedure.descricao_curta)}</p>
           <div class="procedure-card-footer">
@@ -1592,7 +1614,7 @@ function renderSelectedProcedure() {
   }
 
   elements.procedureView.classList.remove("hidden");
-  elements.selectedCategory.textContent = procedure.categoria;
+  elements.selectedCategory.textContent = getDisplayCategory(procedure);
   elements.selectedStepSummary.textContent = `${procedure.passos.length} passos`;
   elements.selectedSourceBadge.textContent = procedure._meta.sourceLabel;
   elements.selectedFileLabel.textContent = `${procedure._meta.filePath}`;
@@ -1866,10 +1888,153 @@ function getFilteredProcedures() {
   return appState.procedures.filter((procedure) => {
     const matchesSearch = !appState.searchTerm || procedure.nome.toLowerCase().includes(appState.searchTerm);
     const matchesCategory =
-      appState.selectedCategory === "all" || procedure.categoria === appState.selectedCategory;
+      appState.selectedCategory === "all" || getDisplayCategory(procedure) === appState.selectedCategory;
 
     return matchesSearch && matchesCategory;
   });
+}
+
+function getDisplayCategory(procedure) {
+  if (!procedure) {
+    return normalizeCategory("");
+  }
+
+  return normalizeCategory(procedure.categoria, procedure.nome);
+}
+
+function normalizeCategory(category, procedureName = "") {
+  const originalCategory = safeText(category);
+  const withoutLegacyPrefix = originalCategory
+    .replace(/^\s*(?:Habilidades\s+Cirúrgicas|HC)\s*(?:I{1,2}|1|2)?\s*\/\s*/i, "")
+    .replace(/\bHCI{1,2}\b/gi, "")
+    .replace(/\bHabilidades\s+Cirúrgicas\s+I{1,2}\b/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  const cleanCategory = withoutLegacyPrefix || originalCategory || "Sem categoria";
+  const normalizedSource = normalizeSearchText(`${cleanCategory} ${procedureName}`);
+
+  if (matchesAnyTerm(normalizedSource, ["enxertia", "retalho", "reconstrucao", "plastica", "cirurgia plastica"])) {
+    return "Cirurgia plástica e reconstrução";
+  }
+
+  if (matchesAnyTerm(normalizedSource, ["cistostomia", "vesical"]) || /\burologia\b/.test(normalizedSource)) {
+    return "Urologia";
+  }
+
+  if (
+    matchesAnyTerm(normalizedSource, [
+      "toracocentese",
+      "drenagem toracica",
+      "caixa toracica",
+      "torax",
+      "pleural",
+      "pericardiocentese"
+    ])
+  ) {
+    return "Procedimentos torácicos";
+  }
+
+  if (matchesAnyTerm(normalizedSource, ["trauma", "lpd", "atls", "emergencia"])) {
+    return "Trauma e emergência";
+  }
+
+  if (
+    matchesAnyTerm(normalizedSource, ["paracentese", "peritoneal", "abdome", "abdominal", "cavidade abdominal"])
+  ) {
+    return "Cavidade abdominal e peritônio";
+  }
+
+  if (
+    matchesAnyTerm(normalizedSource, [
+      "via aerea",
+      "vias aereas",
+      "iot",
+      "intubacao",
+      "ambu",
+      "mascara",
+      "canula",
+      "crico",
+      "cricotireoidostomia",
+      "traqueostomia",
+      "oxigenoterapia"
+    ])
+  ) {
+    return "Via aérea e oxigenoterapia";
+  }
+
+  if (
+    matchesAnyTerm(normalizedSource, [
+      "acesso",
+      "venoso",
+      "venosa",
+      "arterial",
+      "gasometria",
+      "pam",
+      "intraossea",
+      "intraosseo",
+      "disseccao venosa"
+    ])
+  ) {
+    return "Acessos vasculares";
+  }
+
+  if (matchesAnyTerm(normalizedSource, ["sonda", "sondas", "dreno", "drenos"])) {
+    return "Sondas e drenos";
+  }
+
+  if (matchesAnyTerm(normalizedSource, ["sutura", "ferida", "curativo", "pontos"])) {
+    return "Suturas, feridas e curativos";
+  }
+
+  if (
+    matchesAnyTerm(normalizedSource, [
+      "lesoes de pele",
+      "lesao de pele",
+      "pele",
+      "subcutaneo",
+      "lipoma",
+      "cisto",
+      "abscesso"
+    ])
+  ) {
+    return "Lesões de pele e subcutâneo";
+  }
+
+  if (matchesAnyTerm(normalizedSource, ["puncao lombar", "anestesia", "anestesiologia", "bloqueio"])) {
+    return "Punções e anestesia";
+  }
+
+  if (DISPLAY_CATEGORIES.includes(cleanCategory)) {
+    return cleanCategory;
+  }
+
+  return "Outros procedimentos";
+}
+
+function normalizeSearchText(value) {
+  return safeText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function matchesAnyTerm(value, terms) {
+  return terms.some((term) => value.includes(term));
+}
+
+function compareDisplayCategories(a, b) {
+  const orderDifference = getDisplayCategoryOrder(a) - getDisplayCategoryOrder(b);
+
+  if (orderDifference !== 0) {
+    return orderDifference;
+  }
+
+  return a.localeCompare(b, "pt-BR");
+}
+
+function getDisplayCategoryOrder(category) {
+  const index = DISPLAY_CATEGORIES.indexOf(category);
+  return index === -1 ? DISPLAY_CATEGORIES.length : index;
 }
 
 function getSelectedProcedure() {
