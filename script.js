@@ -3,6 +3,8 @@ const CONFIG_PATH = "config/app-config.json";
 const MANIFEST_FILENAME = "procedimentos-manifest.json";
 const SUPPORTED_EXTENSIONS = [".json", ".txt"];
 const DEBUG_PREFIX = "[Guia LACIR]";
+const ACCESS_PASSWORD = "CICC2026";
+const ACCESS_SESSION_KEY = "lacir-access-unlocked";
 const DISPLAY_CATEGORIES = [
   "Lesões de pele e subcutâneo",
   "Suturas, feridas e curativos",
@@ -65,6 +67,10 @@ const appState = {
 };
 
 const elements = {
+  accessGate: document.querySelector("#accessGate"),
+  accessGateForm: document.querySelector("#accessGateForm"),
+  accessPasswordInput: document.querySelector("#accessPasswordInput"),
+  accessGateMessage: document.querySelector("#accessGateMessage"),
   searchInput: document.querySelector("#searchInput"),
   categoryFilter: document.querySelector("#categoryFilter"),
   procedureCountBadge: document.querySelector("#procedureCountBadge"),
@@ -136,6 +142,7 @@ async function initializeApp() {
 
   try {
     restoreState();
+    initializeAccessGate();
     bindEvents();
     initializeLogoMarks();
     render();
@@ -219,7 +226,25 @@ function initializeLogoMarks() {
   });
 }
 
+function initializeAccessGate() {
+  if (!elements.accessGate || !elements.accessGateForm || !elements.accessPasswordInput) {
+    return;
+  }
+
+  if (sessionStorage.getItem(ACCESS_SESSION_KEY) === "true") {
+    unlockAccessGate();
+    return;
+  }
+
+  elements.accessGate.classList.remove("is-unlocked");
+  elements.accessPasswordInput.focus({ preventScroll: true });
+}
+
 function bindEvents() {
+  if (elements.accessGateForm) {
+    elements.accessGateForm.addEventListener("submit", handleAccessGateSubmit);
+  }
+
   elements.searchInput.addEventListener("input", (event) => {
     appState.searchTerm = event.target.value.trim().toLowerCase();
     persistState();
@@ -392,6 +417,31 @@ function bindEvents() {
   document.addEventListener("keydown", handleSequenceShortcuts);
   window.addEventListener("scroll", updateSequenceSummaryState, { passive: true });
   window.addEventListener("resize", updateSequenceSummaryState);
+}
+
+function handleAccessGateSubmit(event) {
+  event.preventDefault();
+
+  const typedPassword = elements.accessPasswordInput.value.trim();
+
+  if (typedPassword === ACCESS_PASSWORD) {
+    sessionStorage.setItem(ACCESS_SESSION_KEY, "true");
+    unlockAccessGate();
+    return;
+  }
+
+  elements.accessGateMessage.textContent = "Senha incorreta. Tente novamente.";
+  elements.accessPasswordInput.value = "";
+  elements.accessPasswordInput.focus();
+}
+
+function unlockAccessGate() {
+  if (!elements.accessGate) {
+    return;
+  }
+
+  elements.accessGate.classList.add("is-unlocked");
+  elements.accessGate.setAttribute("aria-hidden", "true");
 }
 
 async function bootstrapCatalog() {

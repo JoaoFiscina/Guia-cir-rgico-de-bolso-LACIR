@@ -12,6 +12,50 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <section id="accessGate" class="access-gate" aria-labelledby="accessGateTitle">
+      <div class="access-gate-card">
+        <div class="access-logo-mark" data-logo-src="assets/lacir-logo-oficial.png">
+          <img
+            alt="Logo da LACIR"
+            class="lacir-logo"
+            width="96"
+            height="96"
+            loading="eager"
+            decoding="async"
+            hidden
+          />
+          <span class="lacir-logo-fallback" role="img" aria-label="Logo da LACIR">
+            LACIR
+          </span>
+        </div>
+
+        <div class="access-gate-copy">
+          <p class="eyebrow">Liga Acadêmica de Cirurgia - LACIR</p>
+          <h2 id="accessGateTitle">Guia Cirúrgico de Bolso da LACIR</h2>
+          <p>Digite a senha de acesso para abrir os roteiros e checklists do guia.</p>
+        </div>
+
+        <form id="accessGateForm" class="access-gate-form" autocomplete="off">
+          <label class="field access-password-field" for="accessPasswordInput">
+            <span>Senha de acesso</span>
+            <input
+              type="password"
+              id="accessPasswordInput"
+              inputmode="text"
+              autocomplete="current-password"
+              placeholder="Digite a senha"
+            />
+          </label>
+
+          <button type="submit" class="button button-primary access-gate-button">
+            Acessar guia
+          </button>
+
+          <p id="accessGateMessage" class="access-gate-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
     <div class="page-shell">
       <header class="topbar">
         <div class="topbar-main">
