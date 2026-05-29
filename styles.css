@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #f6f8f5;
   --bg-soft: #eef5f0;
   --surface: rgba(255, 255, 255, 0.96);
@@ -1061,7 +1061,7 @@ summary:focus-visible,
 }
 
 .step-alert::before {
-  content: "AtenÃ§Ã£o";
+  content: "Atenção";
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.1em;

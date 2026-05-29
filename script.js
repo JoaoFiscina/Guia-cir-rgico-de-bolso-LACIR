@@ -22,7 +22,7 @@ const DISPLAY_CATEGORIES = [
 const DEFAULT_APP_CONFIG = {
   github: {
     owner: "JoaoFiscina",
-    repo: "HCII-SITE",
+    repo: "Guia-cir-rgico-de-bolso-LACIR",
     branch: "main",
     proceduresPath: "procedimentos"
   }

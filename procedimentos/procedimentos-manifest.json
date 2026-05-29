@@ -1,6 +1,34 @@
 {
   "files": [
+    "acesso_venoso_central_femoral_importacao.txt",
+    "acesso_venoso_central_jugular_interna_posterior_importacao.txt",
+    "acesso_venoso_central_jugular_interna_seldinger_importacao.txt",
+    "cateterizacao_arterial_radial_pam_importacao.txt",
+    "cistostomia_por_puncao_suprapubica_importacao.txt",
+    "cricotireoidostomia_por_puncao_importacao.txt",
+    "disseccao_venosa_importacao.txt",
+    "drenagem_toracica_importacao.txt",
+    "dreno_tubular_com_trocarte_importacao.txt",
+    "gasometria_arterial_radial_hcii_importacao.txt",
+    "intubacao_orotraqueal_importacao.txt",
+    "lavado_peritoneal_diagnostico_importacao.txt",
+    "paracentese_importacao.txt",
+    "pericardiocentese_guiada_por_usg_importacao.txt",
+    "puncao_arterial_radial_gasometria_importacao.txt",
+    "puncao_intraossea_importacao.txt",
+    "puncao_lombar_importacao.txt",
+    "reconstrucao_cutanea_por_enxertia_importacao1.txt",
     "reconstrucao_cutanea_por_enxertia.txt",
-    "reconstrucao_cutanea_por_enxertia_importacao1.txt"
+    "reconstrucao_cutanea_por_retalho_de_avanco_importacao.txt",
+    "retalho_de_limberg_importacao.txt",
+    "sequencia_rapida_de_intubacao_7ps_importacao.txt",
+    "sonda_nasoenteral_enteral_importacao.txt",
+    "sonda_nasogastrica_importacao.txt",
+    "sonda_orogastrica_importacao.txt",
+    "sonda_retal_importacao.txt",
+    "sondagem_vesical_importacao.txt",
+    "toracocentese_importacao.txt",
+    "traqueostomia_importacao.txt",
+    "zetaplastia_importacao.txt"
   ]
 }
