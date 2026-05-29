@@ -67,6 +67,9 @@ const appState = {
     current: 0,
     total: 0
   },
+  favorites: [],
+  showFavoritesOnly: false,
+  focusMode: false,
   statusDetail: "Aguardando inicialização."
 };
 
@@ -141,7 +144,11 @@ const elements = {
   loadingProgressBar: document.querySelector("#loadingProgressBar"),
   issueCountBadge: document.querySelector("#issueCountBadge"),
   issuesList: document.querySelector("#issuesList"),
-  issuesPanel: document.querySelector(".issues-panel")
+  issuesPanel: document.querySelector(".issues-panel"),
+  statusPanel: document.querySelector(".status-panel"),
+  toggleFavoritesFilterButton: document.querySelector("#toggleFavoritesFilterButton"),
+  selectedProcedureFavoriteButton: document.querySelector("#selectedProcedureFavoriteButton"),
+  focusModeButton: document.querySelector("#focusModeButton")
 };
 
 document.addEventListener("DOMContentLoaded", initializeApp);
@@ -435,6 +442,14 @@ function bindEvents() {
   });
 
   elements.procedureList.addEventListener("click", (event) => {
+    const starBtn = event.target.closest(".favorite-card-button");
+    if (starBtn) {
+      event.stopPropagation();
+      const procedureId = starBtn.dataset.procedureId;
+      toggleFavorite(procedureId);
+      return;
+    }
+
     const card = event.target.closest("[data-procedure-id]");
 
     if (!card) {
@@ -513,6 +528,31 @@ function bindEvents() {
   if (elements.hubRandomButton) {
     elements.hubRandomButton.addEventListener("click", () => {
       selectRandomProcedure();
+    });
+  }
+
+  if (elements.toggleFavoritesFilterButton) {
+    elements.toggleFavoritesFilterButton.addEventListener("click", () => {
+      appState.showFavoritesOnly = !appState.showFavoritesOnly;
+      renderFavoritesFilterButton();
+      renderProcedureList();
+      renderQuickProcedurePicker();
+    });
+  }
+
+  if (elements.selectedProcedureFavoriteButton) {
+    elements.selectedProcedureFavoriteButton.addEventListener("click", () => {
+      const procedure = getSelectedProcedure();
+      if (procedure) {
+        toggleFavorite(procedure.id);
+      }
+    });
+  }
+
+  if (elements.focusModeButton) {
+    elements.focusModeButton.addEventListener("click", () => {
+      appState.focusMode = !appState.focusMode;
+      toggleFocusMode(appState.focusMode);
     });
   }
 
@@ -1647,6 +1687,13 @@ function restoreState() {
     localStorage.removeItem(STORAGE_KEY);
   }
 
+  try {
+    appState.favorites = JSON.parse(localStorage.getItem("lacir-favorites") || "[]");
+  } catch (e) {
+    appState.favorites = [];
+  }
+  appState.showFavoritesOnly = false;
+
   elements.searchInput.value = appState.searchTerm;
 }
 
@@ -1707,6 +1754,7 @@ function render() {
   renderIssuesPanel();
   renderQuickProcedurePicker();
   renderProcedureList();
+  renderFavoritesFilterButton();
   renderSelectedProcedure();
   renderMode();
 }
@@ -1754,13 +1802,23 @@ function renderStatusPanel() {
   const localCount = getLocalProcedures().length;
   const total = procedures.length;
 
+  if (elements.statusPanel) {
+    if (appState.loading.active) {
+      elements.statusPanel.classList.add("is-loading");
+      elements.statusPanel.classList.remove("is-loaded");
+    } else {
+      elements.statusPanel.classList.remove("is-loading");
+      elements.statusPanel.classList.add("is-loaded");
+    }
+  }
+
   // Simplificação das mensagens de status conforme solicitado
   if (appState.loading.active) {
     elements.statusMessage.textContent = "Carregando roteiros...";
   } else if (total > 0) {
-    elements.statusMessage.textContent = `${total} roteiro${total > 1 ? "s" : ""} carregado${total > 1 ? "s" : ""}.`;
+    elements.statusMessage.textContent = `${total} ${total === 1 ? "roteiro carregado" : "roteiros carregados"}`;
   } else {
-    elements.statusMessage.textContent = "Não foi possível carregar todos os roteiros. Verifique a conexão ou o manifest.";
+    elements.statusMessage.textContent = "Não foi possível carregar os roteiros. Verifique a conexão.";
   }
 
   // Controle de barra de progresso indeterminada vs progresso real
@@ -1840,21 +1898,35 @@ function renderProcedureList() {
   }
 
   if (!procedures.length) {
-    elements.procedureList.innerHTML = `
-      <div class="empty-procedures">
-        Nenhum roteiro corresponde aos filtros atuais.
-      </div>
-    `;
+    if (appState.showFavoritesOnly && appState.favorites.length === 0) {
+      elements.procedureList.innerHTML = `
+        <div class="empty-procedures">
+          Nenhum roteiro favoritado ainda.
+        </div>
+      `;
+    } else {
+      elements.procedureList.innerHTML = `
+        <div class="empty-procedures">
+          Nenhum roteiro corresponde aos filtros atuais.
+        </div>
+      `;
+    }
     return;
   }
 
   elements.procedureList.innerHTML = procedures
     .map((procedure) => {
       const totalSteps = procedure.passos.length;
+      const isFav = appState.favorites.includes(procedure.id);
 
       return `
         <article class="procedure-card ${procedure.id === appState.selectedProcedureId ? "is-active" : ""}" data-procedure-id="${escapeHtml(procedure.id)}">
-          <span class="badge muted">${escapeHtml(getDisplayCategory(procedure))}</span>
+          <div class="procedure-card-header-row">
+            <span class="badge muted">${escapeHtml(getDisplayCategory(procedure))}</span>
+            <button type="button" class="favorite-card-button ${isFav ? "is-favorite" : ""}" data-procedure-id="${escapeHtml(procedure.id)}" aria-label="Favoritar" title="${isFav ? "Remover dos favoritos" : "Adicionar aos favoritos"}">
+              ${isFav ? "★" : "☆"}
+            </button>
+          </div>
           <h3>${escapeHtml(procedure.nome)}</h3>
           <p>${escapeHtml(procedure.descricao_curta)}</p>
           <div class="procedure-card-footer">
@@ -1872,6 +1944,10 @@ function renderSelectedProcedure() {
 
   if (!procedure) {
     elements.procedureView.classList.add("hidden");
+    if (appState.focusMode) {
+      appState.focusMode = false;
+      toggleFocusMode(false);
+    }
     return;
   }
 
@@ -1882,6 +1958,22 @@ function renderSelectedProcedure() {
   elements.selectedFileLabel.textContent = `${procedure._meta.filePath}`;
   elements.selectedProcedureName.textContent = procedure.nome;
   elements.selectedProcedureDescription.textContent = procedure.descricao_curta;
+
+  // Favorito
+  const isFavorite = appState.favorites.includes(procedure.id);
+  const favoriteBtn = elements.selectedProcedureFavoriteButton;
+  if (favoriteBtn) {
+    if (isFavorite) {
+      favoriteBtn.classList.add("is-favorite");
+      favoriteBtn.innerHTML = "★";
+      favoriteBtn.title = "Remover dos favoritos";
+    } else {
+      favoriteBtn.classList.remove("is-favorite");
+      favoriteBtn.innerHTML = "☆";
+      favoriteBtn.title = "Adicionar aos favoritos";
+    }
+    favoriteBtn.dataset.procedureId = procedure.id;
+  }
 
   if (procedure.imagem_capa) {
     elements.heroImageWrapper.classList.remove("hidden");
@@ -1991,7 +2083,7 @@ function createStepCard(step, options = {}) {
           <div class="step-meta">
             <h4>${escapeHtml(step.titulo)}</h4>
             <div class="step-badges">
-              ${step.critico ? '<span class="badge critical-badge">Etapa crítica</span>' : ""}
+              ${step.critico ? '<span class="badge critical-badge">Crítico</span>' : ""}
               ${current ? '<span class="badge checked-badge">Passo atual</span>' : ""}
             </div>
           </div>
@@ -2146,8 +2238,9 @@ function getFilteredProcedures() {
     const matchesSearch = !appState.searchTerm || procedure.nome.toLowerCase().includes(appState.searchTerm);
     const matchesCategory =
       appState.selectedCategory === "all" || getDisplayCategory(procedure) === appState.selectedCategory;
+    const matchesFavorites = !appState.showFavoritesOnly || appState.favorites.includes(procedure.id);
 
-    return matchesSearch && matchesCategory;
+    return matchesSearch && matchesCategory && matchesFavorites;
   });
 }
 
@@ -2787,4 +2880,59 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value);
+}
+
+function toggleFavorite(procedureId) {
+  const index = appState.favorites.indexOf(procedureId);
+  if (index === -1) {
+    appState.favorites.push(procedureId);
+  } else {
+    appState.favorites.splice(index, 1);
+  }
+  saveFavorites();
+  render();
+}
+
+function saveFavorites() {
+  localStorage.setItem("lacir-favorites", JSON.stringify(appState.favorites));
+}
+
+function renderFavoritesFilterButton() {
+  const btn = elements.toggleFavoritesFilterButton;
+  if (!btn) return;
+  if (appState.showFavoritesOnly) {
+    btn.classList.add("button-primary");
+    btn.classList.remove("button-secondary");
+    btn.innerHTML = `Mostrar todos os roteiros <span>★</span>`;
+  } else {
+    btn.classList.remove("button-primary");
+    btn.classList.add("button-secondary");
+    btn.innerHTML = `Filtrar favoritos <span>☆</span>`;
+  }
+}
+
+function toggleFocusMode(active) {
+  if (active) {
+    document.body.classList.add("focus-mode");
+    if (elements.focusModeButton) {
+      elements.focusModeButton.textContent = "Sair do foco";
+      elements.focusModeButton.classList.add("button-primary");
+      elements.focusModeButton.classList.remove("button-secondary");
+    }
+    // Recolher todos os acordeões de informações adicionais
+    document.querySelectorAll("#detailsContainer details").forEach((el) => {
+      el.open = false;
+    });
+    // Rolar a tela suavemente para o início do roteiro selecionado
+    if (elements.selectedProcedureName) {
+      elements.selectedProcedureName.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  } else {
+    document.body.classList.remove("focus-mode");
+    if (elements.focusModeButton) {
+      elements.focusModeButton.textContent = "Modo Foco";
+      elements.focusModeButton.classList.add("button-secondary");
+      elements.focusModeButton.classList.remove("button-primary");
+    }
+  }
 }

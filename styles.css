@@ -1706,3 +1706,230 @@ summary:focus-visible,
   }
 }
 
+/* ==========================================================================
+   Biblioteca de Roteiros Compacta
+   ========================================================================== */
+.status-panel {
+  display: block;
+  padding: 12px clamp(18px, 1.6vw, 24px);
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  transition: padding 0.25s ease;
+}
+
+.status-panel.is-loading {
+  padding: 18px clamp(18px, 1.6vw, 24px);
+}
+
+.status-container-compact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.status-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.status-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.status-message {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.status-center {
+  flex: 1 1 200px;
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+}
+
+.status-center .loading-panel-simple {
+  width: 100%;
+}
+
+.status-panel.is-loaded .status-center {
+  display: none;
+}
+
+.status-right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.button-compact {
+  padding: 6px 14px;
+  font-size: 0.88rem;
+  min-height: 36px;
+}
+
+/* ==========================================================================
+   Modo Foco
+   ========================================================================== */
+body.focus-mode .sidebar,
+body.focus-mode .status-panel {
+  display: none !important;
+}
+
+body.focus-mode .layout {
+  grid-template-columns: 1fr;
+}
+
+body.focus-mode .content {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Sistema de Favoritos
+   ========================================================================== */
+.procedure-card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.favorite-card-button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1;
+  color: var(--border-strong);
+  transition: transform 0.15s ease, color 0.15s ease;
+  padding: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-card-button:hover {
+  transform: scale(1.2);
+  color: #ffb703;
+}
+
+.favorite-card-button.is-favorite {
+  color: #ffb703;
+}
+
+.procedure-card.is-active .favorite-card-button {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.procedure-card.is-active .favorite-card-button:hover {
+  color: #ffffff;
+}
+
+.procedure-card.is-active .favorite-card-button.is-favorite {
+  color: #ffb703;
+}
+
+.favorites-filter-container {
+  margin-top: 12px;
+  width: 100%;
+}
+
+#toggleFavoritesFilterButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+#toggleFavoritesFilterButton span {
+  font-size: 1.1rem;
+}
+
+.hero-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.favorite-hero-button {
+  background: none;
+  border: none;
+  font-size: 1.85rem;
+  cursor: pointer;
+  line-height: 1;
+  color: var(--border-strong);
+  transition: transform 0.15s ease, color 0.15s ease;
+  padding: 4px;
+}
+
+.favorite-hero-button:hover {
+  transform: scale(1.15);
+  color: #ffb703;
+}
+
+.favorite-hero-button.is-favorite {
+  color: #ffb703;
+}
+
+/* ==========================================================================
+   Suavização das Etapas Críticas e Alertas
+   ========================================================================== */
+.critical-badge {
+  background: #fff9eb !important;
+  color: #a07818 !important;
+  border: 1px solid #f6e3c0 !important;
+  padding: 2px 8px !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.checked-badge {
+  background: var(--green-soft) !important;
+  color: var(--green) !important;
+  border: 1px solid rgba(36, 76, 58, 0.15) !important;
+  padding: 2px 8px !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.step-alert {
+  padding: 8px 12px !important;
+  font-size: 0.92rem !important;
+  line-height: 1.5 !important;
+  margin-top: 6px !important;
+}
+
+.step-subaction-item {
+  padding: 6px 12px !important;
+  font-size: 0.92rem !important;
+}
+

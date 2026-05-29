@@ -109,25 +109,24 @@
       </header>
 
       <section class="panel status-panel">
-        <div class="status-header-simple">
-          <div class="status-title-group">
-            <span class="action-icon">📚</span>
-            <h2>Biblioteca de roteiros</h2>
+        <div class="status-container-compact">
+          <div class="status-left">
+            <span class="status-icon">📚</span>
+            <p id="statusMessage" class="status-message" aria-live="polite">
+              Preparando leitura dos roteiros...
+            </p>
           </div>
-          <button type="button" id="reloadProceduresButton" class="button button-primary">
-            Recarregar roteiros
-          </button>
-        </div>
-
-        <div class="status-info-simple">
-          <p id="statusMessage" class="status-message" aria-live="polite">
-            Preparando leitura dos roteiros...
-          </p>
-
-          <div class="loading-panel-simple">
-            <div class="progress-track" aria-hidden="true">
-              <div id="loadingProgressBar" class="progress-fill"></div>
+          <div class="status-center">
+            <div class="loading-panel-simple">
+              <div class="progress-track" aria-hidden="true">
+                <div id="loadingProgressBar" class="progress-fill"></div>
+              </div>
             </div>
+          </div>
+          <div class="status-right">
+            <button type="button" id="reloadProceduresButton" class="button button-secondary button-compact">
+              Recarregar
+            </button>
           </div>
         </div>
 
@@ -216,6 +215,12 @@
               </select>
             </label>
 
+            <div class="favorites-filter-container">
+              <button type="button" id="toggleFavoritesFilterButton" class="button button-secondary button-full">
+                Filtrar favoritos <span>☆</span>
+              </button>
+            </div>
+
             <div id="quickProcedurePicker" class="quick-picker">
               <label class="field quick-picker-field">
                 <span>Seleção rápida</span>
@@ -300,7 +305,12 @@
                   <span id="selectedSourceBadge" class="badge muted"></span>
                 </div>
 
-                <h2 id="selectedProcedureName"></h2>
+                <div class="hero-title-row">
+                  <h2 id="selectedProcedureName"></h2>
+                  <button type="button" id="selectedProcedureFavoriteButton" class="favorite-hero-button" title="Adicionar aos favoritos" aria-label="Favoritar procedimento">
+                    ☆
+                  </button>
+                </div>
                 <p id="selectedProcedureDescription" class="hero-description"></p>
 
                 <div class="hero-file-row">
@@ -313,6 +323,9 @@
                   </button>
                   <button type="button" id="sequenceModeButton" class="button button-secondary">
                     Modo Sequência
+                  </button>
+                  <button type="button" id="focusModeButton" class="button button-secondary">
+                    Modo Foco
                   </button>
                   <button type="button" id="backToStartButton" class="button button-ghost">
                     Voltar ao início
