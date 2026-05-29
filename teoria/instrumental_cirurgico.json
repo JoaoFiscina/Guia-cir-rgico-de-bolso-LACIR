@@ -17,7 +17,7 @@
         "Regra 3: O instrumental não montado fica com a parte funcional voltada para cima até que seja montado (ex: cabo de bisturi sem lâmina).",
         "Ordem de organização interna: Menores antes dos maiores; Atraumáticas antes de traumáticas; Metzenbaum antes de Mayo; Curvas antes de retas; Cabo de bisturi nº 4 antes do nº 3."
       ],
-      "imagem": "assets/teoria/arrumacao_mesa.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p13_1.png"
     },
     {
       "id": "passagem_instrumentais",
@@ -87,8 +87,12 @@
       ],
       "como_reconhecer": "Cabo plano metálico com uma ponteira estreita e trilho de encaixe para lâmina descartável.",
       "pegadinha": "Técnica de corte: Entrada a 90° na pele, condução a 45° mantendo a pressão constante, e saída a 90° para evitar bordas em bisel. Empunhadura em 'arco de violino' para incisões longas e 'lápis' para incisões pequenas.",
-      "tags": ["Incisão", "Corte", "Agudo"],
-      "imagem": "assets/teoria/bisturi.png"
+      "tags": [
+        "Incisão",
+        "Corte",
+        "Agudo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p14_1.png"
     },
     {
       "id": "tesoura_mayo",
@@ -106,8 +110,12 @@
       ],
       "como_reconhecer": "Tesoura com hastes e lâminas espessas e robustas, onde o tamanho da lâmina cortante é proporcional ao tamanho da haste.",
       "pegadinha": "Não use a tesoura Metzenbaum para cortar fios ou gazes, pois isso retira o corte da tesoura delicada. Fios devem ser cortados apenas com a Mayo Reta.",
-      "tags": ["Corte", "Fios", "Fáscia"],
-      "imagem": "assets/teoria/tesoura_mayo.png"
+      "tags": [
+        "Corte",
+        "Fios",
+        "Fáscia"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_1.png"
     },
     {
       "id": "tesoura_metzenbaum",
@@ -125,8 +133,12 @@
       ],
       "como_reconhecer": "Tesoura com hastes longas e finas e pontas cortantes curtas e arredondadas.",
       "pegadinha": "A Metzenbaum curva é preferencialmente utilizada para trabalhar em cavidades, enquanto a reta é para superfícies. Nunca use para cortar fios.",
-      "tags": ["Dissecção", "Delicado", "Divulsão"],
-      "imagem": "assets/teoria/tesoura_metzenbaum.png"
+      "tags": [
+        "Dissecção",
+        "Delicado",
+        "Divulsão"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_2.png"
     },
     {
       "id": "pinca_anatomica",
@@ -144,8 +156,12 @@
       ],
       "como_reconhecer": "Pinça sem argolas nem cremalheira (pinça de pinçar com os dedos), ponta arredondada e estriada, sem nenhum dente.",
       "pegadinha": "Por ser atraumática, ela escorrega facilmente se usada em tecidos resistentes como pele e aponeurose. Nesses tecidos, deve-se usar a dente de rato.",
-      "tags": ["Atraumática", "Delicado", "Mola"],
-      "imagem": "assets/teoria/pinca_anatomica.png"
+      "tags": [
+        "Atraumática",
+        "Delicado",
+        "Mola"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_1.png"
     },
     {
       "id": "pinca_dente_de_rato",
@@ -163,8 +179,12 @@
       ],
       "como_reconhecer": "Igual à pinça anatômica em formato, mas possui pequenos dentes afiados na ponta que se encaixam ao fechar.",
       "pegadinha": "Nunca deve ser utilizada em tecidos delicados, vasos ou vísceras ocas (intestino, bexiga), pois os dentes perfuram e rasgam essas estruturas.",
-      "tags": ["Traumática", "Pele", "Firme"],
-      "imagem": "assets/teoria/pinca_dente_de_rato.png"
+      "tags": [
+        "Traumática",
+        "Pele",
+        "Firme"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_5.png"
     },
     {
       "id": "pinca_halsted",
@@ -183,8 +203,12 @@
       ],
       "como_reconhecer": "Pinça pequena com argolas de dedo, cremalheira e pontas muito finas e curtas.",
       "pegadinha": "Por ser muito delicada, forçar seu uso em vasos médios ou pedículos espessos pode entortar suas pontas ou quebrar a cremalheira.",
-      "tags": ["Pequena", "Hemostasia", "Reparo"],
-      "imagem": "assets/teoria/pinca_halsted.png"
+      "tags": [
+        "Pequena",
+        "Hemostasia",
+        "Reparo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_1.png"
     },
     {
       "id": "pinca_kelly",
@@ -202,8 +226,12 @@
       ],
       "como_reconhecer": "Pinça de tamanho médio com cremalheira. Ao olhar a face interna das pontas, o serrilhado vai apenas até a metade da ponta, deixando a metade proximal (próxima à articulação) lisa.",
       "pegadinha": "Diferença crucial para a Crile: Kelly tem ranhuras em apenas 50% da face interna. Crile tem ranhuras em 100% da face interna.",
-      "tags": ["Médio Calibre", "Hemostasia", "Serrilhado Parcial"],
-      "imagem": "assets/teoria/pinca_kelly.png"
+      "tags": [
+        "Médio Calibre",
+        "Hemostasia",
+        "Serrilhado Parcial"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png"
     },
     {
       "id": "pinca_crile",
@@ -221,8 +249,12 @@
       ],
       "como_reconhecer": "Muito parecida com a Kelly, mas o serrilhado interno estende-se por toda a face preensora (100% ranhurada).",
       "pegadinha": "Por ter ranhuras em toda a extensão, a Crile oferece maior preensão em pedículos teciduais que a Kelly, mas pode ser um pouco mais compressiva.",
-      "tags": ["Hemostasia", "Serrilhado Total", "Pedículo"],
-      "imagem": "assets/teoria/pinca_crile.png"
+      "tags": [
+        "Hemostasia",
+        "Serrilhado Total",
+        "Pedículo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png"
     },
     {
       "id": "pinca_kocher",
@@ -242,8 +274,12 @@
       ],
       "como_reconhecer": "Pinça hemostática com cremalheira que possui ranhuras transversais e dentes de rato bem visíveis no ápice da ponta.",
       "pegadinha": "Extremamente traumática devido ao dente na ponta combinado com o esmagamento da cremalheira. Nunca usar em estruturas delicadas ou que devam ser preservadas sem trauma.",
-      "tags": ["Traumática", "Dente na Ponta", "Preensão Forte"],
-      "imagem": "assets/teoria/pinca_kocher.png"
+      "tags": [
+        "Traumática",
+        "Dente na Ponta",
+        "Preensão Forte"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
     },
     {
       "id": "pinca_rochester",
@@ -261,8 +297,12 @@
       ],
       "como_reconhecer": "Visualmente idêntica a uma pinça Crile, porém de dimensões muito maiores (comprimento longo e ramos espessos).",
       "pegadinha": "Devido ao seu tamanho e peso, seu uso é reservado para cirurgias profundas e estruturas calibrosas, não devendo ser usada em tecidos superficiais.",
-      "tags": ["Grande", "Robusta", "Pedículos Calibrosos"],
-      "imagem": "assets/teoria/pinca_rochester.png"
+      "tags": [
+        "Grande",
+        "Robusta",
+        "Pedículos Calibrosos"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
     },
     {
       "id": "afastador_farabeuf",
@@ -280,8 +320,12 @@
       ],
       "como_reconhecer": "Lâmina dupla de metal dobrada nas pontas em ângulo reto, formando uma letra 'C' achatada.",
       "pegadinha": "Exige que o auxiliar aplique força contínua de tração. Se tracionado com muita força, pode causar isquemia nas bordas da ferida.",
-      "tags": ["Manual", "Superficial", "Duplo"],
-      "imagem": "assets/teoria/afastador_farabeuf.png"
+      "tags": [
+        "Manual",
+        "Superficial",
+        "Duplo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_1.png"
     },
     {
       "id": "valvula_suprapubica",
@@ -297,8 +341,12 @@
       ],
       "como_reconhecer": "Afastador com um cabo em formato de argola ou cabo curvo e uma lâmina metálica larga e curva côncava.",
       "pegadinha": "A extremidade curva deve ser protegida com compressas úmidas para evitar lesões por pressão na bexiga ou parede abdominal.",
-      "tags": ["Ginecologia", "Larga", "Pélvica"],
-      "imagem": "assets/teoria/valvula_suprapubica.png"
+      "tags": [
+        "Ginecologia",
+        "Larga",
+        "Pélvica"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_3.png"
     },
     {
       "id": "afastador_doyen",
@@ -314,8 +362,12 @@
         "Afastamento de costelas/pulmão em cirurgias torácicas."
       ],
       "como_reconhecer": "Afastador em forma de 'L' ou ângulo de 90° com cabo de metal longo e lâmina muito larga e lisa.",
-      "tags": ["Vísceras", "Abdominal", "Largo"],
-      "imagem": "assets/teoria/afastador_doyen.png"
+      "tags": [
+        "Vísceras",
+        "Abdominal",
+        "Largo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_4.png"
     },
     {
       "id": "afastador_langenbeck",
@@ -331,8 +383,12 @@
       ],
       "como_reconhecer": "Cabo plano longo de metal e uma pequena ponta dobrada em ângulo reto (formato de 'L' fino).",
       "pegadinha": "Ajuda a memorizar: o formato de 'L' perpendicular remete à primeira letra do nome: Langenbeck.",
-      "tags": ["Fino", "L-Format", "Profundo"],
-      "imagem": "assets/teoria/afastador_langenbeck.png"
+      "tags": [
+        "Fino",
+        "L-Format",
+        "Profundo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_1.png"
     },
     {
       "id": "afastador_volkmann",
@@ -349,8 +405,12 @@
       ],
       "como_reconhecer": "Afastador em forma de 'rastelo' ou garfo metálico com dentes curvos na ponta.",
       "pegadinha": "A versão com dentes agudos/afiados pode perfurar vasos se não for utilizada com extrema cautela, devendo ser colocada apenas em fáscia ou músculo.",
-      "tags": ["Garras", "Ortopedia", "Muscular"],
-      "imagem": "assets/teoria/afastador_volkmann.png"
+      "tags": [
+        "Garras",
+        "Ortopedia",
+        "Muscular"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_3.png"
     },
     {
       "id": "afastador_harrington",
@@ -367,8 +427,12 @@
         "Afastamento em cirurgias abdominais superiores profundas."
       ],
       "como_reconhecer": "Cabo longo e esguio com uma lâmina de metal em formato de coração na extremidade.",
-      "tags": ["Fígado", "Coração", "Abdominal Superior"],
-      "imagem": "assets/teoria/afastador_harrington.png"
+      "tags": [
+        "Fígado",
+        "Coração",
+        "Abdominal Superior"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_4.png"
     },
     {
       "id": "afastador_deaver",
@@ -384,8 +448,12 @@
         "Muito utilizado em laparotomias profundas e cirurgia torácica."
       ],
       "como_reconhecer": "Tira metálica larga curvada continuamente como um ponto de interrogação ou semi-lua.",
-      "tags": ["Semi-lua", "Vísceras", "Profundo"],
-      "imagem": "assets/teoria/afastador_deaver.png"
+      "tags": [
+        "Semi-lua",
+        "Vísceras",
+        "Profundo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_1.png"
     },
     {
       "id": "espatula_maleavel",
@@ -401,8 +469,12 @@
       ],
       "como_reconhecer": "Fita retangular metálica longa, lisa e maleável (pode ser moldada manualmente).",
       "pegadinha": "Ao final da sutura da aponeurose, o cirurgião retira a espátula maleável antes de dar o último nó. Esquecer a espátula dentro da cavidade é um erro grave.",
-      "tags": ["Flexível", "Proteção", "Sutura"],
-      "imagem": "assets/teoria/espatula_maleavel.png"
+      "tags": [
+        "Flexível",
+        "Proteção",
+        "Sutura"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_2.png"
     },
     {
       "id": "afastador_gosset",
@@ -417,8 +489,12 @@
         "Laparotomias exploradoras e cirurgias abdominais de média/grande duração."
       ],
       "como_reconhecer": "Estrutura metálica de haste com duas garras largas e um mecanismo de parafuso borboleta para travar a abertura.",
-      "tags": ["Autoestático", "Abdominal", "Cremalheira"],
-      "imagem": "assets/teoria/afastador_gosset.png"
+      "tags": [
+        "Autoestático",
+        "Abdominal",
+        "Cremalheira"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_3.png"
     },
     {
       "id": "afastador_finochietto",
@@ -433,8 +509,12 @@
       ],
       "como_reconhecer": "Afastador grande com barra horizontal dentada, duas lâminas largas fixas perpendiculares e uma manivela de girar.",
       "pegadinha": "A força aplicada pela manivela é muito grande, permitindo afastar as costelas, mas deve ser feita de forma gradual para evitar fratura costal.",
-      "tags": ["Tórax", "Costelas", "Manivela"],
-      "imagem": "assets/teoria/afastador_finochietto.png"
+      "tags": [
+        "Tórax",
+        "Costelas",
+        "Manivela"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_4.png"
     },
     {
       "id": "pinca_desjardins",
@@ -448,8 +528,12 @@
         "Extração de cálculos (pedras) do colédoco ou vias urinárias."
       ],
       "como_reconhecer": "Pinça com hastes longas e flexíveis, com pontas em formato de anéis ovais fenestrados (como colheres vazadas).",
-      "tags": ["Vias Biliares", "Cálculos", "Colher"],
-      "imagem": "assets/teoria/pinca_desjardins.png"
+      "tags": [
+        "Vias Biliares",
+        "Cálculos",
+        "Colher"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
     },
     {
       "id": "pinca_guyon",
@@ -463,8 +547,12 @@
         "Pinçamento do pedículo renal em nefrectomias (retirada do rim)."
       ],
       "como_reconhecer": "Pinça longa com curva em 'S' suave e ranhuras transversais robustas nas garras.",
-      "tags": ["Rim", "Nefrectomia", "Curva em S"],
-      "imagem": "assets/teoria/pinca_guyon.png"
+      "tags": [
+        "Rim",
+        "Nefrectomia",
+        "Curva em S"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
     },
     {
       "id": "pinca_cheron",
@@ -479,8 +567,12 @@
         "Transporte de gazes/compressas para hemostasia compressiva em cavidades profundas."
       ],
       "como_reconhecer": "Pinça longa com pontas ovais ranhuradas e uma angulação característica nas hastes próximas à cremalheira.",
-      "tags": ["Antissepsia", "Longa", "Ginecologia"],
-      "imagem": "assets/teoria/pinca_cheron.png"
+      "tags": [
+        "Antissepsia",
+        "Longa",
+        "Ginecologia"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
     },
     {
       "id": "pinca_allis",
@@ -496,8 +588,12 @@
         "Fixação de bordas de pele/subcutâneo."
       ],
       "como_reconhecer": "Pinça com cremalheira cujas garras terminam em uma linha horizontal de pequenos dentes que se tocam.",
-      "tags": ["Dentes Múltiplos", "Traumática", "Exérese"],
-      "imagem": "assets/teoria/pinca_allis.png"
+      "tags": [
+        "Dentes Múltiplos",
+        "Traumática",
+        "Exérese"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
     },
     {
       "id": "pinca_foerster",
@@ -514,8 +610,12 @@
       ],
       "como_reconhecer": "Pinça longa com pontas em formato de anéis ovais (fenestrados), com ranhuras transversais na face interna desses anéis.",
       "pegadinha": "A Foerster reta contamina-se após a antissepsia da pele e deve ser descartada da mesa, não retornando para o instrumental estéril.",
-      "tags": ["Antissepsia", "Anel Oval", "Pintura"],
-      "imagem": "assets/teoria/pinca_foerster.png"
+      "tags": [
+        "Antissepsia",
+        "Anel Oval",
+        "Pintura"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_1.png"
     },
     {
       "id": "pinca_collin",
@@ -530,8 +630,12 @@
         "Preensão da língua pelo anestesiologista."
       ],
       "como_reconhecer": "Pinça com pontas circulares planas e vazadas (como pequenas argolas nas pontas).",
-      "tags": ["Atraumática", "Vísceras Ocas", "Círculo"],
-      "imagem": "assets/teoria/pinca_collin.png"
+      "tags": [
+        "Atraumática",
+        "Vísceras Ocas",
+        "Círculo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
     },
     {
       "id": "pinca_duval",
@@ -546,8 +650,12 @@
         "Apreensão do parênquima pulmonar ou alças intestinais."
       ],
       "como_reconhecer": "Pinça cujas garras terminam em formato triangular plano vazado.",
-      "tags": ["Triangular", "Pulmão", "Atraumática"],
-      "imagem": "assets/teoria/pinca_duval.png"
+      "tags": [
+        "Triangular",
+        "Pulmão",
+        "Atraumática"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_3.png"
     },
     {
       "id": "clamps_intestinais",
@@ -562,8 +670,12 @@
         "Oclusão de alças intestinais durante enteroanastomoses para evitar extravasamento de fezes."
       ],
       "como_reconhecer": "Pinça muito longa com garras finas, longas e flexíveis que apresentam estrias longitudinais.",
-      "tags": ["Intestino", "Flexível", "Coproestase"],
-      "imagem": "assets/teoria/clamps_intestinais.png"
+      "tags": [
+        "Intestino",
+        "Flexível",
+        "Coproestase"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_4.png"
     },
     {
       "id": "pinca_mixter",
@@ -578,8 +690,12 @@
         "Passagem de fios de sutura por trás de vasos de difícil acesso."
       ],
       "como_reconhecer": "Pinça longa cujas pontas fazem uma dobra brusca de 90 graus (ângulo reto).",
-      "tags": ["90 Graus", "Dissecção", "Pedículo"],
-      "imagem": "assets/teoria/pinca_mixter.png"
+      "tags": [
+        "90 Graus",
+        "Dissecção",
+        "Pedículo"
+      ],
+      "imagem": ""
     },
     {
       "id": "pinca_backhaus",
@@ -595,8 +711,12 @@
       ],
       "como_reconhecer": "Pinça pequena com cremalheira e duas pontas afiadas e curvas que se cruzam como presas.",
       "pegadinha": "Por ter pontas perfurantes, se pinçada acidentalmente na pele do paciente sem anestesia (ou fora da área estéril) causará dor e lesão. Deve prender o tecido do campo e apenas a epiderme.",
-      "tags": ["Campos", "Perfurante", "Garras"],
-      "imagem": "assets/teoria/pinca_backhaus.png"
+      "tags": [
+        "Campos",
+        "Perfurante",
+        "Garras"
+      ],
+      "imagem": ""
     },
     {
       "id": "porta_agulha_hegar",
@@ -614,7 +734,11 @@
       ],
       "como_reconhecer": "Parece uma tesoura/pinça com argolas, mas a ponta é curta, muito espessa, com estrias cruzadas e um canal/sulco longitudinal no centro para assentar a agulha.",
       "pegadinha": "Não possui lâmina de corte. Tentar usá-lo para cortar fios danifica o instrumental. O sulco central serve para dar estabilidade à agulha curva, evitando que ela gire.",
-      "tags": ["Sutura", "Cremalheira", "Hegar"],
+      "tags": [
+        "Sutura",
+        "Cremalheira",
+        "Hegar"
+      ],
       "imagem": "assets/teoria/porta_agulha_hegar.png"
     },
     {
@@ -633,8 +757,12 @@
       ],
       "como_reconhecer": "Sem argolas. As duas hastes são unidas por uma mola central e travam por uma cremalheira na base quando apertadas.",
       "pegadinha": "É liberado apertando novamente as hastes até o fim. Excelente para suturas sequenciais na superfície, mas difícil de controlar em cavidades profundas.",
-      "tags": ["Mola", "Sem Argolas", "Superfície"],
-      "imagem": "assets/teoria/porta_agulha_mathieu.png"
+      "tags": [
+        "Mola",
+        "Sem Argolas",
+        "Superfície"
+      ],
+      "imagem": ""
     }
   ],
   "perguntas": [

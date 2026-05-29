@@ -30,7 +30,8 @@
         "Material: Esponja/escova com PVPI degermante ou Clorexidina degermante.",
         "Técnica (ex: cirurgia abdominal): Movimentos circulares aleatórios com a face macia (esponja) da fúrcula esternal até o terço superior das coxas (incluindo genitália). Após isso, usa-se a face de cerdas para escovar a mesma região, poupando mamilos e genitália.",
         "Retirada do sabão: Feita com compressas estéreis secas dobradas em sanfona, seguradas pelas pontas. Secar com movimentos únicos, de mesmo sentido, de medial para lateral, sem retornar à área anterior. Utiliza-se 1 compressa para a linha média, 2 para as laterais e uma 4ª compressa exclusiva para a genitália."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p25_2.png"
     },
     {
       "id": "pintura_antissepsia",
@@ -44,7 +45,8 @@
         "Movimento 3 (Hemicorpo 2): Contornar os pés do paciente, gaze nova, pintar o outro hemicorpo. Descartar gaze.",
         "Ilhas: Se houver áreas não pintadas (ilhas), usa-se a 4ª gaze para preenchê-las.",
         "A pinça de pintura é considerada contaminada ao fim do processo e não deve retornar à mesa de instrumentais."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p27_1.png"
     },
     {
       "id": "campos_cirurgicos",
@@ -56,7 +58,8 @@
         "2. Campo Cefálico (superior): Colocado a 4 mãos por cima do paciente.",
         "3. Campos Laterais: Colocados a 2 mãos de forma ipsilateral. Possuem as extremidades mediais rebatidas (dobradas), permitindo ao cirurgião ajustar o tamanho da área exposta.",
         "Fixação: Os auxiliares se posicionam nas laterais. O auxiliar A eleva a dobra do campo lateral para expor a junção. O auxiliar B prende a Backhaus voltada para baixo nas junções dos campos, fixando-os à epiderme. Unir os campos com pinça dente de rato antes de prender a Backhaus facilita a fixação."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p28_1.png"
     }
   ],
   "perguntas": [

@@ -15,7 +15,8 @@
         "- 2º seminó: Fixação (trava o primeiro seminó).",
         "- 3º ou mais seminós: Segurança (evita que o nó se desfaça).",
         "Técnicas de execução: Manual (unimanual ou bimanual, ex: Pauchet), Instrumental (porta-agulhas/pinças) ou Mista (frequente em suturas)."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p32_1.png"
     },
     {
       "id": "tipos_nos_leis",
@@ -29,7 +30,8 @@
         "- 1ª Lei: Movimentos iguais em mãos opostas realizam um nó perfeito.",
         "- 2ª Lei: A ponta do fio que muda de lado após o primeiro seminó deve voltar ao lado inicial para realizar o outro seminó.",
         "Para obter o nó quadrado manualmente, deve-se alternar a cada seminó ou a mão de execução ou o tipo de seminó."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p32_2.png"
     },
     {
       "id": "fios_sutura",
@@ -42,7 +44,8 @@
         "- Monofilamentares: Um único filamento. Baixo atrito, desliza fácil (exige mais nós de segurança), baixa capilaridade e mínima reação inflamatória (ex: Nylon, Prolene).",
         "- Multifilamentares: Vários filamentos trançados ou torcidos. Fácil manuseio, nós muito seguros, mas possuem alta capilaridade e maior reação tecidual (ex: Vicryl, Seda, Algodão).",
         "Espessura (Calibre): Classificados por quantidade de zeros. Quanto mais zeros, mais fino o fio (ex: 10.0 é ultrafino para oftalmo/microcirurgia; 3.0/4.0 intermediários para pele; fios 1, 2, 3 são muito grossos e resistentes)."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p36_1.png"
     },
     {
       "id": "agulhas_cirurgicas",
@@ -55,7 +58,8 @@
         "- Triangular (Cortante): Ponta triangular afiada. Indicada para tecidos resistentes que oferecem barreira (derme/pele).",
         "- Redonda (Cilíndrica/Não-cortante): Ponta cônica atraumática. Afasta as fibras sem cortá-las. Indicada para tecidos moles e delicados (peritônio, vasos, intestino, fáscia delicada).",
         "- Romba / Espatulada: Usada em tecidos extremamente nobres e friáveis (parênquima hepático, córnea)."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p37_1.png"
     },
     {
       "id": "suturas_descontinuas",
@@ -67,7 +71,8 @@
         "3. Ponto em X: Ponto hemostático e de sustentação forte. Indicado para couro cabeludo, palmas, plantas e aponeurose.",
         "4. Ponto em U Horizontal (Colchoeiro): Produz eversão das bordas e forte hemostasia. Indicado para áreas sob alta tensão ou fixação de drenos.",
         "5. Ponto Donatti (U Vertical): Técnica 'Longe-longe, Perto-perto'. O ponto longe (profundo) dá sustentação e reduz a tensão, enquanto o ponto perto (superficial) realiza a coaptação milimétrica da pele. Causa eversão e evita inversão das bordas."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p38_1.png"
     },
     {
       "id": "suturas_continuas",
@@ -77,7 +82,8 @@
         "1. Chuleio Simples: Sequência de pontos simples diagonais ou transversos. Muito usado em peritônio, músculos e aponeuroses.",
         "2. Chuleio Ancorado: Cada ponto passa por dentro da alça anterior antes de tracionar. Dá mais firmeza e estabilidade, sendo muito hemostático. Indicado para sutura uterina pós-cesariana e anastomoses intestinais.",
         "3. Sutura Intradérmica: Altamente estética. A agulha corre horizontalmente na derme superficial de forma ziguezague paralela, sem exteriorizar o fio. As extremidades são fixadas por nós em roseta. Indicada para cirurgias plásticas em feridas com baixa tensão."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p43_1.png"
     },
     {
       "id": "retirada_pontos",

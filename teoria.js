@@ -492,7 +492,7 @@
             ${item.imagem ? `
               <img src="${item.imagem}" alt="${title}" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex'"/>
             ` : ""}
-            <span class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "inline-flex"}" style="font-size: 5rem;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+            <span class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "inline-flex"}; font-size: 5rem;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
           </div>
 
           <!-- Bloco Informações -->

@@ -22,7 +22,8 @@
         "1. Zona de proteção (irrestrita): Separa o CC do hospital. Contém vestiários (onde se inicia a paramentação com pijama cirúrgico, touca e pró-pé), área de transferência de macas e o expurgo.",
         "2. Zona limpa (semi-restrita): Fica entre a zona de proteção e a estéril. A circulação é controlada e exige pijama cirúrgico. Contém conforto, secretaria, centro de materiais, salas pré e pós-operatórias.",
         "3. Zona estéril ou asséptica (restrita): Contém as salas cirúrgicas, lavabos e corredores de acesso. Exige paramentação completa (máscara cobrindo nariz e boca, avental e luvas estéreis após a lavagem)."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p2_1.png"
     },
     {
       "id": "sala_cirurgica_padroes",
@@ -33,7 +34,8 @@
         "Ventilação: Pressão positiva (maior que nos corredores) e fluxo de ar laminar (vertical ou horizontal) para evitar turbilhonamento e contaminação.",
         "Instalações: Pontos de luz, gases e tomadas devem estar a 1,50 m do chão para evitar ignição de gases anestésicos voláteis pesados.",
         "Climatização: Temperatura entre 24°C e 26°C (evita hipotermia) e umidade entre 45% e 55% (evita proliferação de microrganismos e dessecação)."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p6_1.png"
     },
     {
       "id": "equipe_cirurgica",
@@ -43,7 +45,8 @@
         "Cirurgia Supramesocólica (órgãos abdominais superiores, ex: estômago, fígado): O cirurgião fica à direita do paciente; Anestesista na cabeceira; Primeiro auxiliar à frente do cirurgião (esquerda do paciente); Segundo auxiliar à direita do cirurgião; Instrumentador à esquerda do 1º auxiliar. A mesa de instrumental fica à esquerda do paciente.",
         "Cirurgia Inframesocólica (órgãos abdominais inferiores, ex: apêndice, cólon): O cirurgião fica à esquerda do paciente; Anestesista na cabeceira; Primeiro auxiliar à frente do cirurgião (direita do paciente); Segundo auxiliar à esquerda do cirurgião; Instrumentador à direita do 1º auxiliar. A mesa de instrumental fica à direita do paciente.",
         "Laparotomia Exploradora: Segue o posicionamento supramesocólico devido à frequência de acometimento de fígado e baço no trauma."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p7_1.png"
     },
     {
       "id": "lavagem_cirurgica_maos",
@@ -55,7 +58,8 @@
         "Enxágue: Sob água corrente, sempre mantendo as mãos elevadas acima do cotovelo, para a água escorrer no sentido das mãos para os cotovelos (distal para proximal).",
         "Duração: 3 a 5 minutos na primeira cirurgia do dia, e 2 a 3 minutos nas cirurgias subsequentes.",
         "Secagem: Feita na sala de operação com compressa estéril por movimentos de compressão, usando lados/dobras diferentes para cada segmento, iniciando nos dedos."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p8_1.png"
     },
     {
       "id": "antissepsia_alcoolica",
@@ -66,7 +70,8 @@
         "Passo 1: 3-5 mL de PBA na palma esquerda em concha; mergulhar unhas da mão direita por 5 segundos; espalhar no antebraço direito até o cotovelo em círculos até secar (10-15s).",
         "Passo 2: Repetir o processo para a mão e antebraço esquerdo.",
         "Passo 3: Colocar mais 3-5 mL de PBA nas palmas e friccionar ambas as mãos e punhos simultaneamente (palma com palma, dorso, interdigitais, dorso dos dedos, polegares) por 20-30s até secar totalmente."
-      ]
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p9_1.png"
     }
   ],
   "perguntas": [
