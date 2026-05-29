@@ -52,38 +52,6 @@
       .replace(/'/g, "&#039;");
   }
 
-  // Obter lista normalizada de imagens para um item (suporta imagem string e imagens array)
-  function getItemImages(item) {
-    if (item.imagens && Array.isArray(item.imagens) && item.imagens.length > 0) {
-      return item.imagens.map(img => {
-        if (typeof img === "string") {
-          return {
-            src: img,
-            alt: item.nome || item.titulo || "Imagem",
-            legenda: ""
-          };
-        } else if (img && typeof img === "object") {
-          return {
-            src: img.src || "",
-            alt: img.alt || item.nome || item.titulo || "Imagem",
-            legenda: img.legenda || ""
-          };
-        }
-        return null;
-      }).filter(Boolean);
-    }
-    
-    if (item.imagem) {
-      return [{
-        src: item.imagem,
-        alt: item.nome || item.titulo || "Imagem",
-        legenda: ""
-      }];
-    }
-    
-    return [];
-  }
-
   // Configuração dinâmica do modal Lightbox para ampliação de imagem
   function setupLightbox() {
     let lightbox = document.getElementById("teoriaLightbox");
@@ -403,20 +371,15 @@
                     ${topic.conteudo.map(item => `<li>${item}</li>`).join("")}
                   </ul>
                 </div>
-                ${(() => {
-                  const topicImages = getItemImages(topic);
-                  const firstImg = topicImages.length > 0 ? topicImages[0] : null;
-                  const firstImgSrc = firstImg ? firstImg.src : "";
-                  return firstImgSrc ? `
-                    <div class="teoria-topic-image" style="cursor: pointer;" onclick="window.TeoriaManager.openLightbox('${firstImgSrc}', '${escapeHtml(topic.titulo)}')">
-                      <img src="${firstImgSrc}" alt="${escapeHtml(topic.titulo)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
-                      <div class="teoria-card-fallback-icon" style="display: none; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
-                        <span style="font-size: 3rem; opacity: 0.5;">📖</span>
-                        <span style="font-size: 0.8rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
-                      </div>
+                ${topic.imagem ? `
+                  <div class="teoria-topic-image" style="cursor: pointer;" onclick="window.TeoriaManager.openLightbox('${topic.imagem}', '${escapeHtml(topic.titulo)}')">
+                    <img src="${topic.imagem}" alt="${topic.titulo}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+                    <div class="teoria-card-fallback-icon" style="display: none; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+                      <span style="font-size: 3rem; opacity: 0.5;">📖</span>
+                      <span style="font-size: 0.8rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
                     </div>
-                  ` : "";
-                })()}
+                  </div>
+                ` : ""}
               </div>
             </div>
           `).join("")}
@@ -536,17 +499,13 @@
       const title = item.nome || item.titulo || "Sem Nome";
       const subtitle = item.funcao || item.descricao || "";
       
-      const images = getItemImages(item);
-      const mainImg = images.length > 0 ? images[0] : null;
-      const mainImgSrc = mainImg ? mainImg.src : "";
-      
       return `
         <div class="teoria-card" id="card-${item.id}">
           <div class="teoria-card-image">
-            ${mainImgSrc ? `
-              <img src="${mainImgSrc}" alt="${escapeHtml(mainImg.alt)}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            ${item.imagem ? `
+              <img src="${item.imagem}" alt="${title}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
             ` : ""}
-            <div class="teoria-card-fallback-icon" style="display: ${mainImgSrc ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+            <div class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
               <span style="font-size: 2.8rem; opacity: 0.5;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
               <span style="font-size: 0.8rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
             </div>
@@ -580,15 +539,9 @@
     if (!item) return;
 
     teoriaState.selectedInstrumentId = itemId;
-    teoriaState.activeDetailImageIndex = 0; // Reset index upon opening new item
 
     const title = item.nome || item.titulo || "Sem nome";
     const groupInfo = (data.grupos || []).find(g => g.id === item.grupo);
-
-    const images = getItemImages(item);
-    const activeIndex = teoriaState.activeDetailImageIndex || 0;
-    const selectedImg = images.length > 0 ? images[activeIndex] : null;
-    const selectedImgSrc = selectedImg ? selectedImg.src : "";
 
     detailContainer.innerHTML = `
       <div class="teoria-detail-panel">
@@ -602,34 +555,14 @@
 
         <div class="teoria-detail-grid">
           <!-- Bloco Imagem -->
-          <div class="teoria-detail-image-box-wrapper">
-            <div class="teoria-detail-image-box" style="cursor: pointer;" 
-                 onclick="window.TeoriaManager.openLightbox(document.getElementById('teoriaDetailMainImg') ? document.getElementById('teoriaDetailMainImg').src : '${selectedImgSrc}', '${escapeHtml(title)}')">
-              ${selectedImgSrc ? `
-                <img id="teoriaDetailMainImg" src="${selectedImgSrc}" alt="${escapeHtml(selectedImg.alt)}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
-              ` : ""}
-              <div class="teoria-card-fallback-icon" style="display: ${selectedImgSrc ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
-                <span style="font-size: 4rem; opacity: 0.5;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
-                <span style="font-size: 0.9rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
-              </div>
-            </div>
-            
-            ${selectedImg && selectedImg.legenda ? `
-              <p class="teoria-detail-image-caption" id="teoriaDetailImageCaption">${selectedImg.legenda}</p>
-            ` : `
-              <p class="teoria-detail-image-caption" id="teoriaDetailImageCaption" style="display: none;"></p>
-            `}
-            
-            ${images.length > 1 ? `
-              <div class="teoria-detail-gallery-thumbnails">
-                ${images.map((img, idx) => `
-                  <button type="button" class="teoria-detail-thumbnail ${idx === activeIndex ? 'is-active' : ''}" 
-                          onclick="window.TeoriaManager.selectDetailImage(${idx})" aria-label="Visualizar imagem ${idx + 1}">
-                    <img src="${img.src}" alt="${escapeHtml(img.alt)}" loading="lazy" />
-                  </button>
-                `).join("")}
-              </div>
+          <div class="teoria-detail-image-box" style="cursor: pointer;" onclick="window.TeoriaManager.openLightbox('${item.imagem}', '${escapeHtml(title)}')">
+            ${item.imagem ? `
+              <img src="${item.imagem}" alt="${title}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
             ` : ""}
+            <div class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+              <span style="font-size: 4rem; opacity: 0.5;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+              <span style="font-size: 0.9rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
+            </div>
           </div>
 
           <!-- Bloco Informações -->
@@ -883,63 +816,13 @@
     console.error(`${DEBUG_PREFIX} ${message}`, details);
   }
 
-  // Mudar a imagem exibida no detalhe (galeria)
-  function selectDetailImage(index) {
-    teoriaState.activeDetailImageIndex = index;
-    const detailGrid = document.querySelector(".teoria-detail-grid");
-    if (!detailGrid || !teoriaState.selectedInstrumentId) return;
-    
-    const items = (teoriaState.activeModuleData.instrumentos || teoriaState.activeModuleData.topicos || []);
-    const item = items.find(i => i.id === teoriaState.selectedInstrumentId);
-    if (!item) return;
-    
-    const images = getItemImages(item);
-    if (index < 0 || index >= images.length) return;
-    
-    const selectedImg = images[index];
-    const mainImgEl = document.getElementById("teoriaDetailMainImg");
-    const imageBoxEl = document.querySelector(".teoria-detail-image-box");
-    
-    if (mainImgEl) {
-      mainImgEl.src = selectedImg.src;
-      mainImgEl.alt = selectedImg.alt;
-      mainImgEl.style.display = "block";
-      
-      const fallbackEl = imageBoxEl ? imageBoxEl.querySelector(".teoria-card-fallback-icon") : null;
-      if (fallbackEl) fallbackEl.style.display = "none";
-    }
-    
-    // Atualizar classe ativa nas miniaturas
-    const thumbnails = document.querySelectorAll(".teoria-detail-thumbnail");
-    thumbnails.forEach((thumb, idx) => {
-      if (idx === index) {
-        thumb.classList.add("is-active");
-      } else {
-        thumb.classList.remove("is-active");
-      }
-    });
-    
-    // Atualizar legenda
-    const captionEl = document.getElementById("teoriaDetailImageCaption");
-    if (captionEl) {
-      if (selectedImg.legenda) {
-        captionEl.textContent = selectedImg.legenda;
-        captionEl.style.display = "block";
-      } else {
-        captionEl.textContent = "";
-        captionEl.style.display = "none";
-      }
-    }
-  }
-
   // Expor gerenciador da teoria globalmente
   window.TeoriaManager = {
     init: init,
     showDetails: showDetails,
     closeDetails: closeDetails,
     restartQuiz: restartQuiz,
-    retryActiveModule: retryActiveModule,
-    selectDetailImage: selectDetailImage
+    retryActiveModule: retryActiveModule
   };
 
   // Inicializar quando o DOM estiver pronto

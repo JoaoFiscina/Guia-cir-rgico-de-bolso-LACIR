@@ -17,7 +17,7 @@
         "Regra 3: O instrumental não montado fica com a parte funcional voltada para cima até que seja montado (ex: cabo de bisturi sem lâmina).",
         "Ordem de organização interna: Menores antes dos maiores; Atraumáticas antes de traumáticas; Metzenbaum antes de Mayo; Curvas antes de retas; Cabo de bisturi nº 4 antes do nº 3."
       ],
-      "imagem": "assets/teoria/arrumacao_mesa.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p13_1.png"
     },
     {
       "id": "passagem_instrumentais",
@@ -92,7 +92,7 @@
         "Corte",
         "Agudo"
       ],
-      "imagem": "assets/teoria/bisturi.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p14_1.png"
     },
     {
       "id": "tesoura_mayo",
@@ -231,14 +231,7 @@
         "Hemostasia",
         "Serrilhado Parcial"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p17_2.png",
-          "alt": "Pinça Kelly",
-          "legenda": "Imagem esquemática compartilhada (Kelly/Crile). A pinça Kelly possui serrilhado apenas na metade distal (50%) de sua parte funcional."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png"
     },
     {
       "id": "pinca_crile",
@@ -261,14 +254,7 @@
         "Serrilhado Total",
         "Pedículo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p17_2.png",
-          "alt": "Pinça Crile",
-          "legenda": "Imagem esquemática compartilhada (Kelly/Crile). A pinça Crile possui serrilhado em toda a extensão (100%) de sua parte funcional."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png"
     },
     {
       "id": "pinca_kocher",
@@ -278,7 +264,7 @@
       "caracteristicas": [
         "Possui ranhuras em toda a face interna preensora.",
         "Apresenta um dente de rato proeminente na ponta das garras.",
-        "Pinça traumática e extremely firme.",
+        "Pinça traumática e extremamente firme.",
         "Pode atuar na hemostasia ou no grupo de Especiais/Preensão Forte."
       ],
       "usos": [
@@ -293,14 +279,7 @@
         "Dente na Ponta",
         "Preensão Forte"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p17_3.png",
-          "alt": "Pinça Kocher",
-          "legenda": "Imagem esquemática compartilhada (Kocher/Rochester). A pinça Kocher apresenta dentes de rato traumáticos na sua ponta distal."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
     },
     {
       "id": "pinca_rochester",
@@ -323,14 +302,7 @@
         "Robusta",
         "Pedículos Calibrosos"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p17_3.png",
-          "alt": "Pinça Rochester",
-          "legenda": "Imagem esquemática compartilhada (Kocher/Rochester). A Rochester é muito mais longa e robusta do que a Kocher e não possui dente de rato."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
     },
     {
       "id": "afastador_farabeuf",

@@ -59,19 +59,7 @@
         "- Redonda (Cilíndrica/Não-cortante): Ponta cônica atraumática. Afasta as fibras sem cortá-las. Indicada para tecidos moles e delicados (peritônio, vasos, intestino, fáscia delicada).",
         "- Romba / Espatulada: Usada em tecidos extremamente nobres e friáveis (parênquima hepático, córnea)."
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p37_1.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p37_1.png",
-          "alt": "Agulhas cirúrgicas - Partes e porcentagem do círculo",
-          "legenda": "Partes da agulha e porcentagem do círculo"
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p37_2.png",
-          "alt": "Agulhas cirúrgicas - Secção transversal do corpo",
-          "legenda": "Secções transversais comuns do corpo da agulha (redonda/cilíndrica, triangular/cortante, etc.)"
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p37_1.png"
     },
     {
       "id": "suturas_descontinuas",
@@ -84,39 +72,7 @@
         "4. Ponto em U Horizontal (Colchoeiro): Produz eversão das bordas e forte hemostasia. Indicado para áreas sob alta tensão ou fixação de drenos.",
         "5. Ponto Donatti (U Vertical): Técnica 'Longe-longe, Perto-perto'. O ponto longe (profundo) dá sustentação e reduz a tensão, enquanto o ponto perto (superficial) realiza a coaptação milimétrica da pele. Causa eversão e evita inversão das bordas."
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p38_1.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p38_1.png",
-          "alt": "Ponto Simples Separado",
-          "legenda": "Ponto Simples Separado - Entrada a 90° e nó quadrado simples."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p39_1.png",
-          "alt": "Ponto Simples Invertido (Passo 1)",
-          "legenda": "Ponto Simples Invertido - Entrada profunda para superficial de um lado, superficial para profunda do outro."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p39_2.png",
-          "alt": "Ponto Simples Invertido (Passo 2)",
-          "legenda": "Ponto Simples Invertido - O nó é atado no fundo da ferida (plano subcutâneo) ocultando o fio."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p40_1.png",
-          "alt": "Ponto em X",
-          "legenda": "Ponto em X (Hemostático) - Dupla passagem de derme, formando cruzamento superficial."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p41_1.png",
-          "alt": "Ponto em U Horizontal (Colchoeiro)",
-          "legenda": "Ponto em U Horizontal - Excelente para eversão de bordas e contenção de tensão."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p42_1.png",
-          "alt": "Ponto Donatti (U Vertical)",
-          "legenda": "Ponto Donatti (Longe-longe, Perto-perto) - Tração profunda e perfeita coaptação de pele."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p38_1.png"
     },
     {
       "id": "suturas_continuas",
@@ -127,19 +83,7 @@
         "2. Chuleio Ancorado: Cada ponto passa por dentro da alça anterior antes de tracionar. Dá mais firmeza e estabilidade, sendo muito hemostático. Indicado para sutura uterina pós-cesariana e anastomoses intestinais.",
         "3. Sutura Intradérmica: Altamente estética. A agulha corre horizontalmente na derme superficial de forma ziguezague paralela, sem exteriorizar o fio. As extremidades são fixadas por nós em roseta. Indicada para cirurgias plásticas em feridas com baixa tensão."
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p43_1.png",
-      "imagens": [
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p43_1.png",
-          "alt": "Chuleio Simples",
-          "legenda": "Chuleio Simples - Pontos diagonais contínuos sem secção do fio."
-        },
-        {
-          "src": "assets/teoria/modulo_curso_2025/img_p44_1.png",
-          "alt": "Chuleio Ancorado",
-          "legenda": "Chuleio Ancorado - O fio passa por dentro da alça anterior, garantindo maior fixação e hemostasia."
-        }
-      ]
+      "imagem": "assets/teoria/modulo_curso_2025/img_p43_1.png"
     },
     {
       "id": "retirada_pontos",
