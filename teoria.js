@@ -32,12 +32,72 @@
     logInfo("Inicializando Teoria Cirúrgica...");
     cacheElements();
     loadReviewHistory();
+    setupLightbox();
     
     if (!teoriaState.manifest) {
       fetchManifest();
     } else {
       renderSidebar();
     }
+  }
+
+  // Escapar HTML para segurança contra aspas nas strings de attributes
+  function escapeHtml(text) {
+    if (!text) return "";
+    return text.toString()
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  // Configuração dinâmica do modal Lightbox para ampliação de imagem
+  function setupLightbox() {
+    let lightbox = document.getElementById("teoriaLightbox");
+    if (!lightbox) {
+      lightbox = document.createElement("div");
+      lightbox.id = "teoriaLightbox";
+      lightbox.className = "teoria-lightbox";
+      lightbox.setAttribute("aria-hidden", "true");
+      lightbox.innerHTML = `
+        <button type="button" class="teoria-lightbox-close" aria-label="Fechar">&times;</button>
+        <div class="teoria-lightbox-content">
+          <img id="teoriaLightboxImage" src="" alt="Imagem ampliada" />
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+    }
+
+    const closeBtn = lightbox.querySelector(".teoria-lightbox-close");
+    const imgEl = lightbox.querySelector("#teoriaLightboxImage");
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      imgEl.src = "";
+    };
+
+    closeBtn.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox || e.target.classList.contains("teoria-lightbox-content")) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
+
+    window.TeoriaManager.openLightbox = (src, alt) => {
+      if (!src) return;
+      imgEl.src = src;
+      imgEl.alt = alt || "Imagem ampliada";
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+    };
   }
 
   // Cachear seletores DOM da aba Teoria
@@ -312,8 +372,12 @@
                   </ul>
                 </div>
                 ${topic.imagem ? `
-                  <div class="teoria-topic-image">
-                    <img src="${topic.imagem}" alt="${topic.titulo}" onerror="this.parentElement.innerHTML='<span class=\\'teoria-card-fallback-icon\\'>📖</span>'"/>
+                  <div class="teoria-topic-image" style="cursor: pointer;" onclick="window.TeoriaManager.openLightbox('${topic.imagem}', '${escapeHtml(topic.titulo)}')">
+                    <img src="${topic.imagem}" alt="${topic.titulo}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+                    <div class="teoria-card-fallback-icon" style="display: none; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+                      <span style="font-size: 3rem; opacity: 0.5;">📖</span>
+                      <span style="font-size: 0.8rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
+                    </div>
                   </div>
                 ` : ""}
               </div>
@@ -439,9 +503,12 @@
         <div class="teoria-card" id="card-${item.id}">
           <div class="teoria-card-image">
             ${item.imagem ? `
-              <img src="${item.imagem}" alt="${title}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex'"/>
+              <img src="${item.imagem}" alt="${title}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
             ` : ""}
-            <span class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "inline-flex"}">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+            <div class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+              <span style="font-size: 2.8rem; opacity: 0.5;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+              <span style="font-size: 0.8rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
+            </div>
           </div>
           
           ${groupInfo ? `
@@ -488,11 +555,14 @@
 
         <div class="teoria-detail-grid">
           <!-- Bloco Imagem -->
-          <div class="teoria-detail-image-box">
+          <div class="teoria-detail-image-box" style="cursor: pointer;" onclick="window.TeoriaManager.openLightbox('${item.imagem}', '${escapeHtml(title)}')">
             ${item.imagem ? `
-              <img src="${item.imagem}" alt="${title}" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex'"/>
+              <img src="${item.imagem}" alt="${title}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
             ` : ""}
-            <span class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "inline-flex"}; font-size: 5rem;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+            <div class="teoria-card-fallback-icon" style="display: ${item.imagem ? "none" : "flex"}; flex-direction: column; gap: 8px; align-items: center; justify-content: center; width: 100%; height: 100%;">
+              <span style="font-size: 4rem; opacity: 0.5;">${teoriaState.activeModuleId === "instrumental_cirurgico" ? "🔧" : "📖"}</span>
+              <span style="font-size: 0.9rem; color: var(--muted); font-weight: 500;">Imagem em revisão</span>
+            </div>
           </div>
 
           <!-- Bloco Informações -->

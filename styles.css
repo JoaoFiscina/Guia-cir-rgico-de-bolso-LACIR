@@ -2261,7 +2261,7 @@ body.focus-mode .content {
   width: 100%;
   height: 180px;
   border-radius: var(--radius-md);
-  background: var(--bg-soft);
+  background: #F6F8F5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2273,7 +2273,7 @@ body.focus-mode .content {
 .teoria-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.3s;
 }
 
@@ -2388,11 +2388,12 @@ body.focus-mode .content {
 
 .teoria-detail-image-box {
   width: 100%;
-  height: 280px;
+  height: auto;
+  max-height: min(70vh, 720px);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  background: var(--bg-soft);
-  overflow: hidden;
+  background: #F6F8F5;
+  overflow: visible;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2400,8 +2401,12 @@ body.focus-mode .content {
 
 .teoria-detail-image-box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  max-height: min(70vh, 720px);
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .teoria-detail-info-box {
@@ -2600,11 +2605,11 @@ body.focus-mode .content {
 
 .teoria-topic-image {
   width: 100%;
-  max-height: 300px;
+  max-height: 350px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  background: var(--bg-soft);
-  overflow: hidden;
+  background: #F6F8F5;
+  overflow: visible;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2612,8 +2617,10 @@ body.focus-mode .content {
 
 .teoria-topic-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: contain;
 }
 
 /* Custom Procedure Selector Dropdown styling */
@@ -2633,6 +2640,81 @@ body.focus-mode .content {
 .procedure-select-dropdown:hover {
   border-color: var(--green) !important;
 }
+
+/* Lightbox simples para ampliação de imagem */
+.teoria-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.teoria-lightbox.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.teoria-lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  color: #ffffff;
+  width: 48px;
+  height: 48px;
+  font-size: 2.2rem;
+  line-height: 44px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10000;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teoria-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.08);
+}
+
+.teoria-lightbox-content {
+  max-width: 92vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: zoomIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.teoria-lightbox-content img {
+  max-width: 100%;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 
 
 
