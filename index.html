@@ -109,80 +109,77 @@
       </header>
 
       <section class="panel status-panel">
-        <div class="status-intro">
-          <div>
-            <p class="eyebrow">Biblioteca de roteiros</p>
-            <h2>Dados e importação</h2>
+        <div class="status-header-simple">
+          <div class="status-title-group">
+            <span class="action-icon">📚</span>
+            <h2>Biblioteca de roteiros</h2>
           </div>
-
-          <p id="statusMessage" class="status-message" aria-live="polite">
-            Preparando leitura da pasta de procedimentos...
-          </p>
+          <button type="button" id="reloadProceduresButton" class="button button-primary">
+            Recarregar roteiros
+          </button>
         </div>
 
-        <details class="status-details">
-          <summary>Detalhes da sincronização</summary>
+        <div class="status-info-simple">
+          <p id="statusMessage" class="status-message" aria-live="polite">
+            Preparando leitura dos roteiros...
+          </p>
 
-          <div class="status-grid">
-            <article class="status-card">
-            <span class="status-label">Roteiros únicos</span>
-            <strong id="loadedProcedureCount">0</strong>
-            <small id="statusProcedureBreakdown">Aguardando carregamento</small>
-          </article>
-
-            <article class="status-card">
-            <span class="status-label">Fonte dos roteiros</span>
-            <strong id="dataSourceLabel">Carregando</strong>
-            <small id="configSummary">Configuração ainda não lida.</small>
-          </article>
-
-            <article class="status-card">
-            <span class="status-label">Arquivos processados</span>
-            <strong id="fileLoadSummary">0</strong>
-            <small id="issueSummary">Sem erros de importação.</small>
-          </article>
-          </div>
-
-          <div class="loading-panel" aria-live="polite">
-            <div class="loading-meta">
-              <span id="loadingLabel">Aguardando</span>
-              <span id="loadingCounter">0 / 0</span>
-            </div>
-
+          <div class="loading-panel-simple">
             <div class="progress-track" aria-hidden="true">
               <div id="loadingProgressBar" class="progress-fill"></div>
             </div>
           </div>
-        </details>
-
-        <div class="status-actions">
-          <button type="button" id="reloadProceduresButton" class="button button-primary">
-            Recarregar roteiros
-          </button>
-          <button type="button" id="importSingleButton" class="button button-secondary">
-            Importar arquivo local
-          </button>
-          <button type="button" id="importMultipleButton" class="button button-secondary">
-            Importar vários arquivos locais
-          </button>
-          <button type="button" id="clearLocalImportsButton" class="button button-ghost">
-            Limpar importação local
-          </button>
         </div>
 
-        <input
-          type="file"
-          id="singleFileInput"
-          accept=".json,.txt,application/json,text/plain"
-          hidden
-        />
-        <input
-          type="file"
-          id="multipleFilesInput"
-          accept=".json,.txt,application/json,text/plain"
-          multiple
-          hidden
-        />
+        <!-- Elementos técnicos legados mantidos ocultos para compatibilidade com o script.js -->
+        <div class="hidden-technical-elements" style="display: none !important;">
+          <details class="status-details">
+            <summary>Detalhes da sincronização</summary>
+            <div class="status-grid">
+              <article class="status-card">
+                <span class="status-label">Roteiros únicos</span>
+                <strong id="loadedProcedureCount">0</strong>
+                <small id="statusProcedureBreakdown">Aguardando carregamento</small>
+              </article>
+              <article class="status-card">
+                <span class="status-label">Fonte dos roteiros</span>
+                <strong id="dataSourceLabel">Carregando</strong>
+                <small id="configSummary">Configuração ainda não lida.</small>
+              </article>
+              <article class="status-card">
+                <span class="status-label">Arquivos processados</span>
+                <strong id="fileLoadSummary">0</strong>
+                <small id="issueSummary">Sem erros de importação.</small>
+              </article>
+            </div>
+            <div class="loading-panel" aria-live="polite">
+              <div class="loading-meta">
+                <span id="loadingLabel">Aguardando</span>
+                <span id="loadingCounter">0 / 0</span>
+              </div>
+            </div>
+          </details>
+
+          <div class="status-actions">
+            <button type="button" id="importSingleButton">Importar arquivo local</button>
+            <button type="button" id="importMultipleButton">Importar vários arquivos locais</button>
+            <button type="button" id="clearLocalImportsButton">Limpar importação local</button>
+          </div>
+
+          <input
+            type="file"
+            id="singleFileInput"
+            accept=".json,.txt,application/json,text/plain"
+            hidden
+          />
+          <input
+            type="file"
+            id="multipleFilesInput"
+            accept=".json,.txt,application/json,text/plain"
+            multiple
+            hidden
+          />
+        </div>
       </section>
 
       <div class="layout">

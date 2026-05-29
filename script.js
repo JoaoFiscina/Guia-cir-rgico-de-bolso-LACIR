@@ -140,7 +140,8 @@ const elements = {
   loadingCounter: document.querySelector("#loadingCounter"),
   loadingProgressBar: document.querySelector("#loadingProgressBar"),
   issueCountBadge: document.querySelector("#issueCountBadge"),
-  issuesList: document.querySelector("#issuesList")
+  issuesList: document.querySelector("#issuesList"),
+  issuesPanel: document.querySelector(".issues-panel")
 };
 
 document.addEventListener("DOMContentLoaded", initializeApp);
@@ -485,6 +486,19 @@ function bindEvents() {
         stepsHeader.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     });
+  }
+
+  if (elements.detailsContainer) {
+    elements.detailsContainer.addEventListener("toggle", (event) => {
+      if (event.target && event.target.tagName === "DETAILS") {
+        // Forçar reflow para evitar bugs de recálculo de altura em CSS Grid
+        const container = elements.detailsContainer;
+        const display = container.style.display;
+        container.style.display = "none";
+        container.offsetHeight;
+        container.style.display = display;
+      }
+    }, { capture: true, passive: true });
   }
 
   if (elements.hubViewListButton) {
@@ -1738,8 +1752,29 @@ function renderStatusPanel() {
   const issueCount = getAllIssues().length;
   const sourceCounts = countProceduresBySource();
   const localCount = getLocalProcedures().length;
+  const total = procedures.length;
 
-  elements.loadedProcedureCount.textContent = String(procedures.length);
+  // Simplificação das mensagens de status conforme solicitado
+  if (appState.loading.active) {
+    elements.statusMessage.textContent = "Carregando roteiros...";
+  } else if (total > 0) {
+    elements.statusMessage.textContent = `${total} roteiro${total > 1 ? "s" : ""} carregado${total > 1 ? "s" : ""}.`;
+  } else {
+    elements.statusMessage.textContent = "Não foi possível carregar todos os roteiros. Verifique a conexão ou o manifest.";
+  }
+
+  // Controle de barra de progresso indeterminada vs progresso real
+  const percentage = getLoadingPercentage();
+  elements.loadingProgressBar.style.width = `${percentage}%`;
+
+  if (appState.loading.active && !appState.loading.total) {
+    elements.loadingProgressBar.classList.add("is-indeterminate");
+  } else {
+    elements.loadingProgressBar.classList.remove("is-indeterminate");
+  }
+
+  // Atualização dos elementos técnicos legados (mantidos em container oculto)
+  elements.loadedProcedureCount.textContent = String(total);
   elements.statusProcedureBreakdown.textContent = buildProcedureBreakdownText(sourceCounts);
   elements.dataSourceLabel.textContent = buildSourceLabel();
   elements.configSummary.textContent = appState.config
@@ -1749,26 +1784,27 @@ function renderStatusPanel() {
   elements.issueSummary.textContent = issueCount
     ? `${issueCount} erro(s) ou aviso(s) de importação registrados.`
     : "Sem erros de importação.";
-  elements.statusMessage.textContent = appState.statusDetail || buildStatusMessage(procedures.length, localCount);
   elements.loadingLabel.textContent = appState.loading.label;
   elements.loadingCounter.textContent = `${appState.loading.current} / ${appState.loading.total}`;
-  elements.loadingProgressBar.style.width = `${getLoadingPercentage()}%`;
   elements.clearLocalImportsButton.disabled = !Object.keys(appState.localImports).length;
   elements.reloadProceduresButton.disabled = appState.loading.active;
 }
 
 function renderIssuesPanel() {
   const issues = getAllIssues();
-  elements.issueCountBadge.textContent = String(issues.length);
 
   if (!issues.length) {
-    elements.issuesList.innerHTML = `
-      <div class="issue-empty">
-        Nenhum erro ou aviso de importação. A estrutura atual está consistente.
-      </div>
-    `;
+    if (elements.issuesPanel) {
+      elements.issuesPanel.classList.add("hidden");
+    }
     return;
   }
+
+  if (elements.issuesPanel) {
+    elements.issuesPanel.classList.remove("hidden");
+  }
+
+  elements.issueCountBadge.textContent = String(issues.length);
 
   elements.issuesList.innerHTML = issues
     .map(
@@ -2084,14 +2120,16 @@ function createDetailPanel(title, items, openByDefault) {
   }
 
   return `
-    <details class="detail-panel" ${openByDefault ? "open" : ""}>
-      <summary>${escapeHtml(title)}</summary>
-      <div class="detail-content">
-        <ul class="detail-list">
-          ${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
-        </ul>
-      </div>
-    </details>
+    <div class="detail-panel-wrapper">
+      <details class="detail-panel" ${openByDefault ? "open" : ""}>
+        <summary>${escapeHtml(title)}</summary>
+        <div class="detail-content">
+          <ul class="detail-list">
+            ${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+          </ul>
+        </div>
+      </details>
+    </div>
   `;
 }
 

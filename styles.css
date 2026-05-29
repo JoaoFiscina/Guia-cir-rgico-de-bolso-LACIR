@@ -380,20 +380,75 @@ summary:focus-visible,
   margin-bottom: 22px;
 }
 
-.status-intro {
+.status-header-simple {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  align-items: end;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.status-intro h2 {
+.status-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-title-group h2 {
+  margin: 0;
+  font-family: var(--serif);
   font-size: 1.55rem;
+  color: var(--accent);
+}
+
+.status-info-simple {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(200px, 1fr);
+  align-items: center;
+  gap: 20px;
+  margin-top: 6px;
+}
+
+.loading-panel-simple {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Thinner progress track */
+.status-panel .progress-track {
+  height: 6px;
+  background: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Indeterminate progress bar */
+.progress-fill.is-indeterminate {
+  width: 30% !important;
+  animation: progressIndeterminate 1.5s infinite linear;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--green), transparent);
+}
+
+@keyframes progressIndeterminate {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(330%);
+  }
+}
+
+@media (max-width: 880px) {
+  .status-info-simple {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
 }
 
 .status-message {
   margin: 0;
-  max-width: 600px;
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -891,6 +946,10 @@ summary:focus-visible,
 }
 
 /* Estilos para Acordeões (detail-panel) */
+.detail-panel-wrapper {
+  min-width: 0;
+}
+
 .detail-panel {
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
