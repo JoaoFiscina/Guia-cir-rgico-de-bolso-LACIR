@@ -115,7 +115,7 @@
         "Fios",
         "Fáscia"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p14_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_1.png"
     },
     {
       "id": "tesoura_metzenbaum",
@@ -138,7 +138,7 @@
         "Delicado",
         "Divulsão"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p14_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_2.png"
     },
     {
       "id": "pinca_anatomica",
@@ -161,7 +161,7 @@
         "Delicado",
         "Mola"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p15_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_1.png"
     },
     {
       "id": "pinca_dente_de_rato",
@@ -184,7 +184,7 @@
         "Pele",
         "Firme"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p15_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_5.png"
     },
     {
       "id": "pinca_halsted",
@@ -208,7 +208,7 @@
         "Hemostasia",
         "Reparo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p16_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_1.png"
     },
     {
       "id": "pinca_kelly",
@@ -231,12 +231,12 @@
         "Hemostasia",
         "Serrilhado Parcial"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p16_2.png",
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png",
       "imagens": [
         {
-          "src": "assets/teoria/modulo_curso_2025/img_p16_2.png",
+          "src": "assets/teoria/modulo_curso_2025/img_p17_2.png",
           "alt": "Pinça Kelly",
-          "legenda": "A pinça Kelly possui ranhuras apenas na metade distal (50%) de sua face interna preensora."
+          "legenda": "Imagem esquemática compartilhada (Kelly/Crile). A pinça Kelly possui serrilhado apenas na metade distal (50%) de sua parte funcional."
         }
       ]
     },
@@ -261,12 +261,12 @@
         "Serrilhado Total",
         "Pedículo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p16_4.png",
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_2.png",
       "imagens": [
         {
-          "src": "assets/teoria/modulo_curso_2025/img_p16_4.png",
+          "src": "assets/teoria/modulo_curso_2025/img_p17_2.png",
           "alt": "Pinça Crile",
-          "legenda": "A pinça Crile apresenta ranhuras transversais em toda a extensão (100%) de sua face interna preensora."
+          "legenda": "Imagem esquemática compartilhada (Kelly/Crile). A pinça Crile possui serrilhado em toda a extensão (100%) de sua parte funcional."
         }
       ]
     },
@@ -293,12 +293,12 @@
         "Dente na Ponta",
         "Preensão Forte"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p16_7.png",
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png",
       "imagens": [
         {
-          "src": "assets/teoria/modulo_curso_2025/img_p16_7.png",
+          "src": "assets/teoria/modulo_curso_2025/img_p17_3.png",
           "alt": "Pinça Kocher",
-          "legenda": "A pinça Kocher apresenta ranhuras transversais e dentes de rato bem visíveis no ápice da ponta."
+          "legenda": "Imagem esquemática compartilhada (Kocher/Rochester). A pinça Kocher apresenta dentes de rato traumáticos na sua ponta distal."
         }
       ]
     },
@@ -323,12 +323,12 @@
         "Robusta",
         "Pedículos Calibrosos"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p16_8.png",
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png",
       "imagens": [
         {
-          "src": "assets/teoria/modulo_curso_2025/img_p16_8.png",
+          "src": "assets/teoria/modulo_curso_2025/img_p17_3.png",
           "alt": "Pinça Rochester",
-          "legenda": "A pinça Rochester é robusta e longa, com estrias transversais em toda a sua face de preensão."
+          "legenda": "Imagem esquemática compartilhada (Kocher/Rochester). A Rochester é muito mais longa e robusta do que a Kocher e não possui dente de rato."
         }
       ]
     },
@@ -353,7 +353,7 @@
         "Superficial",
         "Duplo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_1.png"
     },
     {
       "id": "valvula_suprapubica",
@@ -374,7 +374,7 @@
         "Larga",
         "Pélvica"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p18_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_3.png"
     },
     {
       "id": "afastador_doyen",
@@ -395,7 +395,7 @@
         "Abdominal",
         "Largo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p18_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_4.png"
     },
     {
       "id": "afastador_langenbeck",
@@ -416,7 +416,7 @@
         "L-Format",
         "Profundo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p18_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_1.png"
     },
     {
       "id": "afastador_volkmann",
@@ -438,7 +438,7 @@
         "Ortopedia",
         "Muscular"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p18_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_3.png"
     },
     {
       "id": "afastador_harrington",
@@ -460,7 +460,7 @@
         "Coração",
         "Abdominal Superior"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p18_5.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_4.png"
     },
     {
       "id": "afastador_deaver",
@@ -481,7 +481,7 @@
         "Vísceras",
         "Profundo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p19_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_1.png"
     },
     {
       "id": "espatula_maleavel",
@@ -502,7 +502,7 @@
         "Proteção",
         "Sutura"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p19_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_2.png"
     },
     {
       "id": "afastador_gosset",
@@ -522,7 +522,7 @@
         "Abdominal",
         "Cremalheira"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p19_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_3.png"
     },
     {
       "id": "afastador_finochietto",
@@ -542,7 +542,7 @@
         "Costelas",
         "Manivela"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p19_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_4.png"
     },
     {
       "id": "pinca_desjardins",
@@ -561,7 +561,7 @@
         "Cálculos",
         "Colher"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
     },
     {
       "id": "pinca_guyon",
@@ -580,7 +580,7 @@
         "Nefrectomia",
         "Curva em S"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
     },
     {
       "id": "pinca_cheron",
@@ -600,7 +600,7 @@
         "Longa",
         "Ginecologia"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
     },
     {
       "id": "pinca_allis",
@@ -621,7 +621,7 @@
         "Traumática",
         "Exérese"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
     },
     {
       "id": "pinca_foerster",
@@ -643,7 +643,7 @@
         "Anel Oval",
         "Pintura"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_1.png"
     },
     {
       "id": "pinca_collin",
@@ -663,7 +663,7 @@
         "Vísceras Ocas",
         "Círculo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
     },
     {
       "id": "pinca_duval",
@@ -683,7 +683,7 @@
         "Pulmão",
         "Atraumática"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_3.png"
     },
     {
       "id": "clamps_intestinais",
@@ -703,7 +703,7 @@
         "Flexível",
         "Coproestase"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_4.png"
     },
     {
       "id": "pinca_mixter",
@@ -723,7 +723,7 @@
         "Dissecção",
         "Pedículo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
+      "imagem": ""
     },
     {
       "id": "pinca_backhaus",
@@ -744,7 +744,7 @@
         "Perfurante",
         "Garras"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p22_3.png"
+      "imagem": ""
     },
     {
       "id": "porta_agulha_hegar",
@@ -790,7 +790,7 @@
         "Sem Argolas",
         "Superfície"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
+      "imagem": ""
     }
   ],
   "perguntas": [
