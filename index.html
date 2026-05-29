@@ -231,10 +231,14 @@
               </button>
             </div>
 
-            <div id="quickProcedurePicker" class="quick-picker">
-              <label class="field quick-picker-field">
-                <span>Seleção rápida</span>
-                <select id="quickProcedureSelect">
+            <div id="loadMessage" class="message hidden" aria-live="polite"></div>
+          </section>
+
+          <section class="panel procedure-panel">
+            <div id="quickProcedurePicker" class="quick-picker" style="border: none; padding: 0; background: transparent; margin: 0; display: grid; gap: 12px;">
+              <label class="field" style="margin-top: 0;">
+                <span>Selecione um procedimento</span>
+                <select id="quickProcedureSelect" class="procedure-select-dropdown">
                   <option value="">Escolha um roteiro...</option>
                 </select>
               </label>
@@ -242,21 +246,18 @@
               <button
                 type="button"
                 id="randomProcedureButton"
-                class="button button-secondary quick-random-button"
+                class="button button-primary quick-random-button"
+                style="width: 100%;"
               >
-                Aleatorizar escolha
+                🎲 Aleatorizar escolha
               </button>
 
-              <p id="quickProcedureHint" class="quick-picker-hint">
+              <p id="quickProcedureHint" class="quick-picker-hint" style="margin-top: 4px;">
                 O sorteio usa os roteiros visíveis com os filtros atuais.
               </p>
             </div>
 
-            <div id="loadMessage" class="message hidden" aria-live="polite"></div>
-          </section>
-
-          <section class="panel procedure-panel">
-            <div id="procedureList" class="procedure-list" aria-live="polite"></div>
+            <div id="procedureList" style="display: none !important;"></div>
           </section>
 
           <section class="panel issues-panel">

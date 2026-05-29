@@ -1812,11 +1812,22 @@ function renderQuickProcedurePicker() {
     return;
   }
 
-  const selectedProcedureExists = allProcedures.some((procedure) => procedure.id === appState.selectedProcedureId);
+  const selectedProcedure = getSelectedProcedure();
+  
+  // Build option list from filteredProcedures.
+  // To ensure the currently selected procedure is always selectable/visible in the dropdown,
+  // we add it to the list if it's not already in the filtered pool.
+  const pool = [...filteredProcedures];
+  if (selectedProcedure && !pool.some(p => p.id === selectedProcedure.id)) {
+    pool.push(selectedProcedure);
+  }
+  
+  // Sort pool alphabetically by name to keep it organized
+  pool.sort((a, b) => a.nome.localeCompare(b.nome));
 
   elements.quickProcedureSelect.innerHTML = `
     <option value="">Escolha um roteiro...</option>
-    ${allProcedures
+    ${pool
       .map(
         (procedure) => `
           <option value="${escapeAttribute(procedure.id)}">${escapeHtml(procedure.nome)}</option>
@@ -1824,7 +1835,7 @@ function renderQuickProcedurePicker() {
       )
       .join("")}
   `;
-  elements.quickProcedureSelect.value = selectedProcedureExists ? appState.selectedProcedureId : "";
+  elements.quickProcedureSelect.value = selectedProcedure ? selectedProcedure.id : "";
 }
 
 function renderStatusPanel() {
