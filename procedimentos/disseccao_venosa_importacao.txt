@@ -327,7 +327,8 @@
       ],
       "referencias": [
         "Padronização 07 - Habilidades Cirúrgicas I 25.1. Máscaras e Cânulas, IOT e Dissecção Venosa.",
-        "Material institucional de Habilidades Cirúrgicas I — Dissecção Venosa."
+        "Material institucional de Habilidades Cirúrgicas I — Dissecção Venosa.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

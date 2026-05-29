@@ -379,7 +379,8 @@
         "Hyzy RC, McSparron JI. Tracheostomy: Postoperative care, maintenance, and complications in adults. UpToDate. 2023.",
         "Hyzy RC, Cardenas JL. Tracheostomy in adults: Techniques and intraoperative complications. UpToDate. 2023.",
         "Empresa Brasileira de Serviços Hospitalares. Universidade Federal do Triângulo Mineiro. Traqueostomia: Indicações e orientações de cuidado ao paciente adulto. 2023.",
-        "Taylor CB, Otto RA. Open Tracheostomy Procedure. Atlas of the Oral and Maxillofacial Surgery Clinics. 2015;23(2):117–124."
+        "Taylor CB, Otto RA. Open Tracheostomy Procedure. Atlas of the Oral and Maxillofacial Surgery Clinics. 2015;23(2):117–124.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

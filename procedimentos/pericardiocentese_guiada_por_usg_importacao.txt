@@ -64,11 +64,26 @@
           "alerta": "Falhas no preparo do material podem atrasar uma intervenção emergencial em tamponamento cardíaco.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "1a", "texto": "Separar paramentação: luvas estéreis, gorro, máscara e pijama cirúrgico." },
-            { "rotulo": "1b", "texto": "Separar materiais de assepsia e antissepsia: solução antisséptica, campos estéreis, pinça de Foerster, gaze e esponja degermante." },
-            { "rotulo": "1c", "texto": "Separar anestésico local: lidocaína 1% ou 2% sem vasoconstrictor e agulhas adequadas." },
-            { "rotulo": "1d", "texto": "Separar seringas de 60 a 80 mL, Jelco® 16–18G de 7–9 cm para adultos, Jelco® de 4 cm para crianças mais velhas, Jelco® 20G para bebês/crianças pequenas ou agulha espinhal." },
-            { "rotulo": "1e", "texto": "Separar torneira de três vias, transdutor de USG, solução salina, material para fixação e curativo." }
+            {
+              "rotulo": "1a",
+              "texto": "Separar paramentação: luvas estéreis, gorro, máscara e pijama cirúrgico."
+            },
+            {
+              "rotulo": "1b",
+              "texto": "Separar materiais de assepsia e antissepsia: solução antisséptica, campos estéreis, pinça de Foerster, gaze e esponja degermante."
+            },
+            {
+              "rotulo": "1c",
+              "texto": "Separar anestésico local: lidocaína 1% ou 2% sem vasoconstrictor e agulhas adequadas."
+            },
+            {
+              "rotulo": "1d",
+              "texto": "Separar seringas de 60 a 80 mL, Jelco® 16–18G de 7–9 cm para adultos, Jelco® de 4 cm para crianças mais velhas, Jelco® 20G para bebês/crianças pequenas ou agulha espinhal."
+            },
+            {
+              "rotulo": "1e",
+              "texto": "Separar torneira de três vias, transdutor de USG, solução salina, material para fixação e curativo."
+            }
           ]
         },
         {
@@ -87,12 +102,30 @@
           "alerta": "A pericardiocentese não deve retardar toracotomia de emergência quando ela for necessária.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "3a", "texto": "Manter monitorização eletrocardiográfica e de sinais vitais antes, durante e após o procedimento." },
-            { "rotulo": "3b", "texto": "Garantir pelo menos um acesso venoso." },
-            { "rotulo": "3c", "texto": "Garantir oxigênio suplementar se via aérea avançada não estiver indicada." },
-            { "rotulo": "3d", "texto": "Caso haja tempo, realizar sondagem nasogástrica para descomprimir o estômago." },
-            { "rotulo": "3e", "texto": "Alertar a equipe cirúrgica sobre possível necessidade de toracotomia de emergência como terapia definitiva." },
-            { "rotulo": "3f", "texto": "Utilizar ultrassonografia para identificar a efusão pericárdica." }
+            {
+              "rotulo": "3a",
+              "texto": "Manter monitorização eletrocardiográfica e de sinais vitais antes, durante e após o procedimento."
+            },
+            {
+              "rotulo": "3b",
+              "texto": "Garantir pelo menos um acesso venoso."
+            },
+            {
+              "rotulo": "3c",
+              "texto": "Garantir oxigênio suplementar se via aérea avançada não estiver indicada."
+            },
+            {
+              "rotulo": "3d",
+              "texto": "Caso haja tempo, realizar sondagem nasogástrica para descomprimir o estômago."
+            },
+            {
+              "rotulo": "3e",
+              "texto": "Alertar a equipe cirúrgica sobre possível necessidade de toracotomia de emergência como terapia definitiva."
+            },
+            {
+              "rotulo": "3f",
+              "texto": "Utilizar ultrassonografia para identificar a efusão pericárdica."
+            }
           ]
         },
         {
@@ -151,12 +184,30 @@
           "alerta": "O local de punção pode variar; a ultrassonografia deve determinar o ponto de maior coleção líquida que merece punção.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "10a", "texto": "Identificar a junção xifocondral." },
-            { "rotulo": "10b", "texto": "Puncionar 1 cm abaixo da junção xifocondral, à esquerda." },
-            { "rotulo": "10c", "texto": "Inserir o cateter anteriormente ao transdutor." },
-            { "rotulo": "10d", "texto": "Manter ângulo de 30 a 45 graus em relação à pele." },
-            { "rotulo": "10e", "texto": "Direcionar a agulha em sentido ao ombro esquerdo." },
-            { "rotulo": "10f", "texto": "Reconhecer que outros locais possíveis incluem paraesternal esquerdo e apical, conforme a coleção ao USG." }
+            {
+              "rotulo": "10a",
+              "texto": "Identificar a junção xifocondral."
+            },
+            {
+              "rotulo": "10b",
+              "texto": "Puncionar 1 cm abaixo da junção xifocondral, à esquerda."
+            },
+            {
+              "rotulo": "10c",
+              "texto": "Inserir o cateter anteriormente ao transdutor."
+            },
+            {
+              "rotulo": "10d",
+              "texto": "Manter ângulo de 30 a 45 graus em relação à pele."
+            },
+            {
+              "rotulo": "10e",
+              "texto": "Direcionar a agulha em sentido ao ombro esquerdo."
+            },
+            {
+              "rotulo": "10f",
+              "texto": "Reconhecer que outros locais possíveis incluem paraesternal esquerdo e apical, conforme a coleção ao USG."
+            }
           ]
         },
         {
@@ -175,11 +226,26 @@
           "alerta": "Em casos crônicos, evitar drenagem inicial superior a 500 mL para reduzir risco de síndrome de descompressão pericárdica.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "12a", "texto": "Aspirar o líquido pericárdico." },
-            { "rotulo": "12b", "texto": "Remover seringa e agulha após aspiração." },
-            { "rotulo": "12c", "texto": "Avançar o cateter." },
-            { "rotulo": "12d", "texto": "Conectar a torneira de três vias ao cateter." },
-            { "rotulo": "12e", "texto": "Drenar até melhora/atenuação do quadro clínico." }
+            {
+              "rotulo": "12a",
+              "texto": "Aspirar o líquido pericárdico."
+            },
+            {
+              "rotulo": "12b",
+              "texto": "Remover seringa e agulha após aspiração."
+            },
+            {
+              "rotulo": "12c",
+              "texto": "Avançar o cateter."
+            },
+            {
+              "rotulo": "12d",
+              "texto": "Conectar a torneira de três vias ao cateter."
+            },
+            {
+              "rotulo": "12e",
+              "texto": "Drenar até melhora/atenuação do quadro clínico."
+            }
           ]
         },
         {
@@ -235,7 +301,8 @@
         "Rafique AM, Patel N, Biner S, Eshaghian S, Mendoza F, Cercek B, et al. Extended versus nonextended pericardial catheter drainage. Am J Cardiol. 2011;108:1820-1825.",
         "Sociedade Brasileira de Cardiologia. I Diretriz Brasileira de Miocardites e Pericardites. Arq Bras Cardiol. 2013;100(4 supl. 1):1-45.",
         "Brian D Hoit et al. Cardiac tamponade. UpToDate. 2020.",
-        "Brian D Hoit et al. Pericardial effusion: Approach to diagnosis. UpToDate. 2023."
+        "Brian D Hoit et al. Pericardial effusion: Approach to diagnosis. UpToDate. 2023.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

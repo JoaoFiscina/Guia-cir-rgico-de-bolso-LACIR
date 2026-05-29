@@ -95,13 +95,34 @@
           "critico": true,
           "alerta": "Na escolha da área doadora, considerar cor, textura, espessura, quantidade de pele necessária e visibilidade da cicatriz. A fenestração favorece drenagem e reduz hematoma.",
           "subacoes": [
-            { "rotulo": "8a", "texto": "Definir o tipo de enxerto quanto à composição, origem, espessura e forma de processamento." },
-            { "rotulo": "8b", "texto": "Preparar a área doadora com tosquiamento, se necessário, e demarcar a extensão da exérese da pele." },
-            { "rotulo": "8c", "texto": "Realizar antissepsia, assepsia e anestesia local ou geral conforme a extensão da área." },
-            { "rotulo": "8d", "texto": "Distender a pele e, se desejado, aplicar parafina líquida, óleo mineral ou gel lubrificante cirúrgico à base de água para facilitar o deslizamento." },
-            { "rotulo": "8e", "texto": "Iniciar a incisão com dermátomo elétrico, faca de Blair ou dissecção com bisturi em plano justadérmico." },
-            { "rotulo": "8f", "texto": "Remover a gordura remanescente, expandir e fenestrar o enxerto quando indicado, mantendo-o umedecido em soro fisiológico." },
-            { "rotulo": "8g", "texto": "Ao final, realizar curativo oclusivo na área doadora." }
+            {
+              "rotulo": "8a",
+              "texto": "Definir o tipo de enxerto quanto à composição, origem, espessura e forma de processamento."
+            },
+            {
+              "rotulo": "8b",
+              "texto": "Preparar a área doadora com tosquiamento, se necessário, e demarcar a extensão da exérese da pele."
+            },
+            {
+              "rotulo": "8c",
+              "texto": "Realizar antissepsia, assepsia e anestesia local ou geral conforme a extensão da área."
+            },
+            {
+              "rotulo": "8d",
+              "texto": "Distender a pele e, se desejado, aplicar parafina líquida, óleo mineral ou gel lubrificante cirúrgico à base de água para facilitar o deslizamento."
+            },
+            {
+              "rotulo": "8e",
+              "texto": "Iniciar a incisão com dermátomo elétrico, faca de Blair ou dissecção com bisturi em plano justadérmico."
+            },
+            {
+              "rotulo": "8f",
+              "texto": "Remover a gordura remanescente, expandir e fenestrar o enxerto quando indicado, mantendo-o umedecido em soro fisiológico."
+            },
+            {
+              "rotulo": "8g",
+              "texto": "Ao final, realizar curativo oclusivo na área doadora."
+            }
           ],
           "imagem": ""
         },
@@ -178,7 +199,8 @@
         "Kirk RM. Bases técnicas da cirurgia. Tradução da 6ª edição. Rio de Janeiro: Elsevier; 2012.",
         "Zanini Mauricio et al. Uso de esponja cirúrgica para curativo compressivo de enxerto cutâneo. An Bras Dermatol. 2004;79(3):359-362.",
         "Chang KP et al. An alternative dressing for skin graft immobilization: negative pressure dressing. Burns. 2001;27(8):839-842.",
-        "Sabiston. Tratado de cirurgia: a base biológica da prática cirúrgica moderna. 21ª ed. Elsevier; 2022."
+        "Sabiston. Tratado de cirurgia: a base biológica da prática cirúrgica moderna. 21ª ed. Elsevier; 2022.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

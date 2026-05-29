@@ -234,7 +234,8 @@
         "Theodore AC, Clermont G, Dalton A. Indications, interpretation, and techniques for arterial catheterization for invasive monitoring. UpToDate. Sep 2021.",
         "Loukas M, Tubbs RS, Feldman J. Netter Introduction to Clinical Procedures. Elsevier; 2017.",
         "Moraes AAC. Procedimentos Médicos – Técnica e Tática. 2ª ed.; 2016.",
-        "A5B2 - G - PAM; A5B2 - R - PAM."
+        "A5B2 - G - PAM; A5B2 - R - PAM.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

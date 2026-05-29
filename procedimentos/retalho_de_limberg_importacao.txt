@@ -271,7 +271,8 @@
         "Simão, Tiago Sarmento et al. Versatilidade do Retalho de Limberg nas reconstruções pós ressecção de tumores em face. Surg Cosmet Dermato. 2012;4(2):127-129.",
         "Alvarez, Gustavo Steffen et al. Aplicações do retalho romboide em reparações cutâneas. Rev Bras Cir Plást. 2012;27(1):102-107.",
         "Thorne, Charles H. et al. Cirurgia Plástica. 6ª edição. Rio de Janeiro: Guanabara Koogan, 2009.",
-        "Up to Date. Overview of flaps for soft tissue reconstruction. Feb 2022. Acesso em: 02 de janeiro de 2024."
+        "Up to Date. Overview of flaps for soft tissue reconstruction. Feb 2022. Acesso em: 02 de janeiro de 2024.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

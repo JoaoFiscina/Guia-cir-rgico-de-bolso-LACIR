@@ -258,7 +258,8 @@
         "Doherty CM, Forbes RB. Diagnostic Lumbar Puncture. Ulster Med J. 2014;83(2):93-102.",
         "Hull C, Johnson KS, Sexton DJ. Lumbar puncture: Technique, indications, contraindications, and complications in adults. UpToDate.",
         "Roehr CC et al. Techniques to increase lumbar puncture success in newborn babies: the NeoCLEAR RCT. Health Technology Assessment. 2023;27(33):1-97.",
-        "A6B1 - G - Punção Lombar; A6B1 - R - Punção Lombar."
+        "A6B1 - G - Punção Lombar; A6B1 - R - Punção Lombar.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

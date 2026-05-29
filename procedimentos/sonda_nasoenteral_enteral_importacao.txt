@@ -248,7 +248,8 @@
       ],
       "referencias": [
         "Padronização 05 - Habilidades Cirúrgicas I 25.1. Sondas e Drenos.",
-        "Material institucional de Habilidades Cirúrgicas I — Sonda Nasoenteral/Enteral."
+        "Material institucional de Habilidades Cirúrgicas I — Sonda Nasoenteral/Enteral.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

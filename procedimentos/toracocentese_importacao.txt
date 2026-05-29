@@ -56,11 +56,26 @@
           "alerta": "Falhas no preparo inicial aumentam risco de quebra de assepsia, interrupção do procedimento e coleta inadequada do líquido pleural.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "1a", "texto": "Separar paramentação: luvas estéreis, gorro, máscara e pijama cirúrgico." },
-            { "rotulo": "1b", "texto": "Separar materiais de assepsia e antissepsia: solução antisséptica, campos estéreis, pinça de Foerster, gaze e esponja degermante." },
-            { "rotulo": "1c", "texto": "Separar lidocaína 1% ou 2% sem vasoconstrictor e agulhas adequadas para botão anestésico e anestesia dos planos profundos." },
-            { "rotulo": "1d", "texto": "Separar seringas de 20 mL ou maior, Jelco® 14G ou 16G, recipiente estéril para coleta e equipo de soro." },
-            { "rotulo": "1e", "texto": "Separar gaze e fita adesiva cirúrgica para curativo oclusivo." }
+            {
+              "rotulo": "1a",
+              "texto": "Separar paramentação: luvas estéreis, gorro, máscara e pijama cirúrgico."
+            },
+            {
+              "rotulo": "1b",
+              "texto": "Separar materiais de assepsia e antissepsia: solução antisséptica, campos estéreis, pinça de Foerster, gaze e esponja degermante."
+            },
+            {
+              "rotulo": "1c",
+              "texto": "Separar lidocaína 1% ou 2% sem vasoconstrictor e agulhas adequadas para botão anestésico e anestesia dos planos profundos."
+            },
+            {
+              "rotulo": "1d",
+              "texto": "Separar seringas de 20 mL ou maior, Jelco® 14G ou 16G, recipiente estéril para coleta e equipo de soro."
+            },
+            {
+              "rotulo": "1e",
+              "texto": "Separar gaze e fita adesiva cirúrgica para curativo oclusivo."
+            }
           ]
         },
         {
@@ -79,10 +94,22 @@
           "alerta": "O posicionamento adequado expõe a região posterior/lateral do tórax e facilita acesso seguro ao espaço pleural.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "3a", "texto": "Preferir paciente sentado, com tronco levemente inclinado para frente." },
-            { "rotulo": "3b", "texto": "Apoiar a mão ipsilateral ao derrame sobre o ombro contralateral." },
-            { "rotulo": "3c", "texto": "Como alternativa, apoiar os braços sobre travesseiro ou anteparo." },
-            { "rotulo": "3d", "texto": "Em pacientes em ventilação mecânica ou sem condições clínicas de sentar, usar decúbito lateral ou posição semissentada no leito." }
+            {
+              "rotulo": "3a",
+              "texto": "Preferir paciente sentado, com tronco levemente inclinado para frente."
+            },
+            {
+              "rotulo": "3b",
+              "texto": "Apoiar a mão ipsilateral ao derrame sobre o ombro contralateral."
+            },
+            {
+              "rotulo": "3c",
+              "texto": "Como alternativa, apoiar os braços sobre travesseiro ou anteparo."
+            },
+            {
+              "rotulo": "3d",
+              "texto": "Em pacientes em ventilação mecânica ou sem condições clínicas de sentar, usar decúbito lateral ou posição semissentada no leito."
+            }
           ]
         },
         {
@@ -93,11 +120,26 @@
           "alerta": "Introduzir a agulha muito abaixo do referencial é erro frequente e pode perfurar o diafragma.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "4a", "texto": "Realizar propedêutica para localizar o derrame pleural." },
-            { "rotulo": "4b", "texto": "Confirmar o local com ultrassonografia ou radiografia de tórax quando disponível." },
-            { "rotulo": "4c", "texto": "Identificar a região subescapular, geralmente 2 a 4 cm abaixo da escápula." },
-            { "rotulo": "4d", "texto": "Usar como referência o 8º ou 9º espaço intercostal, cerca de 9 a 10 cm lateral à coluna espinhal." },
-            { "rotulo": "4e", "texto": "Evitar punção abaixo do referencial para reduzir risco de lesão diafragmática e visceral." }
+            {
+              "rotulo": "4a",
+              "texto": "Realizar propedêutica para localizar o derrame pleural."
+            },
+            {
+              "rotulo": "4b",
+              "texto": "Confirmar o local com ultrassonografia ou radiografia de tórax quando disponível."
+            },
+            {
+              "rotulo": "4c",
+              "texto": "Identificar a região subescapular, geralmente 2 a 4 cm abaixo da escápula."
+            },
+            {
+              "rotulo": "4d",
+              "texto": "Usar como referência o 8º ou 9º espaço intercostal, cerca de 9 a 10 cm lateral à coluna espinhal."
+            },
+            {
+              "rotulo": "4e",
+              "texto": "Evitar punção abaixo do referencial para reduzir risco de lesão diafragmática e visceral."
+            }
           ]
         },
         {
@@ -116,11 +158,26 @@
           "alerta": "A punção deve ocorrer junto à margem superior da costela inferior para evitar lesão do feixe vasculonervoso.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "6a", "texto": "Realizar botão anestésico na pele com lidocaína." },
-            { "rotulo": "6b", "texto": "Puncionar junto à margem superior da costela inferior." },
-            { "rotulo": "6c", "texto": "Prosseguir com anestesia do tecido subcutâneo." },
-            { "rotulo": "6d", "texto": "Anestesiar periósteo e pleura parietal." },
-            { "rotulo": "6e", "texto": "Infiltrar progressivamente, utilizando aspiração intermitente para descartar punção intravascular." }
+            {
+              "rotulo": "6a",
+              "texto": "Realizar botão anestésico na pele com lidocaína."
+            },
+            {
+              "rotulo": "6b",
+              "texto": "Puncionar junto à margem superior da costela inferior."
+            },
+            {
+              "rotulo": "6c",
+              "texto": "Prosseguir com anestesia do tecido subcutâneo."
+            },
+            {
+              "rotulo": "6d",
+              "texto": "Anestesiar periósteo e pleura parietal."
+            },
+            {
+              "rotulo": "6e",
+              "texto": "Infiltrar progressivamente, utilizando aspiração intermitente para descartar punção intravascular."
+            }
           ]
         },
         {
@@ -139,10 +196,22 @@
           "alerta": "A progressão deve ser feita com pressão negativa contínua e ângulo perpendicular, evitando avanço excessivo após refluxo.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "8a", "texto": "Acoplar Jelco® 14G ou 16G à seringa de 20 mL ou maior." },
-            { "rotulo": "8b", "texto": "Introduzir a agulha perpendicularmente à pele." },
-            { "rotulo": "8c", "texto": "Manter aspiração contínua durante a progressão." },
-            { "rotulo": "8d", "texto": "Parar ao visualizar refluxo do líquido pleural." }
+            {
+              "rotulo": "8a",
+              "texto": "Acoplar Jelco® 14G ou 16G à seringa de 20 mL ou maior."
+            },
+            {
+              "rotulo": "8b",
+              "texto": "Introduzir a agulha perpendicularmente à pele."
+            },
+            {
+              "rotulo": "8c",
+              "texto": "Manter aspiração contínua durante a progressão."
+            },
+            {
+              "rotulo": "8d",
+              "texto": "Parar ao visualizar refluxo do líquido pleural."
+            }
           ]
         },
         {
@@ -153,9 +222,18 @@
           "alerta": "A oclusão imediata da extremidade externa do cateter é fundamental para reduzir o risco de pneumotórax.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "9a", "texto": "Após refluxo, retirar a agulha metálica e a seringa." },
-            { "rotulo": "9b", "texto": "Progredir apenas o cateter plástico no espaço pleural." },
-            { "rotulo": "9c", "texto": "Ocluir imediatamente a extremidade externa do cateter." }
+            {
+              "rotulo": "9a",
+              "texto": "Após refluxo, retirar a agulha metálica e a seringa."
+            },
+            {
+              "rotulo": "9b",
+              "texto": "Progredir apenas o cateter plástico no espaço pleural."
+            },
+            {
+              "rotulo": "9c",
+              "texto": "Ocluir imediatamente a extremidade externa do cateter."
+            }
           ]
         },
         {
@@ -166,11 +244,26 @@
           "alerta": "Interromper imediatamente o procedimento se houver desconforto respiratório, tosse persistente ou hipotensão.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "10a", "texto": "Conectar equipo aberto ao cateter plástico." },
-            { "rotulo": "10b", "texto": "Direcionar o equipo para recipiente de coleta." },
-            { "rotulo": "10c", "texto": "Drenar o líquido pleural de forma controlada." },
-            { "rotulo": "10d", "texto": "Não ultrapassar 1.500 mL de drenagem no procedimento." },
-            { "rotulo": "10e", "texto": "Interromper se o paciente apresentar desconforto respiratório, tosse persistente ou hipotensão." }
+            {
+              "rotulo": "10a",
+              "texto": "Conectar equipo aberto ao cateter plástico."
+            },
+            {
+              "rotulo": "10b",
+              "texto": "Direcionar o equipo para recipiente de coleta."
+            },
+            {
+              "rotulo": "10c",
+              "texto": "Drenar o líquido pleural de forma controlada."
+            },
+            {
+              "rotulo": "10d",
+              "texto": "Não ultrapassar 1.500 mL de drenagem no procedimento."
+            },
+            {
+              "rotulo": "10e",
+              "texto": "Interromper se o paciente apresentar desconforto respiratório, tosse persistente ou hipotensão."
+            }
           ]
         },
         {
@@ -189,10 +282,22 @@
           "alerta": "A retirada rápida com oclusão imediata reduz risco de entrada de ar e pneumotórax.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "12a", "texto": "Solicitar inspiração profunda." },
-            { "rotulo": "12b", "texto": "Orientar o paciente a prender a respiração." },
-            { "rotulo": "12c", "texto": "Retirar o cateter rapidamente." },
-            { "rotulo": "12d", "texto": "Ocluir imediatamente o orifício com gaze." }
+            {
+              "rotulo": "12a",
+              "texto": "Solicitar inspiração profunda."
+            },
+            {
+              "rotulo": "12b",
+              "texto": "Orientar o paciente a prender a respiração."
+            },
+            {
+              "rotulo": "12c",
+              "texto": "Retirar o cateter rapidamente."
+            },
+            {
+              "rotulo": "12d",
+              "texto": "Ocluir imediatamente o orifício com gaze."
+            }
           ]
         },
         {
@@ -211,10 +316,22 @@
           "alerta": "Na ausência desses sinais ou sintomas, o guia informa que não há indicação rotineira de radiografia de tórax de controle.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "14a", "texto": "Indicar radiografia se houver tosse, dispneia ou dor torácica após o procedimento." },
-            { "rotulo": "14b", "texto": "Indicar radiografia se houver saída de ar pela seringa durante a punção." },
-            { "rotulo": "14c", "texto": "Indicar radiografia se a ausculta pulmonar revelar murmúrio vesicular abolido." },
-            { "rotulo": "14d", "texto": "Não solicitar rotineiramente se não houver sinais/sintomas associados a risco de pneumotórax." }
+            {
+              "rotulo": "14a",
+              "texto": "Indicar radiografia se houver tosse, dispneia ou dor torácica após o procedimento."
+            },
+            {
+              "rotulo": "14b",
+              "texto": "Indicar radiografia se houver saída de ar pela seringa durante a punção."
+            },
+            {
+              "rotulo": "14c",
+              "texto": "Indicar radiografia se a ausculta pulmonar revelar murmúrio vesicular abolido."
+            },
+            {
+              "rotulo": "14d",
+              "texto": "Não solicitar rotineiramente se não houver sinais/sintomas associados a risco de pneumotórax."
+            }
           ]
         }
       ],
@@ -239,7 +356,8 @@
         "Todd W. Thomsen, Jennifer DeLaPena, Gary S. Setnik. Thoracentesis. N Engl J Med. 2006;355:e16.",
         "Havelock T, Teoh R, Laws D, Gleeson F. BTS Pleural Disease Guideline Group. Pleural procedures and thoracic ultrasound. Thorax. 2010;65 Suppl 2:ii61-ii76.",
         "John T. Huggins, Amit Chopra. Large volume therapeutic thoracentesis: procedure and complications. UpToDate. 2021.",
-        "YC Gary Lee. Diagnostic evaluation of hemodynamically stable adult with a pleural effusion. UpToDate. 2023."
+        "YC Gary Lee. Diagnostic evaluation of hemodynamically stable adult with a pleural effusion. UpToDate. 2023.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

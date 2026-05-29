@@ -352,7 +352,8 @@
         "Araújo S. Acessos Venosos Centrais e Arteriais Periféricos: Aspectos Técnicos e Práticos. RBTI. 2003;15(2):70-82.",
         "Carlotti AP. Acesso vascular. Medicina (Ribeirão Preto). 2012;45(2):208-214.",
         "ATLS – Advanced Trauma Life Support. 10ª ed. American College of Surgeons; 2018.",
-        "Overview of central venous access. UpToDate. 2015."
+        "Overview of central venous access. UpToDate. 2015.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

@@ -250,7 +250,8 @@
         "Moraes, Mariana et al. Zetaplastia na retração axilar: técnica e tática para facilitar o aprendizado dos residentes. Rev Bras Cir Plást. 2017;32(2):241-244.",
         "UpToDate. Z-plasty. Oct 2022. Acesso em 02 de janeiro de 2024.",
         "Gon S, Araújo FM. Zetaplasty as an alternative for reconstructing double surgical defects. Surgical & Cosmetic Dermatology. 2015;7(2).",
-        "Araújo LR, Filho JM, Loda G. Rejuvenescimento com lifting da região cervical e zetaplastia. Surgical & Cosmetic Dermatology. 2019;11(3):252-255."
+        "Araújo LR, Filho JM, Loda G. Rejuvenescimento com lifting da região cervical e zetaplastia. Surgical & Cosmetic Dermatology. 2019;11(3):252-255.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

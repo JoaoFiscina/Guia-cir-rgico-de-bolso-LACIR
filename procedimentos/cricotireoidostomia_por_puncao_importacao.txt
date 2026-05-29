@@ -258,7 +258,8 @@
         "Sise MJ, Shackford SR, Cruickshank JC, Murphy G, Fridlund PH. Cricothyroidotomy for long-term tracheal access: a prospective analysis of morbidity and mortality in 76 patients.",
         "Linares AZ, Aldana JLD. Cicatricial subglottic stenosis due to cricothyroidotomy. Case report and review of literature. Revista Colombiana de Anestesiología. 2015.",
         "Brown CA, Sakles JC. Rapid sequence intubation for adults outside the operating room. UpToDate. 2019.",
-        "Walls RM, Murphy MF. Manual of Emergency Airway Management. 2018."
+        "Walls RM, Murphy MF. Manual of Emergency Airway Management. 2018.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

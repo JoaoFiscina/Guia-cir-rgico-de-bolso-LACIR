@@ -389,7 +389,8 @@
         "Hyzy RC. Complications of the endotracheal tube following initial placement: Prevention and management in adult intensive care unit patients. UpToDate. 2019.",
         "Brown CA III, Sakles JC. Rapid sequence intubation in adults for emergency medicine and critical care. UpToDate. 2025.",
         "Anesi GL. COVID-19: Respiratory care of the nonintubated hypoxemic adult. UpToDate. 2021.",
-        "EMS Airway. An Emergency Guide to Mechanical Ventilation. 2021."
+        "EMS Airway. An Emergency Guide to Mechanical Ventilation. 2021.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

@@ -202,7 +202,8 @@
         "The American Society of Anesthesiologists. Anesthesiology. 2012;116:539–73.",
         "Androes MP et al. Placement of jugular venous catheters. UpToDate. Aug 2021.",
         "Practice Guidelines for Central Venous Access 2020. Anesthesiology. 2020;132:8–43.",
-        "A5B1 - G - AVC Jugular Interna; A5B1 - R - Acesso Venoso Central."
+        "A5B1 - G - AVC Jugular Interna; A5B1 - R - Acesso Venoso Central.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

@@ -371,7 +371,8 @@
         "Laws D, Neville E, Duffy J. BTS guidelines for the insertion of a chest drain. Thorax. 2003;58(Suppl II):53-59.",
         "Dev SP, Nascimiento Jr B, Simone C, Chien V. Chest-Tube Insertion. N Engl J Med. 2007;357(15):e15.",
         "Shlamovitz G. Tube thoracostomy: overview, indications, contraindications. Medscape. 2020.",
-        "Freitas VF, Saito EH. Edema Pulmonar de Reexpansão na Doença Pleural. Pulmão RJ. 2016;25(1):21-24."
+        "Freitas VF, Saito EH. Edema Pulmonar de Reexpansão na Doença Pleural. Pulmão RJ. 2016;25(1):21-24.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

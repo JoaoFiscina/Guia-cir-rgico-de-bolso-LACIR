@@ -191,7 +191,8 @@
         "Practice Guidelines for Central Venous Access. Anesthesiology. 2012;116:539–73.",
         "Moore KL, Dalley AF, Agur AMR. Anatomia orientada para a clínica. 7ª ed. Guanabara Koogan; 2014.",
         "Neto RAB, Souza HP, Marino LO et al. Medicina de emergência: abordagem prática. 17ª ed. Manole; 2023.",
-        "A5B1 - G - AVC Acesso Femoral; A5B1 - R - Acesso Venoso Central."
+        "A5B1 - G - AVC Acesso Femoral; A5B1 - R - Acesso Venoso Central.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

@@ -301,7 +301,8 @@
         "Tallo FS, Guimarães HP, Lopes RD, Lopes AC. Intubação orotraqueal e a técnica da sequência rápida: uma revisão para o clínico. Rev Bras Clin Med. 2011;9(3):211-217.",
         "Walls RM. Manual of Emergency Airway Management. 4ª ed. 2012.",
         "Martins HS, Brandão Neto RA, Scalabrini Neto A, Velasco IT. Emergências Clínicas: Abordagem Prática. 10ª ed. Manole; 2015.",
-        "Bair AE, Walls RM, Grayzel J. Rapid sequence intubation for adults outside the operating room. UpToDate. 2016."
+        "Bair AE, Walls RM, Grayzel J. Rapid sequence intubation for adults outside the operating room. UpToDate. 2016.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

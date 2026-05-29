@@ -200,7 +200,8 @@
         "Theodore AC, Manaker S, Finlay G. Arterial blood gases. UpToDate. Dez 2025.",
         "Theodore AC, Clermont G, Dalton A. Indications, interpretation, and techniques for arterial catheterization for invasive monitoring. UpToDate. Dez 2025.",
         "Moraes AAC. Procedimentos Médicos – Técnica e Tática. 2ª ed.; 2016.",
-        "A5B2 - G - Gasometria Arterial; A5B2 - R - Gasometria Arterial."
+        "A5B2 - G - Gasometria Arterial; A5B2 - R - Gasometria Arterial.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

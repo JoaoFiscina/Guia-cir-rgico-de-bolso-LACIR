@@ -233,7 +233,8 @@
         "Seth A et al. Suprapubic Cystostomy. 2016.",
         "Fisher JS et al. Suprapubic cystostomy. Medscape. 2021.",
         "Schaeffer AJ. Complications of urinary bladder catheters and preventive strategies. UpToDate. 2024.",
-        "A6B3 - G - Cistostomia; A6B3 - R - Cistostomia."
+        "A6B3 - G - Cistostomia; A6B3 - R - Cistostomia.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

@@ -223,7 +223,8 @@
         "Ghiggi KC et al. Paracentese abdominal. Vittalle. 2021;33(1):84-100.",
         "Runyon BA. Spontaneous bacterial peritonitis in adults: Diagnosis. UpToDate. 2025.",
         "Biggins SW. Evaluation of adults with ascites. UpToDate. 2025.",
-        "A6B2 - G - Paracentese; A6B2 - R - Paracentese."
+        "A6B2 - G - Paracentese; A6B2 - R - Paracentese.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

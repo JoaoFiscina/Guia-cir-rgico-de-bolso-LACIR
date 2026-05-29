@@ -292,7 +292,8 @@
       "referencias": [
         "Whitehouse JS, Weigelt JA. Diagnostic peritoneal lavage: a review of indications, technique, and interpretation. Scand J Trauma Resusc Emerg Med. 2009.",
         "Colégio Americano de Cirurgiões. Suporte Avançado de Vida no Trauma para Médicos. ATLS. 10ª ed.",
-        "A5B3 - G - LPD; A5B3 - R - LPD."
+        "A5B3 - G - LPD; A5B3 - R - LPD.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

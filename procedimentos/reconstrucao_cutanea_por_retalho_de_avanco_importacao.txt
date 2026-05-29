@@ -45,11 +45,26 @@
           "alerta": "Falhas na preparação inicial aumentam risco de atraso, quebra de assepsia e improvisação técnica.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "1a", "texto": "Separar materiais de paramentação: luvas estéreis, máscara, gorro e óculos de proteção." },
-            { "rotulo": "1b", "texto": "Separar materiais de antissepsia e assepsia: clorexidina, PVPI, pinça de Foerster e campo estéril." },
-            { "rotulo": "1c", "texto": "Separar material anestésico: lidocaína 1% ou 2% sem vasoconstrictor, seringa de 5 mL e agulhas adequadas." },
-            { "rotulo": "1d", "texto": "Separar material do procedimento: caneta marcadora cutânea, bisturi lâmina nº 15, pinças, tesouras, porta-agulha, fios de nylon e poliglactina, além de soro fisiológico." },
-            { "rotulo": "1e", "texto": "Separar materiais complementares: Micropore®, solução salina isotônica e gaze vaselinada não aderente." }
+            {
+              "rotulo": "1a",
+              "texto": "Separar materiais de paramentação: luvas estéreis, máscara, gorro e óculos de proteção."
+            },
+            {
+              "rotulo": "1b",
+              "texto": "Separar materiais de antissepsia e assepsia: clorexidina, PVPI, pinça de Foerster e campo estéril."
+            },
+            {
+              "rotulo": "1c",
+              "texto": "Separar material anestésico: lidocaína 1% ou 2% sem vasoconstrictor, seringa de 5 mL e agulhas adequadas."
+            },
+            {
+              "rotulo": "1d",
+              "texto": "Separar material do procedimento: caneta marcadora cutânea, bisturi lâmina nº 15, pinças, tesouras, porta-agulha, fios de nylon e poliglactina, além de soro fisiológico."
+            },
+            {
+              "rotulo": "1e",
+              "texto": "Separar materiais complementares: Micropore®, solução salina isotônica e gaze vaselinada não aderente."
+            }
           ]
         },
         {
@@ -68,11 +83,26 @@
           "alerta": "Má avaliação do leito receptor e da ferida pode levar à escolha inadequada do método reconstrutivo.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "3a", "texto": "Constatar a impossibilidade de fechamento por sutura simples." },
-            { "rotulo": "3b", "texto": "Avaliar a profundidade da lesão." },
-            { "rotulo": "3c", "texto": "Verificar presença de suprimento sanguíneo adequado." },
-            { "rotulo": "3d", "texto": "Considerar tempo de evolução e grau de contaminação ou infecção da ferida." },
-            { "rotulo": "3e", "texto": "Descartar, quando apropriado, a possibilidade de cicatrização por terceira intenção após resolução do processo infeccioso." }
+            {
+              "rotulo": "3a",
+              "texto": "Constatar a impossibilidade de fechamento por sutura simples."
+            },
+            {
+              "rotulo": "3b",
+              "texto": "Avaliar a profundidade da lesão."
+            },
+            {
+              "rotulo": "3c",
+              "texto": "Verificar presença de suprimento sanguíneo adequado."
+            },
+            {
+              "rotulo": "3d",
+              "texto": "Considerar tempo de evolução e grau de contaminação ou infecção da ferida."
+            },
+            {
+              "rotulo": "3e",
+              "texto": "Descartar, quando apropriado, a possibilidade de cicatrização por terceira intenção após resolução do processo infeccioso."
+            }
           ]
         },
         {
@@ -83,10 +113,22 @@
           "alerta": "Planejamento inadequado aumenta tensão, prejudica mobilização e compromete vascularização.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "4a", "texto": "Definir o tipo de retalho tendo em vista o tamanho da lesão a ser recoberta." },
-            { "rotulo": "4b", "texto": "Demarcar as linhas de incisão com caneta marcadora cutânea." },
-            { "rotulo": "4c", "texto": "Orientar a marcação pela direção das linhas de tensão mínima." },
-            { "rotulo": "4d", "texto": "Planejar o retalho em formato retangular, partindo de uma borda cruenta." }
+            {
+              "rotulo": "4a",
+              "texto": "Definir o tipo de retalho tendo em vista o tamanho da lesão a ser recoberta."
+            },
+            {
+              "rotulo": "4b",
+              "texto": "Demarcar as linhas de incisão com caneta marcadora cutânea."
+            },
+            {
+              "rotulo": "4c",
+              "texto": "Orientar a marcação pela direção das linhas de tensão mínima."
+            },
+            {
+              "rotulo": "4d",
+              "texto": "Planejar o retalho em formato retangular, partindo de uma borda cruenta."
+            }
           ]
         },
         {
@@ -105,9 +147,18 @@
           "alerta": "A técnica anestésica deve ser compatível com o tipo de ferida e a extensão do procedimento.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "6a", "texto": "Realizar anestesia intradérmica em ferida limpa." },
-            { "rotulo": "6b", "texto": "Em ferida contaminada, fazer botão anestésico e anestesiar a região adjacente em formato de elipse." },
-            { "rotulo": "6c", "texto": "Indicar bloqueio regional ou anestesia geral quando a extensão da lesão exigir." }
+            {
+              "rotulo": "6a",
+              "texto": "Realizar anestesia intradérmica em ferida limpa."
+            },
+            {
+              "rotulo": "6b",
+              "texto": "Em ferida contaminada, fazer botão anestésico e anestesiar a região adjacente em formato de elipse."
+            },
+            {
+              "rotulo": "6c",
+              "texto": "Indicar bloqueio regional ou anestesia geral quando a extensão da lesão exigir."
+            }
           ]
         },
         {
@@ -150,10 +201,22 @@
           "alerta": "Tração excessiva, torção ou avanço sob tensão podem comprometer a perfusão do retalho.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "11a", "texto": "Elevar o retalho com delicadeza, como uma tenda." },
-            { "rotulo": "11b", "texto": "Tracionar a ponta do retalho com gancho na derme." },
-            { "rotulo": "11c", "texto": "Deslizar o retalho em direção à área lesada em movimento retilíneo." },
-            { "rotulo": "11d", "texto": "Confirmar previamente que as áreas de maior tensão foram suficientemente minimizadas." }
+            {
+              "rotulo": "11a",
+              "texto": "Elevar o retalho com delicadeza, como uma tenda."
+            },
+            {
+              "rotulo": "11b",
+              "texto": "Tracionar a ponta do retalho com gancho na derme."
+            },
+            {
+              "rotulo": "11c",
+              "texto": "Deslizar o retalho em direção à área lesada em movimento retilíneo."
+            },
+            {
+              "rotulo": "11d",
+              "texto": "Confirmar previamente que as áreas de maior tensão foram suficientemente minimizadas."
+            }
           ]
         },
         {
@@ -164,11 +227,26 @@
           "alerta": "Persistência de sobra cutânea e tensão inferior pode distorcer o retalho e prejudicar a acomodação final.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "12a", "texto": "Identificar sobra de pele na região caudal do retalho após o movimento de avanço." },
-            { "rotulo": "12b", "texto": "Reconhecer resistência na porção inferior como indício de necessidade de correção." },
-            { "rotulo": "12c", "texto": "Posicionar lateralmente o triângulo de Burow em relação à região caudal do retalho." },
-            { "rotulo": "12d", "texto": "Usar como base do triângulo a continuação da linha de incisão." },
-            { "rotulo": "12e", "texto": "Ressecar o triângulo para minimizar a tensão e melhorar a acomodação do retalho." }
+            {
+              "rotulo": "12a",
+              "texto": "Identificar sobra de pele na região caudal do retalho após o movimento de avanço."
+            },
+            {
+              "rotulo": "12b",
+              "texto": "Reconhecer resistência na porção inferior como indício de necessidade de correção."
+            },
+            {
+              "rotulo": "12c",
+              "texto": "Posicionar lateralmente o triângulo de Burow em relação à região caudal do retalho."
+            },
+            {
+              "rotulo": "12d",
+              "texto": "Usar como base do triângulo a continuação da linha de incisão."
+            },
+            {
+              "rotulo": "12e",
+              "texto": "Ressecar o triângulo para minimizar a tensão e melhorar a acomodação do retalho."
+            }
           ]
         },
         {
@@ -179,13 +257,34 @@
           "alerta": "Número excessivo de pontos, pontos muito próximos ou sutura sob tensão podem comprometer a vascularização das bordas.",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "13a", "texto": "Iniciar a fixação pelas extremidades do retalho." },
-            { "rotulo": "13b", "texto": "Realizar ponto de Gillies nos ângulos." },
-            { "rotulo": "13c", "texto": "Completar a síntese das bordas com pontos simples utilizando fio não absorvível." },
-            { "rotulo": "13d", "texto": "No ponto de Gillies, transfixar a borda da pele do ângulo aberto no sentido proximal-distal." },
-            { "rotulo": "13e", "texto": "Em seguida, transfixar apenas a derme horizontalmente no ângulo fechado." },
-            { "rotulo": "13f", "texto": "Por fim, transfixar a outra extremidade de ângulo aberto no sentido distal-proximal." },
-            { "rotulo": "13g", "texto": "Evitar grande quantidade de pontos e excessiva proximidade entre eles." }
+            {
+              "rotulo": "13a",
+              "texto": "Iniciar a fixação pelas extremidades do retalho."
+            },
+            {
+              "rotulo": "13b",
+              "texto": "Realizar ponto de Gillies nos ângulos."
+            },
+            {
+              "rotulo": "13c",
+              "texto": "Completar a síntese das bordas com pontos simples utilizando fio não absorvível."
+            },
+            {
+              "rotulo": "13d",
+              "texto": "No ponto de Gillies, transfixar a borda da pele do ângulo aberto no sentido proximal-distal."
+            },
+            {
+              "rotulo": "13e",
+              "texto": "Em seguida, transfixar apenas a derme horizontalmente no ângulo fechado."
+            },
+            {
+              "rotulo": "13f",
+              "texto": "Por fim, transfixar a outra extremidade de ângulo aberto no sentido distal-proximal."
+            },
+            {
+              "rotulo": "13g",
+              "texto": "Evitar grande quantidade de pontos e excessiva proximidade entre eles."
+            }
           ]
         },
         {
@@ -212,8 +311,14 @@
           "alerta": "",
           "imagem": "",
           "subacoes": [
-            { "rotulo": "16a", "texto": "Retirar pontos da face em aproximadamente 7 dias." },
-            { "rotulo": "16b", "texto": "Retirar pontos de outros locais em aproximadamente 14 dias." }
+            {
+              "rotulo": "16a",
+              "texto": "Retirar pontos da face em aproximadamente 7 dias."
+            },
+            {
+              "rotulo": "16b",
+              "texto": "Retirar pontos de outros locais em aproximadamente 14 dias."
+            }
           ]
         }
       ],
@@ -236,7 +341,8 @@
         "UpToDate. Overview of flaps for soft tissue reconstruction. Mar 2020.",
         "Chasmar, Leslie. The versatile rhomboid (Limberg) flap. The Canadian Journal of Plastic Surgery. 2007.",
         "Sabiston. Tratado de cirurgia: a base biológica da prática cirúrgica moderna. 19ª ed. Elsevier, 2014.",
-        "Fraga DS, Lima VS, Silveira ÁS, Citrin M, Maito EDM, Santos FZ. O uso do retalho de Limberg para reparos de defeitos na face. Rev Bras Cir Plást. 2012;27(3):23."
+        "Fraga DS, Lima VS, Silveira ÁS, Citrin M, Maito EDM, Santos FZ. O uso do retalho de Limberg para reparos de defeitos na face. Rev Bras Cir Plást. 2012;27(3):23.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": ""
     }

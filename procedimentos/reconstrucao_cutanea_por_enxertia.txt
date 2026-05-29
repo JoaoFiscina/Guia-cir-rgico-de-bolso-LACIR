@@ -109,7 +109,8 @@
       "referencias": [
         "Goffi. Técnica Cirúrgica: Bases Anatômicas, Fisiopatológicas e Técnicas de Cirurgia.",
         "Sabiston. Tratado de cirurgia.",
-        "Teixeira Neto N et al. Tratamento cirúrgico das feridas complexas."
+        "Teixeira Neto N et al. Tratamento cirúrgico das feridas complexas.",
+        "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública."
       ],
       "imagem_capa": "assets/imagens/reconstrucao-enxertia/capa.svg"
     }
