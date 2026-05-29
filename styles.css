@@ -1,7 +1,7 @@
 :root {
   --bg: #f6f8f5;
   --bg-soft: #eef5f0;
-  --surface: rgba(255, 255, 255, 0.96);
+  --surface: rgba(255, 255, 255, 0.98);
   --surface-strong: #ffffff;
   --surface-muted: #eef5f0;
   --border: #d8e1da;
@@ -16,14 +16,14 @@
   --critical: #244c3a;
   --critical-soft: #eef5f0;
   --warning: #74621c;
-  --warning-soft: #fff6dd;
-  --shadow: 0 14px 30px rgba(31, 42, 40, 0.07);
-  --shadow-soft: 0 8px 18px rgba(31, 42, 40, 0.05);
-  --radius-lg: 10px;
-  --radius-md: 8px;
+  --warning-soft: #fff4d6;
+  --shadow: 0 8px 20px rgba(31, 42, 40, 0.04);
+  --shadow-soft: 0 4px 12px rgba(31, 42, 40, 0.03);
+  --radius-lg: 14px;
+  --radius-md: 10px;
   --radius-sm: 8px;
-  --sans: "Aptos", "Segoe UI Variable", "Segoe UI", "Trebuchet MS", sans-serif;
-  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --sans: "Outfit", "Inter", "Segoe UI Variable", "Segoe UI", sans-serif;
+  --serif: "Outfit", "Iowan Old Style", "Georgia", serif;
 }
 
 * {
@@ -890,15 +890,19 @@ summary:focus-visible,
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+/* Estilos para Acordeões (detail-panel) */
 .detail-panel {
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  background: #ffffff;
+  background: var(--surface-strong);
+  box-shadow: 0 2px 6px rgba(31, 42, 40, 0.01);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   overflow: hidden;
 }
 
-.detail-panel[open] {
-  border-color: rgba(36, 76, 58, 0.22);
+.detail-panel:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 4px 12px rgba(31, 42, 40, 0.03);
 }
 
 .detail-panel summary {
@@ -907,79 +911,148 @@ summary:focus-visible,
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 14px 16px;
+  padding: 16px 20px;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.04rem;
+  color: var(--text);
+  background: var(--surface-strong);
+  transition: background-color 0.2s ease;
+  user-select: none;
 }
 
 .detail-panel summary::-webkit-details-marker {
   display: none;
 }
 
+.detail-panel summary:hover {
+  background-color: var(--bg-soft);
+}
+
+.detail-panel[open] {
+  border-color: var(--green);
+}
+
+.detail-panel[open] summary {
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg-soft);
+}
+
 .detail-panel summary::after {
-  content: "+";
-  font-size: 1.2rem;
-  color: var(--accent);
-  transition: transform 180ms ease;
+  content: "▼";
+  font-size: 0.8rem;
+  color: var(--green);
+  transition: transform 0.25s ease;
 }
 
 .detail-panel[open] summary::after {
-  transform: rotate(45deg);
+  transform: rotate(-180deg);
 }
 
 .detail-content {
-  padding: 0 16px 16px;
+  padding: 20px;
+  background: var(--surface-strong);
 }
 
 .detail-list {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 20px;
   font-size: 1rem;
   line-height: 1.68;
+}
+
+.detail-list li {
+  color: var(--muted);
 }
 
 .detail-list li + li {
   margin-top: 6px;
 }
 
+/* Painel de Informações Globais */
+.info-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-global-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.action-icon {
+  margin-right: 4px;
+}
+
+/* Empty State Hub */
+.empty-state {
+  padding: 40px 20px;
+}
+
+.empty-state-card {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: var(--radius-lg);
+  padding: 48px 32px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-state-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.empty-state-actions .button {
+  flex: 1;
+  min-width: 180px;
+  max-width: 240px;
+}
+
+/* Polimento dos Cards de Passos */
 .step-card {
   position: relative;
   display: grid;
-  gap: 12px;
+  gap: 16px;
   width: 100%;
-  padding: clamp(16px, 1.8vw, 22px);
+  padding: clamp(16px, 1.8vw, 24px);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   background: #ffffff;
-  transition:
-    transform 180ms ease,
-    border-color 180ms ease,
-    box-shadow 180ms ease,
-    background-color 180ms ease;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  box-shadow: 0 4px 10px rgba(31, 42, 40, 0.02);
 }
 
 .step-card:hover {
-  transform: translateY(-1px);
-  border-color: rgba(36, 76, 58, 0.18);
-  box-shadow: 0 10px 22px rgba(31, 42, 40, 0.05);
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow);
 }
 
 .step-card.is-checked {
-  border-color: rgba(66, 93, 74, 0.28);
-  background: linear-gradient(135deg, rgba(221, 232, 218, 0.58), rgba(255, 255, 255, 0.98));
+  border-color: var(--green);
+  background: linear-gradient(135deg, rgba(221, 232, 218, 0.4), #ffffff);
 }
 
 .step-card.is-critical {
-  border-color: rgba(36, 76, 58, 0.24);
-  box-shadow: inset 4px 0 0 rgba(138, 90, 22, 0.54);
+  border-left: 5px solid #d4a373; /* Cor bronze/alerta em vez de vermelho agressivo */
 }
 
 .step-card.is-current {
-  border-color: rgba(36, 76, 58, 0.32);
-  box-shadow:
-    0 16px 32px rgba(31, 42, 40, 0.08),
-    inset 0 0 0 1px rgba(36, 76, 58, 0.08);
+  border-color: var(--green);
+  box-shadow: 0 16px 32px rgba(31, 42, 40, 0.06), inset 0 0 0 1px rgba(36, 76, 58, 0.08);
 }
 
 .step-card.is-revealed {
@@ -1005,11 +1078,11 @@ summary:focus-visible,
   min-height: 44px;
   display: inline-grid;
   place-items: center;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   background: var(--accent-soft);
   color: var(--accent);
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.1rem;
   flex: 0 0 auto;
 }
 
@@ -1042,9 +1115,9 @@ summary:focus-visible,
 .step-description {
   margin: 0;
   max-width: 92ch;
-  font-size: 1.08rem;
-  line-height: 1.78;
-  color: #2f3330;
+  font-size: 1.04rem;
+  line-height: 1.72;
+  color: var(--text);
 }
 
 .step-alert {
@@ -1052,12 +1125,12 @@ summary:focus-visible,
   gap: 4px;
   padding: 12px 14px 12px 16px;
   border-radius: var(--radius-md);
-  border: 1px solid rgba(138, 90, 22, 0.16);
-  border-left: 4px solid rgba(138, 90, 22, 0.78);
-  background: rgba(251, 240, 220, 0.7);
-  color: #4f4216;
+  border: 1px solid rgba(212, 163, 115, 0.2);
+  border-left: 4px solid #d4a373;
+  background: #fffbf0;
+  color: #6a4f1d;
   line-height: 1.62;
-  font-size: 1rem;
+  font-size: 0.96rem;
 }
 
 .step-alert::before {
@@ -1072,10 +1145,10 @@ summary:focus-visible,
 .step-subactions {
   display: grid;
   gap: 8px;
-  padding: 12px;
+  padding: 16px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  background: var(--surface-muted);
+  background: var(--bg-soft);
 }
 
 .step-subactions-title {
@@ -1099,12 +1172,13 @@ summary:focus-visible,
   grid-template-columns: auto minmax(0, 1fr);
   gap: 10px;
   align-items: start;
-  padding: 9px 10px;
+  padding: 10px 14px;
   border-radius: var(--radius-sm);
   background: #ffffff;
-  color: #303330;
-  font-size: 0.98rem;
+  color: var(--text);
+  font-size: 0.95rem;
   line-height: 1.55;
+  border: 1px solid var(--border);
 }
 
 .step-subaction-label {
@@ -1117,6 +1191,7 @@ summary:focus-visible,
   background: var(--green-soft);
   font-weight: 800;
   color: var(--green);
+  font-size: 0.8rem;
 }
 
 .step-image {
@@ -1142,13 +1217,20 @@ summary:focus-visible,
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 9px 12px;
+  padding: 8px 14px;
   border-radius: 999px;
   border: 1px solid var(--border-strong);
   background: #ffffff;
   font-weight: 700;
   color: var(--accent);
   white-space: nowrap;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.step-check:hover {
+  background-color: var(--bg-soft);
+  border-color: var(--accent);
 }
 
 .step-check-inline {
@@ -1160,6 +1242,7 @@ summary:focus-visible,
   width: 18px;
   height: 18px;
   accent-color: var(--accent);
+  cursor: pointer;
 }
 
 .sequence-summary {
@@ -1529,6 +1612,27 @@ summary:focus-visible,
   .lacir-logo-frame {
     width: 44px;
     height: 44px;
+  }
+}
+
+@media (max-width: 720px) {
+  .info-section-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .info-global-actions {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: stretch;
+  }
+
+  .info-global-actions .button {
+    flex: 1;
+    min-height: 40px;
+    font-size: 0.88rem;
   }
 }
 

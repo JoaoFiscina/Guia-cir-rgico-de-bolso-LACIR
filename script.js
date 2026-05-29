@@ -106,8 +106,12 @@ const elements = {
   studyModeButton: document.querySelector("#studyModeButton"),
   sequenceModeButton: document.querySelector("#sequenceModeButton"),
   backToStartButton: document.querySelector("#backToStartButton"),
-  overviewCards: document.querySelector("#overviewCards"),
   detailsContainer: document.querySelector("#detailsContainer"),
+  openAllInfoButton: document.querySelector("#openAllInfoButton"),
+  closeAllInfoButton: document.querySelector("#closeAllInfoButton"),
+  stepsOnlyButton: document.querySelector("#stepsOnlyButton"),
+  hubViewListButton: document.querySelector("#hubViewListButton"),
+  hubRandomButton: document.querySelector("#hubRandomButton"),
   checklistProgressText: document.querySelector("#checklistProgressText"),
   studyStepsList: document.querySelector("#studyStepsList"),
   clearChecklistButton: document.querySelector("#clearChecklistButton"),
@@ -454,6 +458,49 @@ function bindEvents() {
 
     toggleChecklistStep(procedure.id, Number(checkbox.dataset.stepNumber), checkbox.checked);
   });
+
+  if (elements.openAllInfoButton) {
+    elements.openAllInfoButton.addEventListener("click", () => {
+      document.querySelectorAll("#detailsContainer details").forEach((el) => {
+        el.open = true;
+      });
+    });
+  }
+
+  if (elements.closeAllInfoButton) {
+    elements.closeAllInfoButton.addEventListener("click", () => {
+      document.querySelectorAll("#detailsContainer details").forEach((el) => {
+        el.open = false;
+      });
+    });
+  }
+
+  if (elements.stepsOnlyButton) {
+    elements.stepsOnlyButton.addEventListener("click", () => {
+      document.querySelectorAll("#detailsContainer details").forEach((el) => {
+        el.open = false;
+      });
+      const stepsHeader = document.querySelector(".steps-panel") || document.querySelector("#studyStepsList");
+      if (stepsHeader) {
+        stepsHeader.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+
+  if (elements.hubViewListButton) {
+    elements.hubViewListButton.addEventListener("click", () => {
+      if (elements.searchInput) {
+        elements.searchInput.focus();
+        elements.searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    });
+  }
+
+  if (elements.hubRandomButton) {
+    elements.hubRandomButton.addEventListener("click", () => {
+      selectRandomProcedure();
+    });
+  }
 
   document.addEventListener("keydown", handleSequenceShortcuts);
   window.addEventListener("scroll", updateSequenceSummaryState, { passive: true });
@@ -1838,19 +1885,12 @@ function renderStudyView(procedure) {
   const progress = ensureProcedureProgress(procedure.id);
   const checklistCount = progress.checklist.length;
 
-  elements.overviewCards.innerHTML = [
-    createOverviewCard("Ações iniciais", procedure.acoes_iniciais),
-    createOverviewCard("Indicações", procedure.indicacoes),
-    createOverviewCard("Contraindicações", procedure.contraindicacoes),
-    createOverviewCard("Materiais", procedure.materiais)
-  ].join("");
-
   elements.detailsContainer.innerHTML = [
-    createDetailPanel("Indicações", procedure.indicacoes, true),
+    createDetailPanel("Indicações", procedure.indicacoes, false),
     createDetailPanel("Contraindicações", procedure.contraindicacoes, false),
-    createDetailPanel("Preparo", procedure.preparo, true),
+    createDetailPanel("Preparo", procedure.preparo, false),
     createDetailPanel("Materiais", procedure.materiais, false),
-    createDetailPanel("Ações iniciais", procedure.acoes_iniciais, true),
+    createDetailPanel("Ações iniciais", procedure.acoes_iniciais, false),
     createDetailPanel("Observações finais", procedure.observacoes_finais, false),
     createDetailPanel("Referências", procedure.referencias, false)
   ]

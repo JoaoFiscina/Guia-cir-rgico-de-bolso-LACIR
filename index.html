@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guia de Cirurgia de Bolso da LACIR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta name="description" content="Guia cirúrgico de bolso da LACIR, com roteiros práticos, checklists de estudo e sequências passo a passo para procedimentos cirúrgicos." />
     <meta name="theme-color" content="#244C3A" />
 
@@ -275,12 +278,19 @@
                   LACIR
                 </span>
               </div>
-              <p class="eyebrow">Cirurgia de Bolso LACIR</p>
+              <p class="eyebrow">Guia de Bolso LACIR</p>
               <h2 id="emptyStateTitle">Escolha um procedimento para começar</h2>
               <p id="emptyStateText">
-                Use a lista lateral para selecionar um roteiro, revisar as etapas no modo estudo ou
-                treinar a sequência passo a passo.
+                Selecione um roteiro na barra lateral para revisar as etapas críticas no Modo Estudo ou treinar a sequência passo a passo no Modo Sequência.
               </p>
+              <div class="empty-state-actions">
+                <button type="button" id="hubViewListButton" class="button button-primary">
+                  <span class="action-icon">📖</span> Ver roteiros
+                </button>
+                <button type="button" id="hubRandomButton" class="button button-secondary">
+                  <span class="action-icon">🎲</span> Aleatorizar escolha
+                </button>
+              </div>
             </div>
           </section>
 
@@ -319,13 +329,22 @@
             </article>
 
             <section id="studyView" class="view-block">
-              <div id="overviewCards" class="overview-grid"></div>
-
-              <div class="panel">
-                <div class="section-header">
+              <div class="panel info-panel">
+                <div class="section-header info-section-header">
                   <div>
-                    <p class="eyebrow">Conteúdo complementar</p>
-                    <h3>Blocos expansíveis</h3>
+                    <p class="eyebrow">Informações adicionais</p>
+                    <h3>Informações do procedimento</h3>
+                  </div>
+                  <div class="info-global-actions">
+                    <button type="button" id="openAllInfoButton" class="button button-ghost button-compact">
+                      <span class="action-icon">📂</span> Abrir tudo
+                    </button>
+                    <button type="button" id="closeAllInfoButton" class="button button-ghost button-compact">
+                      <span class="action-icon">📁</span> Fechar tudo
+                    </button>
+                    <button type="button" id="stepsOnlyButton" class="button button-ghost button-compact">
+                      <span class="action-icon">🎯</span> Mostrar só passos
+                    </button>
                   </div>
                 </div>
 
