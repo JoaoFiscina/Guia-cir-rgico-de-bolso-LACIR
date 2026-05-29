@@ -534,6 +534,13 @@ function bindEvents() {
   if (elements.toggleFavoritesFilterButton) {
     elements.toggleFavoritesFilterButton.addEventListener("click", () => {
       appState.showFavoritesOnly = !appState.showFavoritesOnly;
+      if (appState.showFavoritesOnly) {
+        appState.selectedCategory = "all";
+        if (elements.categoryFilter) {
+          elements.categoryFilter.value = "all";
+        }
+        persistState();
+      }
       renderFavoritesFilterButton();
       renderProcedureList();
       renderQuickProcedurePicker();
