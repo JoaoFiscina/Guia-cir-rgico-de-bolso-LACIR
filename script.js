@@ -5,6 +5,10 @@ const SUPPORTED_EXTENSIONS = [".json", ".txt"];
 const DEBUG_PREFIX = "[Guia LACIR]";
 const ACCESS_PASSWORD = "CICC2026";
 const ACCESS_SESSION_KEY = "lacir-access-unlocked";
+const INACTIVITY_TIMEOUT = 15 * 60 * 1000; // 15 minutos em milissegundos
+const MAX_SESSION_DURATION = 2 * 60 * 60 * 1000; // 2 horas em milissegundos
+let inactivityTimer = null;
+let absoluteSessionTimer = null;
 const DISPLAY_CATEGORIES = [
   "Lesões de pele e subcutâneo",
   "Suturas, feridas e curativos",
@@ -231,13 +235,50 @@ function initializeAccessGate() {
     return;
   }
 
-  if (sessionStorage.getItem(ACCESS_SESSION_KEY) === "true") {
+  if (isSessionValid()) {
     unlockAccessGate();
     return;
   }
 
-  elements.accessGate.classList.remove("is-unlocked");
-  elements.accessPasswordInput.focus({ preventScroll: true });
+  lockAccessGate();
+}
+
+function isSessionValid() {
+  const saved = sessionStorage.getItem(ACCESS_SESSION_KEY);
+  if (!saved) {
+    return false;
+  }
+
+  try {
+    const data = JSON.parse(saved);
+    const now = Date.now();
+    const isWithinAbsoluteLimit = now - data.unlockedAt < MAX_SESSION_DURATION;
+    const isWithinInactivityLimit = now - data.lastActivity < INACTIVITY_TIMEOUT;
+
+    return isWithinAbsoluteLimit && isWithinInactivityLimit;
+  } catch (error) {
+    return false;
+  }
+}
+
+function lockAccessGate() {
+  sessionStorage.removeItem(ACCESS_SESSION_KEY);
+  
+  if (inactivityTimer) {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = null;
+  }
+  if (absoluteSessionTimer) {
+    clearInterval(absoluteSessionTimer);
+    absoluteSessionTimer = null;
+  }
+
+  if (elements.accessGate) {
+    elements.accessGate.classList.remove("is-unlocked");
+    elements.accessGate.removeAttribute("aria-hidden");
+    elements.accessPasswordInput.value = "";
+    elements.accessPasswordInput.focus({ preventScroll: true });
+  }
 }
 
 function bindEvents() {
@@ -425,7 +466,12 @@ function handleAccessGateSubmit(event) {
   const typedPassword = elements.accessPasswordInput.value.trim();
 
   if (typedPassword === ACCESS_PASSWORD) {
-    sessionStorage.setItem(ACCESS_SESSION_KEY, "true");
+    const now = Date.now();
+    const sessionData = {
+      unlockedAt: now,
+      lastActivity: now
+    };
+    sessionStorage.setItem(ACCESS_SESSION_KEY, JSON.stringify(sessionData));
     unlockAccessGate();
     return;
   }
@@ -442,6 +488,89 @@ function unlockAccessGate() {
 
   elements.accessGate.classList.add("is-unlocked");
   elements.accessGate.setAttribute("aria-hidden", "true");
+  
+  setupInactivityListeners();
+  startSessionTimers();
+}
+
+function setupInactivityListeners() {
+  const events = ["mousemove", "mousedown", "keypress", "touchstart", "scroll"];
+  events.forEach((event) => {
+    document.addEventListener(event, handleUserActivity, { passive: true });
+  });
+  
+  resetInactivityTimer();
+}
+
+function removeInactivityListeners() {
+  const events = ["mousemove", "mousedown", "keypress", "touchstart", "scroll"];
+  events.forEach((event) => {
+    document.removeEventListener(event, handleUserActivity);
+  });
+}
+
+let lastActivitySaved = Date.now();
+
+function handleUserActivity() {
+  resetInactivityTimer();
+  
+  const now = Date.now();
+  if (now - lastActivitySaved > 10000) {
+    updateSessionActivity(now);
+    lastActivitySaved = now;
+  }
+}
+
+function resetInactivityTimer() {
+  if (inactivityTimer) {
+    clearTimeout(inactivityTimer);
+  }
+  inactivityTimer = setTimeout(() => {
+    logInfo("Sessão expirada por inatividade.");
+    lockAccessGate();
+    removeInactivityListeners();
+  }, INACTIVITY_TIMEOUT);
+}
+
+function updateSessionActivity(timestamp) {
+  const saved = sessionStorage.getItem(ACCESS_SESSION_KEY);
+  if (saved) {
+    try {
+      const data = JSON.parse(saved);
+      data.lastActivity = timestamp;
+      sessionStorage.setItem(ACCESS_SESSION_KEY, JSON.stringify(data));
+    } catch (e) {
+      // Ignorar erros
+    }
+  }
+}
+
+function startSessionTimers() {
+  if (absoluteSessionTimer) {
+    clearInterval(absoluteSessionTimer);
+  }
+  
+  absoluteSessionTimer = setInterval(() => {
+    const saved = sessionStorage.getItem(ACCESS_SESSION_KEY);
+    if (saved) {
+      try {
+        const data = JSON.parse(saved);
+        const now = Date.now();
+        
+        if (now - data.unlockedAt >= MAX_SESSION_DURATION) {
+          logInfo("Sessão expirada pelo tempo limite absoluto.");
+          lockAccessGate();
+          removeInactivityListeners();
+        }
+      } catch (e) {
+        lockAccessGate();
+        removeInactivityListeners();
+      }
+    } else {
+      lockAccessGate();
+      removeInactivityListeners();
+    }
+  }, 30000); // Executa a cada 30 segundos
 }
 
 async function bootstrapCatalog() {
