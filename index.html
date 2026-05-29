@@ -108,6 +108,15 @@
         </div>
       </header>
 
+      <nav class="main-nav">
+        <button type="button" id="practiceSectionTab" class="nav-tab is-active">
+          <span class="nav-tab-icon">📖</span> Roteiros Práticos
+        </button>
+        <button type="button" id="theorySectionTab" class="nav-tab">
+          <span class="nav-tab-icon">🔧</span> Teoria Cirúrgica
+        </button>
+      </nav>
+
       <section class="panel status-panel">
         <div class="status-container-compact">
           <div class="status-left">
@@ -181,7 +190,8 @@
         </div>
       </section>
 
-      <div class="layout">
+      <div id="practiceSection" class="main-section">
+        <div class="layout">
         <aside class="sidebar">
           <section class="panel sidebar-intro">
             <div class="panel-heading">
@@ -450,8 +460,46 @@
           </section>
         </main>
       </div>
+      </div> <!-- Close #practiceSection -->
+
+      <div id="theorySection" class="main-section hidden">
+        <div class="teoria-layout">
+          <aside class="teoria-sidebar">
+            <section class="panel teoria-sidebar-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Conteúdo</p>
+                  <h2>Teoria Cirúrgica</h2>
+                </div>
+              </div>
+              <p class="sidebar-copy">
+                Estude os fundamentos cirúrgicos teóricos, visite materiais e teste seus conhecimentos com perguntas rápidas.
+              </p>
+              <div id="teoriaModulesList" class="teoria-modules-list">
+                <!-- Modules loaded dynamically -->
+              </div>
+            </section>
+          </aside>
+
+          <main class="teoria-content">
+            <div id="teoriaEmptyState" class="teoria-empty-state">
+              <div class="empty-state-card">
+                <div class="empty-logo-mark">🔧</div>
+                <p class="eyebrow">Teoria Cirúrgica</p>
+                <h2>Selecione um módulo teórico</h2>
+                <p>Escolha um dos temas na barra lateral para começar seu estudo teórico, visualizar os instrumentais e realizar revisões.</p>
+              </div>
+            </div>
+
+            <div id="teoriaActiveModule" class="teoria-active-module hidden">
+              <!-- Active module content loaded dynamically -->
+            </div>
+          </main>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="teoria.js"></script>
   </body>
 </html>

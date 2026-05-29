@@ -1,0 +1,134 @@
+{
+  "id": "nos_e_sintese",
+  "titulo": "Nós e Síntese Cirúrgica",
+  "categoria": "Fundamentos Cirúrgicos",
+  "descricao": "Técnicas e leis dos nós cirúrgicos, classificação e propriedades dos fios de sutura, anatomia das agulhas cirúrgicas, suturas descontínuas (simples, Donatti, U, X), suturas contínuas (chuleio simples, ancorado, intradérmica) e princípios de retirada de pontos.",
+  "fonte": "Baseado no capítulo 'Nós e síntese cirúrgica' do Manual de Curso LACIR 2025.",
+  "topicos": [
+    {
+      "id": "nos_cirurgicos",
+      "titulo": "Princípios dos Nós Cirúrgicos",
+      "conteudo": [
+        "Um nó cirúrgico adequado deve ser firme (não deslizar), ter menor volume possível (reduz reação de corpo estranho) e evitar fricção ou tensão excessiva.",
+        "Estrutura padrão de 3 seminós:",
+        "- 1º seminó: Contenção (aproxima as bordas).",
+        "- 2º seminó: Fixação (trava o primeiro seminó).",
+        "- 3º ou mais seminós: Segurança (evita que o nó se desfaça).",
+        "Técnicas de execução: Manual (unimanual ou bimanual, ex: Pauchet), Instrumental (porta-agulhas/pinças) ou Mista (frequente em suturas)."
+      ]
+    },
+    {
+      "id": "tipos_nos_leis",
+      "titulo": "Tipos de Nós e Leis de Livingston",
+      "conteudo": [
+        "1. Nó Antideslizante (Quadrado): O segundo seminó é a imagem espelhada do primeiro. As pontas do fio saem paralelas e do mesmo lado. É o nó ideal.",
+        "2. Nó Deslizante (Feminino): Formado por dois seminós idênticos sobrepostos. Pouco seguro, desliza facilmente.",
+        "3. Nó do Cirurgião: Nó de alta segurança; o primeiro seminó possui dois entrecruzamentos (duas voltas), impedindo o deslizamento antes do segundo nó.",
+        "4. Nós em Roseta: Utilizados para fixar as extremidades de suturas contínuas (como a intradérmica).",
+        "Leis de Livingston (Leis dos Nós):",
+        "- 1ª Lei: Movimentos iguais em mãos opostas realizam um nó perfeito.",
+        "- 2ª Lei: A ponta do fio que muda de lado após o primeiro seminó deve voltar ao lado inicial para realizar o outro seminó.",
+        "Para obter o nó quadrado manualmente, deve-se alternar a cada seminó ou a mão de execução ou o tipo de seminó."
+      ]
+    },
+    {
+      "id": "fios_sutura",
+      "titulo": "Fios de Sutura",
+      "conteudo": [
+        "Propriedades fundamentais: Capilaridade (capacidade de absorver fluidos, quanto maior, maior o risco de infecção), força tênsil, elasticidade, memória (tendência de voltar ao formato original) e reação tecidual.",
+        "Absorvíveis: Destinados a planos profundos onde não podem ser removidos. Podem ser orgânicos (Catgut simples - absorção rápida; Catgut cromado - absorção média) ou sintéticos (Vicryl/Polivicryl, Monocryl, Dexon).",
+        "Não absorvíveis: Permanecem no tecido por toda a vida ou até a remoção. Exemplos: Mononylon (pele), Prolene (cardiovascular/aponeurose), Algodão, Seda, Aciflex (aço para esterno).",
+        "Estrutura física:",
+        "- Monofilamentares: Um único filamento. Baixo atrito, desliza fácil (exige mais nós de segurança), baixa capilaridade e mínima reação inflamatória (ex: Nylon, Prolene).",
+        "- Multifilamentares: Vários filamentos trançados ou torcidos. Fácil manuseio, nós muito seguros, mas possuem alta capilaridade e maior reação tecidual (ex: Vicryl, Seda, Algodão).",
+        "Espessura (Calibre): Classificados por quantidade de zeros. Quanto mais zeros, mais fino o fio (ex: 10.0 é ultrafino para oftalmo/microcirurgia; 3.0/4.0 intermediários para pele; fios 1, 2, 3 são muito grossos e resistentes)."
+      ]
+    },
+    {
+      "id": "agulhas_cirurgicas",
+      "titulo": "Agulhas Cirúrgicas",
+      "conteudo": [
+        "Dividem-se em fundo, corpo e ponta.",
+        "Fundo: Pode ser traumático (possui um olho/orifício por onde passa o fio duplo, gerando mais trauma) ou atraumático (o fio já vem fundido de fábrica diretamente no fundo da agulha, gerando diâmetro uniforme e menor trauma).",
+        "Formato do corpo: Retas ou circulares (curvatura de 1/4, 3/8, 1/2 ou 5/8 de círculo).",
+        "Geometria da ponta:",
+        "- Triangular (Cortante): Ponta triangular afiada. Indicada para tecidos resistentes que oferecem barreira (derme/pele).",
+        "- Redonda (Cilíndrica/Não-cortante): Ponta cônica atraumática. Afasta as fibras sem cortá-las. Indicada para tecidos moles e delicados (peritônio, vasos, intestino, fáscia delicada).",
+        "- Romba / Espatulada: Usada em tecidos extremamente nobres e friáveis (parênquima hepático, córnea)."
+      ]
+    },
+    {
+      "id": "suturas_descontinuas",
+      "titulo": "Suturas Descontínuas (Pontos Separados)",
+      "conteudo": [
+        "Cada ponto possui um nó independente e o fio é cortado. Vantagens: Maior segurança (se um romper, os outros mantêm a ferida fechada), menor isquemia e permite drenagem. Regra geral: Inserção a 0,5 cm da borda e distância de 1 cm entre os pontos.",
+        "1. Ponto Simples: A técnica mais comum. Alça única. Entrada a 90° na pele (evertendo a borda com pinça). Indicado para pele, subcutâneo e pequenos vasos.",
+        "2. Ponto Simples Invertido: Utilizado no subcutâneo para eliminar espaços mortos. O nó é confeccionado em direção ao fundo da ferida, ocultando o fio.",
+        "3. Ponto em X: Ponto hemostático e de sustentação forte. Indicado para couro cabeludo, palmas, plantas e aponeurose.",
+        "4. Ponto em U Horizontal (Colchoeiro): Produz eversão das bordas e forte hemostasia. Indicado para áreas sob alta tensão ou fixação de drenos.",
+        "5. Ponto Donatti (U Vertical): Técnica 'Longe-longe, Perto-perto'. O ponto longe (profundo) dá sustentação e reduz a tensão, enquanto o ponto perto (superficial) realiza a coaptação milimétrica da pele. Causa eversão e evita inversão das bordas."
+      ]
+    },
+    {
+      "id": "suturas_continuas",
+      "titulo": "Suturas Contínuas",
+      "conteudo": [
+        "Suturas realizadas sem cortar o fio entre os pontos. Vantagens: Muito rápidas de executar, excelente potencial hemostático e menor quantidade de nós. Desvantagens: Se o fio romper ou o nó afrouxar, toda a sutura é desfeita; são mais isquemiantes.",
+        "1. Chuleio Simples: Sequência de pontos simples diagonais ou transversos. Muito usado em peritônio, músculos e aponeuroses.",
+        "2. Chuleio Ancorado: Cada ponto passa por dentro da alça anterior antes de tracionar. Dá mais firmeza e estabilidade, sendo muito hemostático. Indicado para sutura uterina pós-cesariana e anastomoses intestinais.",
+        "3. Sutura Intradérmica: Altamente estética. A agulha corre horizontalmente na derme superficial de forma ziguezague paralela, sem exteriorizar o fio. As extremidades são fixadas por nós em roseta. Indicada para cirurgias plásticas em feridas com baixa tensão."
+      ]
+    },
+    {
+      "id": "retirada_pontos",
+      "titulo": "Retirada de Pontos",
+      "conteudo": [
+        "Princípio básico de assepsia: A porção do fio que ficou exposta ao ambiente externo (contaminada) NUNCA deve passar por dentro do trajeto cicatrizado sob a pele.",
+        "Técnica: Segura-se a extremidade do nó com a pinça anatômica, traciona-se levemente para expor a porção limpa do fio sob o nó, realiza-se a secção com tesoura de Spencer rente à pele e puxa-se o fio pelo lado cortado.",
+        "Procedimento sequencial: Geralmente retira-se primeiro os pontos alternados/ímpares (1º, 3º, 5º) para avaliar a estabilidade da ferida antes de remover todos."
+      ]
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "ns_q1",
+      "pergunta": "Qual a função de cada um dos três seminós que compõem o nó cirúrgico clássico?",
+      "resposta": "O 1º seminó tem função de contenção (aproxima as bordas teciduais). O 2º seminó tem função de fixação (bloqueia e trava o primeiro). O 3º seminó tem função de segurança (evita deslizamento)."
+    },
+    {
+      "id": "ns_q2",
+      "pergunta": "Diferencie o nó quadrado (antideslizante) do nó deslizante (feminino).",
+      "resposta": "No nó quadrado, o segundo seminó é a imagem espelhada do primeiro, fazendo as pontas do fio saírem paralelas e estáveis. No nó deslizante, os dois seminós são idênticos e sobrepostos, gerando instabilidade e risco de afrouxamento."
+    },
+    {
+      "id": "ns_q3",
+      "pergunta": "Quais as Leis de Livingston (Leis dos Nós)?",
+      "resposta": "1ª Lei: Movimentos iguais em mãos opostas realizam um nó perfeito. 2ª Lei: A ponta do fio que muda de lado após o primeiro seminó deve voltar ao lado inicial para a confecção do seminó seguinte."
+    },
+    {
+      "id": "ns_q4",
+      "pergunta": "Qual a diferença na indicação clínica de fios absorvíveis e não absorvíveis?",
+      "resposta": "Fios absorvíveis são indicados para planos profundos e internos que serão fechados definitivamente (como peritônio, músculos e subcutâneo). Fios não absorvíveis são indicados para a pele (onde serão removidos depois) ou estruturas sob tensão contínua que necessitam de suporte permanente (como vasos e próteses)."
+    },
+    {
+      "id": "ns_q5",
+      "pergunta": "Compare as propriedades físicas e biológicas de fios monofilamentares e multifilamentares.",
+      "resposta": "Monofilamentares possuem baixo atrito, causam menor reação tecidual e têm baixa capilaridade (menor risco de infecção), mas têm alta memória e nós menos estáveis. Multifilamentares são fáceis de manusear e têm nós muito seguros, mas possuem alta capilaridade e geram maior reação inflamatória."
+    },
+    {
+      "id": "ns_q6",
+      "pergunta": "Qual tipo de ponta de agulha deve ser usado na sutura da pele e qual no peritônio/intestino?",
+      "resposta": "Na pele usa-se agulha triangular (cortante), pois ela corta o tecido resistente da derme facilitando a passagem. No peritônio/intestino usa-se agulha cilíndrica/redonda (atraumática), que afasta as fibras delicadas sem cortá-las, minimizando sangramentos."
+    },
+    {
+      "id": "ns_q7",
+      "pergunta": "Qual o padrão da técnica de sutura Donatti (U vertical) e suas vantagens?",
+      "resposta": "É o padrão 'Longe-longe, Perto-perto'. A passagem longe (profunda) garante tração e suporte de tensão, e a passagem perto (superficial) garante coaptação perfeita das bordas da pele, causando uma discreta eversão."
+    },
+    {
+      "id": "ns_q8",
+      "pergunta": "Qual a regra áurea de assepsia a ser respeitada durante a retirada de pontos de uma ferida?",
+      "resposta": "A parte externa do fio (que ficou exposta e em contato com o ar e bactérias) nunca deve passar por baixo da pele durante a retirada. O fio deve ser cortado rente à pele, abaixo do nó, e puxado pelo lado oposto."
+    }
+  ]
+}

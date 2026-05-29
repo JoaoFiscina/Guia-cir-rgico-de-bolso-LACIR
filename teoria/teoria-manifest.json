@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "modulos": [
+    {
+      "id": "instrumental_cirurgico",
+      "arquivo": "teoria/instrumental_cirurgico.json",
+      "titulo": "Instrumental Cirúrgico",
+      "categoria": "Fundamentos Cirúrgicos",
+      "icone": "🔧",
+      "descricao": "Reconhecimento, função, empunhadura e organização dos principais instrumentais cirúrgicos divididos em tempos operatórios."
+    },
+    {
+      "id": "centro_cirurgico_paramentacao",
+      "arquivo": "teoria/centro_cirurgico_paramentacao.json",
+      "titulo": "Centro Cirúrgico e Paramentação",
+      "categoria": "Fundamentos Cirúrgicos",
+      "icone": "🏥",
+      "descricao": "Diferença entre ambiente e sala, zonas do centro cirúrgico, etapas de paramentação e técnicas de antissepsia."
+    },
+    {
+      "id": "preparo_do_paciente",
+      "arquivo": "teoria/preparo_do_paciente.json",
+      "titulo": "Preparo do Paciente",
+      "categoria": "Fundamentos Cirúrgicos",
+      "icone": "🧑‍⚕️",
+      "descricao": "Fatores de contaminação, banho, tricotomia, degermação, pintura (antissepsia) e colocação dos campos cirúrgicos."
+    },
+    {
+      "id": "nos_e_sintese",
+      "arquivo": "teoria/nos_e_sintese.json",
+      "titulo": "Nós e Síntese Cirúrgica",
+      "categoria": "Fundamentos Cirúrgicos",
+      "icone": "🪡",
+      "descricao": "Nós cirúrgicos (leis e técnicas), propriedades e tipos de fios, agulhas, suturas contínuas e descontínuas."
+    }
+  ]
+}

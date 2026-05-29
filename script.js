@@ -148,7 +148,11 @@ const elements = {
   statusPanel: document.querySelector(".status-panel"),
   toggleFavoritesFilterButton: document.querySelector("#toggleFavoritesFilterButton"),
   selectedProcedureFavoriteButton: document.querySelector("#selectedProcedureFavoriteButton"),
-  focusModeButton: document.querySelector("#focusModeButton")
+  focusModeButton: document.querySelector("#focusModeButton"),
+  practiceSectionTab: document.querySelector("#practiceSectionTab"),
+  theorySectionTab: document.querySelector("#theorySectionTab"),
+  practiceSection: document.querySelector("#practiceSection"),
+  theorySection: document.querySelector("#theorySection")
 };
 
 document.addEventListener("DOMContentLoaded", initializeApp);
@@ -294,6 +298,27 @@ function lockAccessGate() {
 }
 
 function bindEvents() {
+  if (elements.practiceSectionTab && elements.theorySectionTab) {
+    elements.practiceSectionTab.addEventListener("click", () => {
+      elements.practiceSectionTab.classList.add("is-active");
+      elements.theorySectionTab.classList.remove("is-active");
+      elements.practiceSection.classList.remove("hidden");
+      elements.theorySection.classList.add("hidden");
+      logInfo("Alternou para aba de roteiros práticos");
+    });
+
+    elements.theorySectionTab.addEventListener("click", () => {
+      elements.theorySectionTab.classList.add("is-active");
+      elements.practiceSectionTab.classList.remove("is-active");
+      elements.theorySection.classList.remove("hidden");
+      elements.practiceSection.classList.add("hidden");
+      logInfo("Alternou para aba de teoria cirúrgica");
+      if (window.TeoriaManager && typeof window.TeoriaManager.init === "function") {
+        window.TeoriaManager.init();
+      }
+    });
+  }
+
   if (elements.accessGateForm) {
     elements.accessGateForm.addEventListener("submit", handleAccessGateSubmit);
   }
