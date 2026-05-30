@@ -728,8 +728,8 @@
       "pagina": 20,
       "ordem": 1,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_desjardins",
-      "legenda": "Pinca Desjardins para exploracao de vias biliares.",
+      "topico": "afastador_deaver",
+      "legenda": "Afastador manual Deaver em formato de semi-lua.",
       "status": "mapeada"
     },
     {
@@ -738,8 +738,8 @@
       "pagina": 20,
       "ordem": 2,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_allis",
-      "legenda": "Pinca Allis com dentes multiplos traumaticos.",
+      "topico": "espatula_maleavel",
+      "legenda": "Espátula maleável metálica flexível.",
       "status": "mapeada"
     },
     {
@@ -748,8 +748,8 @@
       "pagina": 20,
       "ordem": 3,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_guyon",
-      "legenda": "Pinca Guyon curvada em S para pediculo renal.",
+      "topico": "afastador_gosset",
+      "legenda": "Afastador autoestático Gosset para abdome.",
       "status": "mapeada"
     },
     {
@@ -758,8 +758,8 @@
       "pagina": 20,
       "ordem": 4,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_cheron",
-      "legenda": "Pinca Cheron longa para antissepsia uterina.",
+      "topico": "afastador_finochietto",
+      "legenda": "Afastador autoestático Finochietto com manivela para costelas.",
       "status": "mapeada"
     },
     {
@@ -768,8 +768,8 @@
       "pagina": 21,
       "ordem": 1,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_foerster",
-      "legenda": "Pinca Foerster para antissepsia/pintura.",
+      "topico": "pinca_desjardins",
+      "legenda": "Pinça Desjardins para exploração de vias biliares.",
       "status": "mapeada"
     },
     {
@@ -778,8 +778,8 @@
       "pagina": 21,
       "ordem": 2,
       "modulo": "instrumental_cirurgico",
-      "topico": "clamps_intestinais",
-      "legenda": "Clamp intestinal flexivel para coproestase.",
+      "topico": "pinca_guyon",
+      "legenda": "Pinça Guyon curvada em S para pedículo renal.",
       "status": "mapeada"
     },
     {
@@ -788,8 +788,8 @@
       "pagina": 21,
       "ordem": 3,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_collin",
-      "legenda": "Pinca Collin para preensao atraumatica de visceras.",
+      "topico": "pinca_cheron",
+      "legenda": "Pinça Cheron longa para antissepsia uterina.",
       "status": "mapeada"
     },
     {
@@ -798,8 +798,8 @@
       "pagina": 21,
       "ordem": 4,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_duval",
-      "legenda": "Pinca Duval triangular para pulmao.",
+      "topico": "pinca_allis",
+      "legenda": "Pinça Allis com dentes múltiplos traumáticos.",
       "status": "mapeada"
     },
     {
@@ -808,8 +808,8 @@
       "pagina": 22,
       "ordem": 1,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_backhaus",
-      "legenda": "Pinca Backhaus para fixacao de campos cirurgicos.",
+      "topico": "pinca_foerster",
+      "legenda": "Pinça Foerster para antissepsia/pintura.",
       "status": "mapeada"
     },
     {
@@ -818,8 +818,8 @@
       "pagina": 22,
       "ordem": 2,
       "modulo": "instrumental_cirurgico",
-      "topico": "revisar_sem_uso",
-      "legenda": "Imagem nao utilizada no site apos revisao conservadora.",
+      "topico": "pinca_collin",
+      "legenda": "Pinça Collin para preensão atraumática de vísceras.",
       "status": "mapeada"
     },
     {
@@ -828,8 +828,8 @@
       "pagina": 22,
       "ordem": 3,
       "modulo": "instrumental_cirurgico",
-      "topico": "revisar_sem_uso",
-      "legenda": "Imagem nao utilizada no site apos revisao conservadora.",
+      "topico": "pinca_duval",
+      "legenda": "Pinça Duval triangular para pulmão.",
       "status": "mapeada"
     },
     {
@@ -838,8 +838,8 @@
       "pagina": 22,
       "ordem": 4,
       "modulo": "instrumental_cirurgico",
-      "topico": "porta_agulha_mathieu",
-      "legenda": "Porta-agulha Mathieu sem argolas.",
+      "topico": "clamps_intestinais",
+      "legenda": "Clamp intestinal flexível para coproestase.",
       "status": "mapeada"
     },
     {
