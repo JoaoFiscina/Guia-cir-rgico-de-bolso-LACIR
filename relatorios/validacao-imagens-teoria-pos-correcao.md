@@ -7,10 +7,10 @@ Data de geração: 2026-05-31
 ---
 
 ## 1. Estatísticas Gerais
-- **Total de referências de imagem validadas**: 82
+- **Total de referências de imagem validadas**: 80
 - **Imagens ausentes / caminhos quebrados**: 0
 - **Imagens suspeitas (< 2KB)**: 0
-- **Itens sem imagem (Placeholder / Em revisão)**: 5
+- **Itens sem imagem (Placeholder / Em revisão)**: 7
 - **Imagens compartilhadas / duplicadas**: 1
 
 ---
@@ -31,6 +31,8 @@ Data de geração: 2026-05-31
 *Estes cards/tópicos estão usando fallback visual elegante ("Imagem em revisão") na interface.*
 
 - **[Instrumental Cirúrgico]** Instrumento: "Pinça Foerster" (ID: `pinca_foerster`)
+- **[Instrumental Cirúrgico]** Instrumento: "Pinça Mixter (Ângulo Reto)" (ID: `pinca_mixter`)
+- **[Instrumental Cirúrgico]** Instrumento: "Porta-Agulhas Mathieu" (ID: `porta_agulha_mathieu`)
 - **[Centro Cirúrgico e Paramentação]** Tópico: "Ambiente Cirúrgico vs Sala Cirúrgica" (ID: `ambiente_vs_sala`)
 - **[Preparo do Paciente]** Tópico: "Fatores de Contaminação" (ID: `fatores_contaminacao`)
 - **[Preparo do Paciente]** Tópico: "Banho e Tricotomia Pré-Operatória" (ID: `banho_tricotomia`)

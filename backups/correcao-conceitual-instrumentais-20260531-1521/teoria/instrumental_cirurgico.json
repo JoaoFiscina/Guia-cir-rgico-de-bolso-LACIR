@@ -45,12 +45,6 @@
       "cor": "#3498db"
     },
     {
-      "id": "preensao_traumatica",
-      "nome": "Preensão traumática",
-      "descricao": "Instrumentais destinados à preensão firme e tração de tecidos resistentes, possuindo garras ou dentes.",
-      "cor": "#d35400"
-    },
-    {
       "id": "hemostasia",
       "nome": "Hemostasia",
       "descricao": "Instrumentais que visam prevenir ou corrigir hemorragias através do pinçamento de vasos.",
@@ -279,7 +273,7 @@
     {
       "id": "pinca_kocher",
       "nome": "Pinça Kocher",
-      "grupo": "preensao_traumatica",
+      "grupo": "hemostasia",
       "funcao": "Apreensão firme de tecidos resistentes e hemostasia compressiva.",
       "caracteristicas": [
         "Possui ranhuras em toda a face interna preensora.",
@@ -311,7 +305,7 @@
     {
       "id": "pinca_rochester",
       "nome": "Pinça Rochester",
-      "grupo": "preensao_traumatica",
+      "grupo": "hemostasia",
       "funcao": "Pinçamento e hemostasia de vasos calibrosos e pedículos espessos.",
       "caracteristicas": [
         "Pinça hemostática robusta, longa e pesada.",
@@ -669,7 +663,7 @@
         "Vísceras Ocas",
         "Círculo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
     },
     {
       "id": "pinca_duval",
@@ -689,7 +683,7 @@
         "Pulmão",
         "Atraumática"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
     },
     {
       "id": "clamps_intestinais",
@@ -709,7 +703,7 @@
         "Flexível",
         "Coproestase"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
     },
     {
       "id": "pinca_mixter",
@@ -729,7 +723,7 @@
         "Dissecção",
         "Pedículo"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
     },
     {
       "id": "pinca_backhaus",
@@ -750,7 +744,7 @@
         "Perfurante",
         "Garras"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_3.png"
     },
     {
       "id": "porta_agulha_hegar",
@@ -796,7 +790,7 @@
         "Sem Argolas",
         "Superfície"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
     }
   ],
   "perguntas": [
@@ -823,10 +817,10 @@
     },
     {
       "id": "q4",
-      "pergunta": "Qual pinça de preensão traumática apresenta ranhuras transversais totais e um dente de rato proeminente na extremidade?",
+      "pergunta": "Qual pinça hemostática apresenta ranhuras transversais totais e um dente de rato proeminente na extremidade?",
       "resposta": "A pinça Kocher. Por possuir dente de rato e ranhuras, é altamente traumática e indicada para tecidos resistentes como aponeuroses.",
       "instrumento_relacionado": "pinca_kocher",
-      "grupo": "preensao_traumatica"
+      "grupo": "hemostasia"
     },
     {
       "id": "q5",
@@ -865,10 +859,10 @@
     },
     {
       "id": "q10",
-      "pergunta": "Qual a principal diferença de tamanho e indicação entre a pinça hemostática Halsted e a pinça de preensão traumática Rochester?",
-      "resposta": "A Halsted (mosquito) é pequena e delicada, indicada para vasos de pequeno calibre e precisão. A Rochester é robusta e longa, indicada para pinçamento de vasos calibrosos e pedículos espessos.",
+      "pergunta": "Qual a principal diferença de tamanho e indicação entre as pinças hemostáticas Halsted e Rochester?",
+      "resposta": "A Halsted (mosquito) é pequena e delicada, indicada para vasos de pequeno calibre e precisão. A Rochester é robusta e longa, indicada para hemostasia de vasos calibrosos e pedículos espessos.",
       "instrumento_relacionado": "pinca_rochester",
-      "grupo": "preensao_traumatica"
+      "grupo": "hemostasia"
     },
     {
       "id": "q11",

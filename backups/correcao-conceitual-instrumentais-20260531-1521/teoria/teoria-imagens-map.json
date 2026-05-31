@@ -768,8 +768,8 @@
       "pagina": 21,
       "ordem": 1,
       "modulo": "instrumental_cirurgico",
-      "topico": "revisar_sem_uso",
-      "legenda": "Imagem nao utilizada no site apos revisao (foi extraida como Foerster no PDF mas é Clamps).",
+      "topico": "pinca_foerster",
+      "legenda": "Pinca Foerster para antissepsia/pintura.",
       "status": "mapeada"
     },
     {
@@ -808,8 +808,8 @@
       "pagina": 22,
       "ordem": 1,
       "modulo": "instrumental_cirurgico",
-      "topico": "porta_agulha_hegar",
-      "legenda": "Porta-agulhas Hegar (imagem extraida do PDF).",
+      "topico": "pinca_backhaus",
+      "legenda": "Pinca Backhaus para fixacao de campos cirurgicos.",
       "status": "mapeada"
     },
     {
@@ -818,8 +818,8 @@
       "pagina": 22,
       "ordem": 2,
       "modulo": "instrumental_cirurgico",
-      "topico": "pinca_backhaus",
-      "legenda": "Pinca Backhaus para fixacao de campos cirurgicos.",
+      "topico": "revisar_sem_uso",
+      "legenda": "Imagem nao utilizada no site apos revisao conservadora.",
       "status": "mapeada"
     },
     {
@@ -829,7 +829,7 @@
       "ordem": 3,
       "modulo": "instrumental_cirurgico",
       "topico": "revisar_sem_uso",
-      "legenda": "Porta-agulhas Hegar (duplicada/substituida por versao de alta qualidade).",
+      "legenda": "Imagem nao utilizada no site apos revisao conservadora.",
       "status": "mapeada"
     },
     {
@@ -838,8 +838,8 @@
       "pagina": 22,
       "ordem": 4,
       "modulo": "instrumental_cirurgico",
-      "topico": "revisar_sem_uso",
-      "legenda": "Porta-agulhas Mathieu (imagem em revisao conceitual/sem uso).",
+      "topico": "porta_agulha_mathieu",
+      "legenda": "Porta-agulha Mathieu sem argolas.",
       "status": "mapeada"
     },
     {
