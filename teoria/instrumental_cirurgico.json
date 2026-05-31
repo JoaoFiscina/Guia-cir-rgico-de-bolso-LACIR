@@ -643,7 +643,7 @@
         "Anel Oval",
         "Pintura"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
+      "imagem": ""
     },
     {
       "id": "pinca_collin",
@@ -663,7 +663,7 @@
         "Vísceras Ocas",
         "Círculo"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
     },
     {
       "id": "pinca_duval",
@@ -683,7 +683,7 @@
         "Pulmão",
         "Atraumática"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
     },
     {
       "id": "clamps_intestinais",
@@ -703,7 +703,7 @@
         "Flexível",
         "Coproestase"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_1.png"
     },
     {
       "id": "pinca_mixter",
@@ -723,7 +723,7 @@
         "Dissecção",
         "Pedículo"
       ],
-      "imagem": ""
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
     },
     {
       "id": "pinca_backhaus",
@@ -744,7 +744,7 @@
         "Perfurante",
         "Garras"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p22_1.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_3.png"
     },
     {
       "id": "porta_agulha_hegar",
@@ -790,7 +790,7 @@
         "Sem Argolas",
         "Superfície"
       ],
-      "imagem": "assets/teoria/modulo_curso_2025/img_p22_4.png"
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
     }
   ],
   "perguntas": [

@@ -2,7 +2,7 @@
 
 Este relatório apresenta o resultado da validação automática executada sobre os mapeamentos de imagem da aba **Teoria Cirúrgica** (Módulos de Instrumental, Centro Cirúrgico, Preparo do Paciente, Nós e Síntese).
 
-Data de geração: 2026-05-30
+Data de geração: 2026-05-31
 
 ---
 
@@ -30,7 +30,7 @@ Data de geração: 2026-05-30
 ## 4. Itens sem Imagem (Mapeamento Vazio / Em revisão)
 *Estes cards/tópicos estão usando fallback visual elegante ("Imagem em revisão") na interface.*
 
-- **[Instrumental Cirúrgico]** Instrumento: "Pinça Mixter (Ângulo Reto)" (ID: `pinca_mixter`)
+- **[Instrumental Cirúrgico]** Instrumento: "Pinça Foerster" (ID: `pinca_foerster`)
 - **[Centro Cirúrgico e Paramentação]** Tópico: "Ambiente Cirúrgico vs Sala Cirúrgica" (ID: `ambiente_vs_sala`)
 - **[Preparo do Paciente]** Tópico: "Fatores de Contaminação" (ID: `fatores_contaminacao`)
 - **[Preparo do Paciente]** Tópico: "Banho e Tricotomia Pré-Operatória" (ID: `banho_tricotomia`)
