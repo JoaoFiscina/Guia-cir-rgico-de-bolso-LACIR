@@ -20,8 +20,7 @@
         "Banho: Deve ser tomado na noite anterior à cirurgia. Tomar banho imediatamente antes do ato cirúrgico remove a camada lipídica protetora, aumentando a descamação da pele e a dispersão bacteriana (máxima dispersão ocorre entre 30 e 90 minutos pós-banho, normalizando após 2 horas).",
         "Tricotomia: Não reduz o risco de infecção; serve apenas para evitar a entrada de pelos na ferida. Deve ser realizada no dia da cirurgia, no centro cirúrgico, na menor extensão possível.",
         "Equipamento de tricotomia: Utilizar máquina de corte ou barbeador elétrico. Evitar o uso de lâminas de barbear convencionais (gilete), pois causam microcortes que servem como porta de entrada e multiplicação bacteriana. Evitar tricotomia na véspera (alto risco de foliculite)."
-      ],
-      "imagem": "assets/teoria/imagens_guia/tricotomia_cirurgica.jpg"
+      ]
     },
     {
       "id": "degermação_paciente",

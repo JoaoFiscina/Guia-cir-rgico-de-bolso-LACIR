@@ -7,10 +7,10 @@ Data de geração: 2026-06-13
 ---
 
 ## 1. Estatísticas Gerais
-- **Total de referências de imagem validadas**: 83
+- **Total de referências de imagem validadas**: 84
 - **Imagens ausentes / caminhos quebrados**: 0
 - **Imagens suspeitas (< 2KB)**: 0
-- **Itens sem imagem (Placeholder / Em revisão)**: 4
+- **Itens sem imagem (Placeholder / Em revisão)**: 3
 - **Imagens compartilhadas / duplicadas**: 0
 
 ---
@@ -32,7 +32,6 @@ Data de geração: 2026-06-13
 
 - **[Centro Cirúrgico e Paramentação]** Tópico: "Ambiente Cirúrgico vs Sala Cirúrgica" (ID: `ambiente_vs_sala`)
 - **[Preparo do Paciente]** Tópico: "Fatores de Contaminação" (ID: `fatores_contaminacao`)
-- **[Preparo do Paciente]** Tópico: "Banho e Tricotomia Pré-Operatória" (ID: `banho_tricotomia`)
 - **[Nós e Síntese Cirúrgica]** Tópico: "Retirada de Pontos" (ID: `retirada_pontos`)
 
 ---

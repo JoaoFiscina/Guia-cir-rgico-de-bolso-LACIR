@@ -1,0 +1,1496 @@
+{
+  "fonte": "Curso de Imersão em Centro Cirúrgico — LACIR/ABM, 2025",
+  "basePath": "assets/teoria/modulo_curso_2025/",
+  "imagens": [
+    {
+      "arquivo": "img_p0_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p0_1.png",
+      "pagina": 0,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "ambiente_vs_sala",
+      "legenda": "Introdução ao Centro Cirúrgico e Sala Cirúrgica.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p0_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p0_2.png",
+      "pagina": 0,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "ambiente_vs_sala",
+      "legenda": "Introdução ao Centro Cirúrgico e Sala Cirúrgica.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "g_d0_img_p1_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/g_d0_img_p1_1.png",
+      "pagina": 1,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "ambiente_vs_sala",
+      "legenda": "Introdução ao Centro Cirúrgico e Sala Cirúrgica.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p2_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p2_1.png",
+      "pagina": 2,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "ambiente_vs_sala",
+      "legenda": "Introdução ao Centro Cirúrgico e Sala Cirúrgica.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p4_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p4_1.png",
+      "pagina": 4,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "paramentacao_avental",
+      "legenda": "Etapa de colocação do avental cirúrgico ou maca de transferência (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p4_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p4_2.png",
+      "pagina": 4,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "paramentacao_avental",
+      "legenda": "Etapa de colocação do avental cirúrgico ou maca de transferência (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p4_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p4_3.png",
+      "pagina": 4,
+      "ordem": 3,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "paramentacao_avental",
+      "legenda": "Etapa de colocação do avental cirúrgico ou maca de transferência (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p4_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p4_4.png",
+      "pagina": 4,
+      "ordem": 4,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "paramentacao_avental",
+      "legenda": "Etapa de colocação do avental cirúrgico ou maca de transferência (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p4_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p4_5.png",
+      "pagina": 4,
+      "ordem": 5,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "paramentacao_avental",
+      "legenda": "Etapa de colocação do avental cirúrgico ou maca de transferência (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p5_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p5_1.png",
+      "pagina": 5,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "calcamento_luvas",
+      "legenda": "Passo a passo do calçamento de luvas estéreis.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p6_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p6_1.png",
+      "pagina": 6,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "sala_cirurgica_padroes",
+      "legenda": "Esquema de ventilação e fluxo laminar (vertical/horizontal).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p7_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p7_1.png",
+      "pagina": 7,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "equipe_cirurgica",
+      "legenda": "Posicionamento da equipe cirúrgica na sala operatória (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p7_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p7_2.png",
+      "pagina": 7,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "equipe_cirurgica",
+      "legenda": "Posicionamento da equipe cirúrgica na sala operatória (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p8_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p8_1.png",
+      "pagina": 8,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "lavagem_cirurgica_maos",
+      "legenda": "Passo a passo detalhado para lavagem cirúrgica das mãos.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p9_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p9_1.png",
+      "pagina": 9,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p9_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p9_2.png",
+      "pagina": 9,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p9_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p9_3.png",
+      "pagina": 9,
+      "ordem": 3,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p9_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p9_4.png",
+      "pagina": 9,
+      "ordem": 4,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p9_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p9_5.png",
+      "pagina": 9,
+      "ordem": 5,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_1.png",
+      "pagina": 11,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_2.png",
+      "pagina": 11,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_3.png",
+      "pagina": 11,
+      "ordem": 3,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_4.png",
+      "pagina": 11,
+      "ordem": 4,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_5.png",
+      "pagina": 11,
+      "ordem": 5,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_6.png",
+      "pagina": 11,
+      "ordem": 6,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_7.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_7.png",
+      "pagina": 11,
+      "ordem": 7,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 7).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_8.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_8.png",
+      "pagina": 11,
+      "ordem": 8,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 8).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_9.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_9.png",
+      "pagina": 11,
+      "ordem": 9,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 9).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_10.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_10.png",
+      "pagina": 11,
+      "ordem": 10,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 10).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_11.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_11.png",
+      "pagina": 11,
+      "ordem": 11,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 11).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_12.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_12.png",
+      "pagina": 11,
+      "ordem": 12,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 12).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_13.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_13.png",
+      "pagina": 11,
+      "ordem": 13,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 13).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_14.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_14.png",
+      "pagina": 11,
+      "ordem": 14,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 14).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_15.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_15.png",
+      "pagina": 11,
+      "ordem": 15,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 15).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p11_16.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p11_16.png",
+      "pagina": 11,
+      "ordem": 16,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "antissepsia_alcoolica",
+      "legenda": "Etapas ilustradas da técnica de antissepsia alcoólica das mãos (Fig 16).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p12_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p12_1.png",
+      "pagina": 12,
+      "ordem": 1,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "regras_arrumacao",
+      "legenda": "Arrumação da mesa cirúrgica e distribuição de materiais (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p12_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p12_2.png",
+      "pagina": 12,
+      "ordem": 2,
+      "modulo": "centro_cirurgico_paramentacao",
+      "topico": "regras_arrumacao",
+      "legenda": "Arrumação da mesa cirúrgica e distribuição de materiais (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_1.png",
+      "pagina": 13,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_2.png",
+      "pagina": 13,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_3.png",
+      "pagina": 13,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_4.png",
+      "pagina": 13,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_5.png",
+      "pagina": 13,
+      "ordem": 5,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_6.png",
+      "pagina": 13,
+      "ordem": 6,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_7.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_7.png",
+      "pagina": 13,
+      "ordem": 7,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 7).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_8.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_8.png",
+      "pagina": 13,
+      "ordem": 8,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 8).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_9.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_9.png",
+      "pagina": 13,
+      "ordem": 9,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 9).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_10.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_10.png",
+      "pagina": 13,
+      "ordem": 10,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 10).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p13_11.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p13_11.png",
+      "pagina": 13,
+      "ordem": 11,
+      "modulo": "instrumental_cirurgico",
+      "topico": "regras_arrumacao",
+      "legenda": "Esquema de arrumação e tempos cirúrgicos da mesa (Fig 11).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p14_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p14_1.png",
+      "pagina": 14,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "bisturi",
+      "legenda": "Bisturi montado com cabo e lâmina descartável.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p14_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p14_2.png",
+      "pagina": 14,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "bisturi",
+      "legenda": "Técnica de empunhadura e corte com bisturi.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p15_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p15_1.png",
+      "pagina": 15,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "tesoura_mayo",
+      "legenda": "Tesoura Mayo curva/reta para fios e tecidos grosseiros.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p15_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p15_2.png",
+      "pagina": 15,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "tesoura_metzenbaum",
+      "legenda": "Tesoura Metzenbaum curva para dissecção delicada.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_1.png",
+      "pagina": 16,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_anatomica",
+      "legenda": "Pinça de dissecção anatômica (atraumática) e ranhuras (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_2.png",
+      "pagina": 16,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_anatomica",
+      "legenda": "Pinça de dissecção anatômica (atraumática) e ranhuras (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_3.png",
+      "pagina": 16,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_anatomica",
+      "legenda": "Pinça de dissecção anatômica (atraumática) e ranhuras (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_4.png",
+      "pagina": 16,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_anatomica",
+      "legenda": "Pinça de dissecção anatômica (atraumática) e ranhuras (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_5.png",
+      "pagina": 16,
+      "ordem": 5,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_dente_de_rato",
+      "legenda": "Pinça de dissecção dente de rato (traumática) com garras (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_6.png",
+      "pagina": 16,
+      "ordem": 6,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_dente_de_rato",
+      "legenda": "Pinça de dissecção dente de rato (traumática) com garras (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_7.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_7.png",
+      "pagina": 16,
+      "ordem": 7,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_dente_de_rato",
+      "legenda": "Pinça de dissecção dente de rato (traumática) com garras (Fig 7).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p16_8.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p16_8.png",
+      "pagina": 16,
+      "ordem": 8,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_dente_de_rato",
+      "legenda": "Pinça de dissecção dente de rato (traumática) com garras (Fig 8).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p17_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p17_1.png",
+      "pagina": 17,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_halsted",
+      "legenda": "Pinça hemostática de Halsted (mosquito/reparo).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p17_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p17_2.png",
+      "pagina": 17,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_kelly",
+      "legenda": "Pinça hemostática Kelly ou Crile (ranhuras parciais/totais).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p17_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p17_3.png",
+      "pagina": 17,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_kocher",
+      "legenda": "Pinça hemostática Kocher ou Rochester robusta.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p18_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p18_1.png",
+      "pagina": 18,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_farabeuf",
+      "legenda": "Afastador manual de Farabeuf (utilizado em par).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p18_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p18_2.png",
+      "pagina": 18,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_farabeuf",
+      "legenda": "Afastador manual de Farabeuf (utilizado em par).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p18_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p18_3.png",
+      "pagina": 18,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "valvula_suprapubica",
+      "legenda": "Afastador manual de Válvula Suprapúbica.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p18_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p18_4.png",
+      "pagina": 18,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_doyen",
+      "legenda": "Afastador manual Doyen para vísceras.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p18_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p18_5.png",
+      "pagina": 18,
+      "ordem": 5,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_doyen",
+      "legenda": "Afastador manual Doyen para vísceras.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p19_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p19_1.png",
+      "pagina": 19,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_langenbeck",
+      "legenda": "Afastador manual Langenbeck em formato de L.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p19_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p19_2.png",
+      "pagina": 19,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_langenbeck",
+      "legenda": "Afastador manual Langenbeck em formato de L.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p19_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p19_3.png",
+      "pagina": 19,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_volkmann",
+      "legenda": "Afastador manual Volkmann com garras.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p19_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p19_4.png",
+      "pagina": 19,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "afastador_harrington",
+      "legenda": "Afastador manual de Harrington (coração).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p20_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p20_1.png",
+      "pagina": 20,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_desjardins",
+      "legenda": "Pinca Desjardins para exploracao de vias biliares.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p20_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p20_2.png",
+      "pagina": 20,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_allis",
+      "legenda": "Pinca Allis com dentes multiplos traumaticos.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p20_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p20_3.png",
+      "pagina": 20,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_guyon",
+      "legenda": "Pinca Guyon curvada em S para pediculo renal.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p20_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p20_4.png",
+      "pagina": 20,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_cheron",
+      "legenda": "Pinca Cheron longa para antissepsia uterina.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p21_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p21_1.png",
+      "pagina": 21,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "revisar_sem_uso",
+      "legenda": "Imagem nao utilizada no site apos revisao (foi extraida como Foerster no PDF mas é Clamps).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p21_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p21_2.png",
+      "pagina": 21,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "clamps_intestinais",
+      "legenda": "Clamp intestinal flexivel para coproestase.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p21_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p21_3.png",
+      "pagina": 21,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_collin",
+      "legenda": "Pinca Collin para preensao atraumatica de visceras.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p21_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p21_4.png",
+      "pagina": 21,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_duval",
+      "legenda": "Pinca Duval triangular para pulmao.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p22_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p22_1.png",
+      "pagina": 22,
+      "ordem": 1,
+      "modulo": "instrumental_cirurgico",
+      "topico": "porta_agulha_hegar",
+      "legenda": "Porta-agulhas Hegar (imagem extraida do PDF).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p22_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p22_2.png",
+      "pagina": 22,
+      "ordem": 2,
+      "modulo": "instrumental_cirurgico",
+      "topico": "pinca_backhaus",
+      "legenda": "Pinca Backhaus para fixacao de campos cirurgicos.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p22_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p22_3.png",
+      "pagina": 22,
+      "ordem": 3,
+      "modulo": "instrumental_cirurgico",
+      "topico": "revisar_sem_uso",
+      "legenda": "Porta-agulhas Hegar (duplicada/substituida por versao de alta qualidade).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p22_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p22_4.png",
+      "pagina": 22,
+      "ordem": 4,
+      "modulo": "instrumental_cirurgico",
+      "topico": "revisar_sem_uso",
+      "legenda": "Porta-agulhas Mathieu (imagem em revisao conceitual/sem uso).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p25_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p25_1.png",
+      "pagina": 25,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Degermação com esponja/escova e antisséptico (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p25_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p25_2.png",
+      "pagina": 25,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Degermação com esponja/escova e antisséptico (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p25_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p25_3.png",
+      "pagina": 25,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Degermação com esponja/escova e antisséptico (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p25_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p25_4.png",
+      "pagina": 25,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Degermação com esponja/escova e antisséptico (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p25_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p25_5.png",
+      "pagina": 25,
+      "ordem": 5,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Degermação com esponja/escova e antisséptico (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p26_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p26_1.png",
+      "pagina": 26,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Procedimento de secagem da pele com compressa em sanfona (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p26_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p26_2.png",
+      "pagina": 26,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Procedimento de secagem da pele com compressa em sanfona (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p26_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p26_3.png",
+      "pagina": 26,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Procedimento de secagem da pele com compressa em sanfona (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p26_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p26_4.png",
+      "pagina": 26,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "degermação_paciente",
+      "legenda": "Procedimento de secagem da pele com compressa em sanfona (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_1.png",
+      "pagina": 27,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_2.png",
+      "pagina": 27,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_3.png",
+      "pagina": 27,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_4.png",
+      "pagina": 27,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_5.png",
+      "pagina": 27,
+      "ordem": 5,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_6.png",
+      "pagina": 27,
+      "ordem": 6,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_7.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_7.png",
+      "pagina": 27,
+      "ordem": 7,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 7).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p27_8.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p27_8.png",
+      "pagina": 27,
+      "ordem": 8,
+      "modulo": "preparo_do_paciente",
+      "topico": "pintura_antissepsia",
+      "legenda": "Técnica de pintura/antissepsia com pinça e gazes em triângulo (Fig 8).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_1.png",
+      "pagina": 28,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_2.png",
+      "pagina": 28,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_3.png",
+      "pagina": 28,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_4.png",
+      "pagina": 28,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_5.png",
+      "pagina": 28,
+      "ordem": 5,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_6.png",
+      "pagina": 28,
+      "ordem": 6,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p28_7.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p28_7.png",
+      "pagina": 28,
+      "ordem": 7,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação do campo podálico e cefálico (Fig 7).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_1.png",
+      "pagina": 29,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_2.png",
+      "pagina": 29,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_3.png",
+      "pagina": 29,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_4.png",
+      "pagina": 29,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_5.png",
+      "pagina": 29,
+      "ordem": 5,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p29_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p29_6.png",
+      "pagina": 29,
+      "ordem": 6,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Colocação dos campos laterais com dobra de eversão (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p30_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p30_1.png",
+      "pagina": 30,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação dos campos cirúrgicos com a pinça Backhaus (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p30_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p30_2.png",
+      "pagina": 30,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação dos campos cirúrgicos com a pinça Backhaus (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_1.png",
+      "pagina": 31,
+      "ordem": 1,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_2.png",
+      "pagina": 31,
+      "ordem": 2,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_3.png",
+      "pagina": 31,
+      "ordem": 3,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 3).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_4.png",
+      "pagina": 31,
+      "ordem": 4,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 4).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_5.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_5.png",
+      "pagina": 31,
+      "ordem": 5,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 5).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p31_6.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p31_6.png",
+      "pagina": 31,
+      "ordem": 6,
+      "modulo": "preparo_do_paciente",
+      "topico": "campos_cirurgicos",
+      "legenda": "Fixação com dente de rato e Backhaus nas junções (Fig 6).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p32_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p32_1.png",
+      "pagina": 32,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "tipos_nos_leis",
+      "legenda": "Nós cirúrgicos manuais - Técnica de Pauchet (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p32_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p32_2.png",
+      "pagina": 32,
+      "ordem": 2,
+      "modulo": "nos_e_sintese",
+      "topico": "tipos_nos_leis",
+      "legenda": "Nós cirúrgicos manuais - Técnica de Pauchet (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p36_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p36_1.png",
+      "pagina": 36,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "fios_sutura",
+      "legenda": "Classificação e propriedades físicas dos fios de sutura.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p37_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p37_1.png",
+      "pagina": 37,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "agulhas_cirurgicas",
+      "legenda": "Partes da agulha e porcentagem do círculo (Fig 1).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p37_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p37_2.png",
+      "pagina": 37,
+      "ordem": 2,
+      "modulo": "nos_e_sintese",
+      "topico": "agulhas_cirurgicas",
+      "legenda": "Partes da agulha e porcentagem do círculo (Fig 2).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p38_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p38_1.png",
+      "pagina": 38,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto Simples.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p39_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p39_1.png",
+      "pagina": 39,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto Simples Invertido.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p39_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p39_2.png",
+      "pagina": 39,
+      "ordem": 2,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto Simples Invertido.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p40_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p40_1.png",
+      "pagina": 40,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto em X.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p41_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p41_1.png",
+      "pagina": 41,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto em U horizontal.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p42_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p42_1.png",
+      "pagina": 42,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_descontinuas",
+      "legenda": "Execução da técnica de Ponto Donatti (U vertical).",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p43_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p43_1.png",
+      "pagina": 43,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_continuas",
+      "legenda": "Execução da técnica de Chuleio Simples.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p44_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p44_1.png",
+      "pagina": 44,
+      "ordem": 1,
+      "modulo": "nos_e_sintese",
+      "topico": "suturas_continuas",
+      "legenda": "Execução da técnica de Chuleio Ancorado.",
+      "status": "mapeada"
+    },
+    {
+      "arquivo": "img_p46_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p46_1.png",
+      "pagina": 46,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 46, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p46_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p46_2.png",
+      "pagina": 46,
+      "ordem": 2,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 46, Fig 2).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p46_3.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p46_3.png",
+      "pagina": 46,
+      "ordem": 3,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 46, Fig 3).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p46_4.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p46_4.png",
+      "pagina": 46,
+      "ordem": 4,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 46, Fig 4).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p47_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p47_1.png",
+      "pagina": 47,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 47, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p49_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p49_1.png",
+      "pagina": 49,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 49, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p49_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p49_2.png",
+      "pagina": 49,
+      "ordem": 2,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 49, Fig 2).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p51_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p51_1.png",
+      "pagina": 51,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 51, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p52_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p52_1.png",
+      "pagina": 52,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 52, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p53_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p53_1.png",
+      "pagina": 53,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 53, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p54_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p54_1.png",
+      "pagina": 54,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 54, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p55_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p55_1.png",
+      "pagina": 55,
+      "ordem": 1,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 55, Fig 1).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p55_2.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p55_2.png",
+      "pagina": 55,
+      "ordem": 2,
+      "modulo": "acesso_vascular",
+      "topico": "puncao_vascular",
+      "legenda": "Acesso intravascular e cateterização de veias/artérias (Pág 55, Fig 2).",
+      "status": "pendente_revisao"
+    },
+    {
+      "arquivo": "img_p58_1.png",
+      "caminho": "assets/teoria/modulo_curso_2025/img_p58_1.png",
+      "pagina": 58,
+      "ordem": 1,
+      "modulo": "revisar",
+      "topico": "revisar",
+      "legenda": "Pendente de revisão técnica",
+      "status": "pendente_revisao"
+    }
+  ]
+}

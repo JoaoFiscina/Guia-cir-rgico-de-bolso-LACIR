@@ -4,6 +4,7 @@ const urls = [
   'http://localhost:8123/index.html',
   'http://localhost:8123/teoria.js',
   'http://localhost:8123/teoria/instrumental_cirurgico.json',
+  'http://localhost:8123/teoria/preparo_do_paciente.json',
   'http://localhost:8123/assets/teoria/imagens_guia/bisturi.png',
   'http://localhost:8123/assets/teoria/imagens_guia/pinca_foerster.jpg',
   'http://localhost:8123/assets/teoria/imagens_guia/porta_agulhas_hegar.jpg',
@@ -12,6 +13,7 @@ const urls = [
   'http://localhost:8123/assets/teoria/imagens_guia/pinca_rochester.jpg',
   'http://localhost:8123/assets/teoria/imagens_guia/tesoura_mayo.jpg',
   'http://localhost:8123/assets/teoria/imagens_guia/tesoura_metzenbaum.png',
+  'http://localhost:8123/assets/teoria/imagens_guia/tricotomia_cirurgica.jpg',
 ];
 
 function checkUrl(url) {
