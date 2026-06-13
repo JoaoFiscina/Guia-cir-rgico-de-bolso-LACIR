@@ -1,0 +1,212 @@
+{
+  "id": "centro_cirurgico_paramentacao",
+  "titulo": "Centro Cirúrgico e Paramentação",
+  "categoria": "Fundamentos Cirúrgicos",
+  "descricao": "Diferença entre ambiente e sala cirúrgica, zonas de circulação, padrões ambientais da sala operatória, paramentação cirúrgica, lavagem cirúrgica e antissepsia das mãos, e o posicionamento da equipe.",
+  "fonte": "Baseado no capítulo 'Centro cirúrgico e paramentação' do Manual de Curso LACIR 2025.",
+  "topicos": [
+    {
+      "id": "ambiente_vs_sala",
+      "titulo": "Ambiente Cirúrgico vs Sala Cirúrgica",
+      "conteudo": [
+        "Ambiente cirúrgico é a unidade hospitalar completa onde se realizam as intervenções cirúrgicas, englobando vestiários, secretaria, recuperação pós-anestésica, etc.",
+        "Sala cirúrgica é a sala específica dentro do ambiente cirúrgico onde, efetivamente, se consome o ato operatório (Goffi, 2007).",
+        "O Centro Cirúrgico (CC) deve ser localizado em região central, andares superiores, próximo à UTI e sala de emergência, e protegido de poluição ambiental."
+      ],
+      "imagem": ""
+    },
+    {
+      "id": "zonas_centro_cirurgico",
+      "titulo": "Zonas do Centro Cirúrgico",
+      "conteudo": [
+        "De acordo com o nível de contaminação, o CC é dividido em três zonas distintas:",
+        "1. Zona de proteção (irrestrita): Separa o CC do hospital. Contém vestiários (onde se inicia a paramentação com pijama cirúrgico, touca e pró-pé), área de transferência de macas e o expurgo.",
+        "2. Zona limpa (semi-restrita): Fica entre a zona de proteção e a estéril. A circulação é controlada e exige pijama cirúrgico. Contém conforto, secretaria, centro de materiais, salas pré e pós-operatórias.",
+        "3. Zona estéril ou asséptica (restrita): Contém as salas cirúrgicas, lavabos e corredores de acesso. Exige paramentação completa (máscara cobrindo nariz e boca, avental e luvas estéreis após a lavagem)."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p2_1.png"
+    },
+    {
+      "id": "sala_cirurgica_padroes",
+      "titulo": "Padrões Técnicos da Sala Cirúrgica",
+      "conteudo": [
+        "Dimensões: Área de 20 a 45 m² com largura mínima de 4 m.",
+        "Iluminação: Estritamente artificial (para evitar que luz natural mascare a cianose). O foco principal (teto) deve ser multidirecional, posicionado a 120 cm perpendicular ao campo, com 25.000 lux (sala possui 1.000 lux para evitar fadiga visual).",
+        "Ventilação: Pressão positiva (maior que nos corredores) e fluxo de ar laminar (vertical ou horizontal) para evitar turbilhonamento e contaminação.",
+        "Instalações: Pontos de luz, gases e tomadas devem estar a 1,50 m do chão para evitar ignição de gases anestésicos voláteis pesados.",
+        "Climatização: Temperatura entre 24°C e 26°C (evita hipotermia) e umidade entre 45% e 55% (evita proliferação de microrganismos e dessecação)."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p6_1.png"
+    },
+    {
+      "id": "equipe_cirurgica",
+      "titulo": "Posicionamento da Equipe Cirúrgica",
+      "conteudo": [
+        "Composição básica: Cirurgião, anestesista, primeiro auxiliar, segundo auxiliar, instrumentador e circulante.",
+        "Cirurgia Supramesocólica (órgãos abdominais superiores, ex: estômago, fígado): O cirurgião fica à direita do paciente; Anestesista na cabeceira; Primeiro auxiliar à frente do cirurgião (esquerda do paciente); Segundo auxiliar à direita do cirurgião; Instrumentador à esquerda do 1º auxiliar. A mesa de instrumental fica à esquerda do paciente.",
+        "Cirurgia Inframesocólica (órgãos abdominais inferiores, ex: apêndice, cólon): O cirurgião fica à esquerda do paciente; Anestesista na cabeceira; Primeiro auxiliar à frente do cirurgião (direita do paciente); Segundo auxiliar à esquerda do cirurgião; Instrumentador à direita do 1º auxiliar. A mesa de instrumental fica à direita do paciente.",
+        "Laparotomia Exploradora: Segue o posicionamento supramesocólico devido à frequência de acometimento de fígado e baço no trauma."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p7_1.png"
+    },
+    {
+      "id": "lavagem_cirurgica_maos",
+      "titulo": "Lavagem Cirúrgica das Mãos (Degermação)",
+      "conteudo": [
+        "Objetivo: Eliminar a flora transitória e reduzir a flora residente das mãos e antebraços.",
+        "Torneiras: Devem ser acionadas sem as mãos (cotovelo, pedal ou sensor).",
+        "Técnica: Molhar mãos e punhos deixando escorrer até o cotovelo. Aplicar antisséptico (clorexidina degermante ou PVPI degermante) com escova/esponja. Escovar no sentido único distal para proximal (ponta dos dedos, unhas, dedos e interdigitais, palmas, dorsos, punhos, antebraço e cotovelo).",
+        "Enxágue: Sob água corrente, sempre mantendo as mãos elevadas acima do cotovelo, para a água escorrer no sentido das mãos para os cotovelos (distal para proximal).",
+        "Duração: 3 a 5 minutos na primeira cirurgia do dia, e 2 a 3 minutos nas cirurgias subsequentes.",
+        "Secagem: Feita na sala de operação com compressa estéril por movimentos de compressão, usando lados/dobras diferentes para cada segmento, iniciando nos dedos."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p8_1.png"
+    },
+    {
+      "id": "antissepsia_alcoolica",
+      "titulo": "Antissepsia Alcoólica das Mãos",
+      "conteudo": [
+        "Alternativa moderna à lavagem com água e escova, utilizando fricção com produto à base de álcool (PBA).",
+        "Duração: 2 a 3 minutos de fricção contínua.",
+        "Passo 1: 3-5 mL de PBA na palma esquerda em concha; mergulhar unhas da mão direita por 5 segundos; espalhar no antebraço direito até o cotovelo em círculos até secar (10-15s).",
+        "Passo 2: Repetir o processo para a mão e antebraço esquerdo.",
+        "Passo 3: Colocar mais 3-5 mL de PBA nas palmas e friccionar ambas as mãos e punhos simultaneamente (palma com palma, dorso, interdigitais, dorso dos dedos, polegares) por 20-30s até secar totalmente."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p9_1.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_1.png",
+          "alt": "Passo 1 - Colocar antisséptico",
+          "legenda": "Passo 1: Colocar 3-5 mL de PBA na palma esquerda em concha."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_2.png",
+          "alt": "Passo 2 - Mergulhar unhas",
+          "legenda": "Passo 2: Mergulhar as pontas dos dedos e unhas da mão direita na concha de produto por 5 segundos."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_3.png",
+          "alt": "Passo 3 - Friccionar antebraço",
+          "legenda": "Passo 3: Friccionar o antebraço direito até o cotovelo em movimentos circulares."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_4.png",
+          "alt": "Passo 4 - Repetir no outro braço",
+          "legenda": "Passo 4: Repetir a operação na mão direita para o braço esquerdo."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_5.png",
+          "alt": "Passo 5 - Mergulhar unhas esquerdas",
+          "legenda": "Passo 5: Mergulhar as unhas e pontas da mão esquerda na concha de produto."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_6.png",
+          "alt": "Passo 6 - Friccionar antebraço esquerdo",
+          "legenda": "Passo 6: Friccionar o antebraço esquerdo até o cotovelo."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_7.png",
+          "alt": "Passo 7 - Palmas",
+          "legenda": "Passo 7: Colocar mais produto nas palmas e friccionar palma contra palma."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_8.png",
+          "alt": "Passo 8 - Palma sobre o dorso",
+          "legenda": "Passo 8: Friccionar a palma direita sobre o dorso esquerdo com dedos entrelaçados, e vice-versa."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_9.png",
+          "alt": "Passo 9 - Interdigitais",
+          "legenda": "Passo 9: Friccionar palma contra palma com dedos entrelaçados."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_10.png",
+          "alt": "Passo 10 - Dorso dos dedos",
+          "legenda": "Passo 10: Friccionar o dorso dos dedos de uma mão contra a palma da outra, segurando os dedos."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_11.png",
+          "alt": "Passo 11 - Polegar direito",
+          "legenda": "Passo 11: Friccionar o polegar esquerdo em movimentos circulares com a mão direita fechada ao redor."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_12.png",
+          "alt": "Passo 12 - Polegar esquerdo",
+          "legenda": "Passo 12: Repetir o movimento circular para o polegar direito com a mão esquerda."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_13.png",
+          "alt": "Passo 13 - Polpas digitais",
+          "legenda": "Passo 13: Friccionar as polpas digitais e unhas da mão direita contra a palma esquerda em movimentos circulares."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_14.png",
+          "alt": "Passo 14 - Polpas esquerdas",
+          "legenda": "Passo 14: Repetir para as polpas digitais e unhas da mão esquerda contra a palma direita."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_15.png",
+          "alt": "Passo 15 - Punho direito",
+          "legenda": "Passo 15: Friccionar o punho direito em movimentos circulares."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p11_16.png",
+          "alt": "Passo 16 - Punho esquerdo",
+          "legenda": "Passo 16: Repetir para o punho esquerdo. Friccionar até secar totalmente."
+        }
+      ]
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "cp_q1",
+      "pergunta": "Qual a diferença entre ambiente cirúrgico e sala cirúrgica?",
+      "resposta": "O ambiente cirúrgico é a unidade hospitalar inteira voltada para o ato cirúrgico (inclui vestiários, recuperação pós-anestésica, etc.). A sala cirúrgica é o quarto específico dentro desse ambiente onde o ato operatório é consumado."
+    },
+    {
+      "id": "cp_q2",
+      "pergunta": "Quais são as três zonas do centro cirúrgico baseadas no nível de contaminação?",
+      "resposta": "Zona de proteção (vestiários, troca de macas, expurgo), zona limpa (secretaria, salas pré/pós-operatórias, recuperação) e zona estéril ou asséptica (corredores internos, lavabo, sala de cirurgia)."
+    },
+    {
+      "id": "cp_q3",
+      "pergunta": "Por que a iluminação da sala cirúrgica deve ser estritamente artificial?",
+      "resposta": "Para manter a constância e o controle de cor. A luz natural varia e altera a percepção visual do anestesista, o que pode mascarar a detecção precoce de cianose (coloração azulada das extremidades e mucosas)."
+    },
+    {
+      "id": "cp_q4",
+      "pergunta": "Por que as tomadas e saídas de gases devem ficar a 1,50 metros do piso na sala cirúrgica?",
+      "resposta": "Para evitar que faíscas elétricas eventuais entrem em contato com gases anestésicos voláteis inflamáveis, que por serem mais densos/pesados que o ar, tendem a se acumular próximos ao chão."
+    },
+    {
+      "id": "cp_q5",
+      "pergunta": "Qual deve ser a temperatura e umidade da sala cirúrgica e quais os riscos de desvios?",
+      "resposta": "Temperatura: 24°C a 26°C (temperaturas baixas causam hipotermia no paciente). Umidade: 45% a 55% (alta favorece germes; baixa favorece evaporação de líquidos e dessecação tecidual)."
+    },
+    {
+      "id": "cp_q6",
+      "pergunta": "Qual a posição do cirurgião e do primeiro auxiliar em uma cirurgia supramesocólica?",
+      "resposta": "O cirurgião fica à direita do paciente e o primeiro auxiliar fica à sua frente (do lado esquerdo do paciente)."
+    },
+    {
+      "id": "cp_q7",
+      "pergunta": "Por que o murmúrio vesicular deve ser auscultado antes de iniciar a punção de acesso central?",
+      "resposta": "Para verificar a simetria respiratória inicial do paciente, servindo como base de comparação após o procedimento para descartar iatrogenias como o pneumotórax."
+    },
+    {
+      "id": "cp_q8",
+      "pergunta": "Qual o sentido obrigatório do enxágue das mãos e antebraços após a escovação cirúrgica?",
+      "resposta": "Sentido distal para proximal (dos dedos para o cotovelo). As mãos devem ficar sempre elevadas acima dos cotovelos para que a água suja escorra em direção ao cotovelo e não retorne para as pontas dos dedos."
+    },
+    {
+      "id": "cp_q9",
+      "pergunta": "Qual o tempo preconizado para a degermação clássica das mãos na primeira cirurgia do dia e nas seguintes?",
+      "resposta": "De 3 a 5 minutos para a primeira cirurgia do dia, e de 2 a 3 minutos para as cirurgias subsequentes."
+    },
+    {
+      "id": "cp_q10",
+      "pergunta": "Na antissepsia alcoólica das mãos, qual etapa envolve as pontas das unhas?",
+      "resposta": "A primeira etapa de cada braço: deve-se mergulhar as pontas dos dedos/unhas na concha de produto (PBA) contida na mão contralateral por 5 segundos antes de espalhar o produto pelo antebraço."
+    }
+  ]
+}
