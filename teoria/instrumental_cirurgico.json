@@ -311,7 +311,7 @@
     {
       "id": "pinca_rochester",
       "nome": "Pinça Rochester",
-      "grupo": "preensao_traumatica",
+      "grupo": "hemostasia",
       "funcao": "Pinçamento e hemostasia de vasos calibrosos e pedículos espessos.",
       "caracteristicas": [
         "Pinça hemostática robusta, longa e pesada.",
@@ -865,10 +865,10 @@
     },
     {
       "id": "q10",
-      "pergunta": "Qual a principal diferença de tamanho e indicação entre a pinça hemostática Halsted e a pinça de preensão traumática Rochester?",
+      "pergunta": "Qual a principal diferença de tamanho e indicação entre a pinça hemostática Halsted e a pinça hemostática Rochester?",
       "resposta": "A Halsted (mosquito) é pequena e delicada, indicada para vasos de pequeno calibre e precisão. A Rochester é robusta e longa, indicada para pinçamento de vasos calibrosos e pedículos espessos.",
       "instrumento_relacionado": "pinca_rochester",
-      "grupo": "preensao_traumatica"
+      "grupo": "hemostasia"
     },
     {
       "id": "q11",

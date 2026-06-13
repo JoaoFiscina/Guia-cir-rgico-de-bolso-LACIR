@@ -1,0 +1,909 @@
+{
+  "id": "instrumental_cirurgico",
+  "titulo": "Instrumental Cirúrgico",
+  "categoria": "Fundamentos Cirúrgicos",
+  "descricao": "Reconhecimento, função, empunhadura e organização dos principais instrumentais cirúrgicos divididos em tempos operatórios (Diérese, Preensão, Hemostasia, Exposição, Especiais e Síntese).",
+  "fonte": "Inspirado nos roteiros de Habilidades Cirúrgicas da Escola Bahiana de Medicina e Saúde Pública e tratado de Goffi (Técnica Cirúrgica).",
+  "topicos_gerais": [
+    {
+      "id": "regras_arrumacao",
+      "titulo": "Regras Gerais de Arrumação da Mesa",
+      "conteudo": [
+        "A disposição dos materiais é feita de acordo com os tempos cirúrgicos correspondentes.",
+        "Pode ser organizada em 6 setores (Diérese, Preensão, Hemostasia, Exposição, Especiais e Síntese) ou em 4 quadrantes (agrupando Diérese + Preensão, e Exposição + Especiais).",
+        "A arrumação dos quadrantes se dá no sentido horário.",
+        "Regra 1: A parte funcional de todo instrumento fica voltada para baixo (para o instrumentador).",
+        "Regra 2: A concavidade das pinças fica voltada para baixo.",
+        "Regra 3: O instrumental não montado fica com a parte funcional voltada para cima até que seja montado (ex: cabo de bisturi sem lâmina).",
+        "Ordem de organização interna: Menores antes dos maiores; Atraumáticas antes de traumáticas; Metzenbaum antes de Mayo; Curvas antes de retas; Cabo de bisturi nº 4 antes do nº 3."
+      ],
+      "imagem": "assets/teoria/arrumacao_mesa.png"
+    },
+    {
+      "id": "passagem_instrumentais",
+      "titulo": "Passagem dos Instrumentais",
+      "conteudo": [
+        "O instrumentador deve passar os instrumentais para o cirurgião com a parte funcional voltada para si (instrumentador), exceto o porta-agulha montado que é passado pronto para o uso.",
+        "Os instrumentais curvos devem ser entregues com a curvatura voltada para cima (acompanhando a curvatura da mão do cirurgião).",
+        "O bisturi deve ser manuseado pelo instrumentador com a lâmina virada para baixo (apontada para si mesmo) e entregue ao cirurgião pela região do cabo.",
+        "O instrumento deve ser entregue com um 'bater' firme na palma da mão do cirurgião para que ele saiba que o instrumento foi posicionado, sem que ele precise desviar o olhar do campo operatório."
+      ],
+      "imagem": "assets/teoria/passagem_instrumentais.png"
+    }
+  ],
+  "grupos": [
+    {
+      "id": "dierese",
+      "nome": "Diérese",
+      "descricao": "Instrumentais destinados a criar uma via de acesso aos tecidos (dividir, separar ou seccionar).",
+      "cor": "#e74c3c"
+    },
+    {
+      "id": "preensao",
+      "nome": "Preensão",
+      "descricao": "Instrumentais destinados à manipulação e apreensão de órgãos, tecidos ou estruturas.",
+      "cor": "#3498db"
+    },
+    {
+      "id": "preensao_traumatica",
+      "nome": "Preensão traumática",
+      "descricao": "Instrumentais destinados à preensão firme e tração de tecidos resistentes, possuindo garras ou dentes.",
+      "cor": "#d35400"
+    },
+    {
+      "id": "hemostasia",
+      "nome": "Hemostasia",
+      "descricao": "Instrumentais que visam prevenir ou corrigir hemorragias através do pinçamento de vasos.",
+      "cor": "#e67e22"
+    },
+    {
+      "id": "exposicao",
+      "nome": "Exposição",
+      "descricao": "Afastadores e instrumentos que facilitam a exposição do campo operatório.",
+      "cor": "#2ecc71"
+    },
+    {
+      "id": "especiais",
+      "nome": "Especiais",
+      "descricao": "Instrumentais utilizados para finalidades específicas de acordo com o tipo de cirurgia.",
+      "cor": "#9b59b6"
+    },
+    {
+      "id": "sintese",
+      "nome": "Síntese",
+      "descricao": "Instrumentais destinados à aproximação e união de tecidos (suturas).",
+      "cor": "#1abc9c"
+    }
+  ],
+  "instrumentos": [
+    {
+      "id": "bisturi",
+      "nome": "Bisturi",
+      "grupo": "dierese",
+      "funcao": "Realizar a incisão cirúrgica (diérese aguda).",
+      "caracteristicas": [
+        "Composto por um cabo metálico reutilizável e uma lâmina descartável.",
+        "Cabo nº 3: Utiliza lâminas menores (nº 10, 11, 12, 15) para incisões críticas e delicadas.",
+        "Cabo nº 4: Utiliza lâminas maiores (nº 20, 21, 22, 23, 24) para tecidos mais grosseiros e incisões maiores."
+      ],
+      "usos": [
+        "Cabo 3 + Lâmina 15: Incisões cutâneas delicadas e pequenas cirurgias.",
+        "Cabo 3 + Lâmina 11: Incisões punctiformes (punções, drenagem de abscessos).",
+        "Cabo 4 + Lâmina 20/22: Incisões abdominais amplas (laparotomias)."
+      ],
+      "como_reconhecer": "Cabo plano metálico com uma ponteira estreita e trilho de encaixe para lâmina descartável.",
+      "pegadinha": "Técnica de corte: Entrada a 90° na pele, condução a 45° mantendo a pressão constante, e saída a 90° para evitar bordas em bisel. Empunhadura em 'arco de violino' para incisões longas e 'lápis' para incisões pequenas.",
+      "tags": [
+        "Incisão",
+        "Corte",
+        "Agudo"
+      ],
+      "imagem": "assets/teoria/imagens_guia/bisturi.png"
+    },
+    {
+      "id": "tesoura_mayo",
+      "nome": "Tesoura Mayo",
+      "grupo": "dierese",
+      "funcao": "Seccionar e cortar fios, gazes e tecidos mais grosseiros/resistentes.",
+      "caracteristicas": [
+        "Relação entre a porção cortante e não-cortante é de aproximadamente 1:1.",
+        "Mais robusta e traumática do que a tesoura Metzenbaum.",
+        "Disponível em versões reta (Mayo reta) e curva (Mayo curva)."
+      ],
+      "usos": [
+        "Mayo Reta (fio): Usada para cortar fios de sutura e materiais cirúrgicos (gazes, drenos).",
+        "Mayo Curva: Usada para a diérese de tecidos densos e resistentes (aponeuroses, fáscias)."
+      ],
+      "como_reconhecer": "Tesoura com hastes e lâminas espessas e robustas, onde o tamanho da lâmina cortante é proporcional ao tamanho da haste.",
+      "pegadinha": "Não use a tesoura Metzenbaum para cortar fios ou gazes, pois isso retira o corte da tesoura delicada. Fios devem ser cortados apenas com a Mayo Reta.",
+      "tags": [
+        "Corte",
+        "Fios",
+        "Fáscia"
+      ],
+      "imagem": "assets/teoria/imagens_guia/tesoura_mayo.jpg"
+    },
+    {
+      "id": "tesoura_metzenbaum",
+      "nome": "Tesoura Metzenbaum",
+      "grupo": "dierese",
+      "funcao": "Divulsionar e realizar a diérese de tecidos orgânicos delicados.",
+      "caracteristicas": [
+        "A porção cortante é significativamente menor que a porção não-cortante (hastes longas).",
+        "Mais delicada, projetada para corte preciso e divulsão romba.",
+        "Mais comumente usada na versão curva."
+      ],
+      "usos": [
+        "Dissecção e divulsão de tecidos moles e delicados em cavidades profundas.",
+        "Secção de vasos previamente isolados e tecidos subcutâneos."
+      ],
+      "como_reconhecer": "Tesoura com hastes longas e finas e pontas cortantes curtas e arredondadas.",
+      "pegadinha": "A Metzenbaum curva é preferencialmente utilizada para trabalhar em cavidades, enquanto a reta é para superfícies. Nunca use para cortar fios.",
+      "tags": [
+        "Dissecção",
+        "Delicado",
+        "Divulsão"
+      ],
+      "imagem": "assets/teoria/imagens_guia/tesoura_metzenbaum.png"
+    },
+    {
+      "id": "pinca_anatomica",
+      "nome": "Pinça Anatômica (Sem Dente)",
+      "grupo": "preensao",
+      "funcao": "Manipular e apreender órgãos e tecidos delicados sem causar trauma.",
+      "caracteristicas": [
+        "Pinça de elastômero/mola (sem cremalheira).",
+        "Atraumática, possui ranhuras/estrias transversais na face interna das pontas.",
+        "Ponta lisa, sem garras."
+      ],
+      "usos": [
+        "Apreensão de vasos sanguíneos, nervos e vísceras delicadas (alças intestinais, ureteres).",
+        "Auxílio na passagem de fios em planos profundos."
+      ],
+      "como_reconhecer": "Pinça sem argolas nem cremalheira (pinça de pinçar com os dedos), ponta arredondada e estriada, sem nenhum dente.",
+      "pegadinha": "Por ser atraumática, ela escorrega facilmente se usada em tecidos resistentes como pele e aponeurose. Nesses tecidos, deve-se usar a dente de rato.",
+      "tags": [
+        "Atraumática",
+        "Delicado",
+        "Mola"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_1.png"
+    },
+    {
+      "id": "pinca_dente_de_rato",
+      "nome": "Pinça Dente de Rato",
+      "grupo": "preensao",
+      "funcao": "Apreender tecidos mais resistentes e firmes que necessitam de tração segura.",
+      "caracteristicas": [
+        "Pinça de elastômero/mola.",
+        "Traumática, possui dentes de encaixe em sua extremidade distal (geralmente 2 dentes de um lado e 1 do outro).",
+        "Oferece excelente fixação e não escorrega."
+      ],
+      "usos": [
+        "Apreensão e tração da pele durante a sutura.",
+        "Manipulação de aponeuroses e fáscias musculares."
+      ],
+      "como_reconhecer": "Igual à pinça anatômica em formato, mas possui pequenos dentes afiados na ponta que se encaixam ao fechar.",
+      "pegadinha": "Nunca deve ser utilizada em tecidos delicados, vasos ou vísceras ocas (intestino, bexiga), pois os dentes perfuram e rasgam essas estruturas.",
+      "tags": [
+        "Traumática",
+        "Pele",
+        "Firme"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p15_2.png"
+    },
+    {
+      "id": "pinca_halsted",
+      "nome": "Pinça Halsted (Mosquito)",
+      "grupo": "hemostasia",
+      "funcao": "Pinçamento de pequenos vasos sanguíneos para hemostasia delicada.",
+      "caracteristicas": [
+        "A menor das pinças hemostáticas com cremalheira.",
+        "Ramos preensores finos e curtos.",
+        "Possui ranhuras em toda a face interna da ponta.",
+        "A curva é conhecida como 'mosquitinho' e a reta como 'reparo'."
+      ],
+      "usos": [
+        "Hemostasia de pequenos vasos em cirurgias delicadas (pediátrica, plástica, oftálmica).",
+        "Pinça reta (reparo) é usada para fixar fios de sutura temporariamente."
+      ],
+      "como_reconhecer": "Pinça pequena com argolas de dedo, cremalheira e pontas muito finas e curtas.",
+      "pegadinha": "Por ser muito delicada, forçar seu uso em vasos médios ou pedículos espessos pode entortar suas pontas ou quebrar a cremalheira.",
+      "tags": [
+        "Pequena",
+        "Hemostasia",
+        "Reparo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_1.png"
+    },
+    {
+      "id": "pinca_kelly",
+      "nome": "Pinça Kelly",
+      "grupo": "hemostasia",
+      "funcao": "Pinçar vasos sanguíneos de calibre médio para hemostasia.",
+      "caracteristicas": [
+        "Pinça com cremalheira, de tamanho médio.",
+        "Apresenta ranhuras apenas na metade distal de sua face interna preensora.",
+        "Disponível nas versões reta e curva."
+      ],
+      "usos": [
+        "Hemostasia temporária de vasos de calibre médio.",
+        "Auxílio em dissecções rombas de planos teciduais (Kelly curva)."
+      ],
+      "como_reconhecer": "Pinça de tamanho médio com cremalheira. Ao olhar a face interna das pontas, o serrilhado vai apenas até a metade da ponta, deixando a metade proximal (próxima à articulação) lisa.",
+      "pegadinha": "Diferença crucial para a Crile: Kelly tem ranhuras em apenas 50% da face interna. Crile tem ranhuras em 100% da face interna.",
+      "tags": [
+        "Médio Calibre",
+        "Hemostasia",
+        "Serrilhado Parcial"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_2.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p16_2.png",
+          "alt": "Pinça Kelly",
+          "legenda": "A pinça Kelly possui ranhuras apenas na metade distal (50%) de sua face interna preensora."
+        }
+      ]
+    },
+    {
+      "id": "pinca_crile",
+      "nome": "Pinça Crile",
+      "grupo": "hemostasia",
+      "funcao": "Pinçar vasos de calibre médio e realizar hemostasia de pedículos teciduais.",
+      "caracteristicas": [
+        "Pinça com cremalheira de tamanho médio.",
+        "Possui ranhuras/estrias em toda a extensão de sua face interna preensora.",
+        "Disponível nas versões reta e curva."
+      ],
+      "usos": [
+        "Hemostasia de vasos de calibre médio/grande.",
+        "Apreensão lateral de pedículos vasculares antes da ligadura."
+      ],
+      "como_reconhecer": "Muito parecida com a Kelly, mas o serrilhado interno estende-se por toda a face preensora (100% ranhurada).",
+      "pegadinha": "Por ter ranhuras em toda a extensão, a Crile oferece maior preensão em pedículos teciduais que a Kelly, mas pode ser um pouco mais compressiva.",
+      "tags": [
+        "Hemostasia",
+        "Serrilhado Total",
+        "Pedículo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_4.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p16_4.png",
+          "alt": "Pinça Crile",
+          "legenda": "A pinça Crile apresenta ranhuras transversais em toda a extensão (100%) de sua face interna preensora."
+        }
+      ]
+    },
+    {
+      "id": "pinca_kocher",
+      "nome": "Pinça Kocher",
+      "grupo": "preensao_traumatica",
+      "funcao": "Apreensão firme de tecidos resistentes e hemostasia compressiva.",
+      "caracteristicas": [
+        "Possui ranhuras em toda a face interna preensora.",
+        "Apresenta um dente de rato proeminente na ponta das garras.",
+        "Pinça traumática e extremely firme.",
+        "Pode atuar na hemostasia ou no grupo de Especiais/Preensão Forte."
+      ],
+      "usos": [
+        "Apreensão de aponeuroses resistentes (ex: bainha do reto abdominal).",
+        "Tração de peças cirúrgicas pesadas que serão removidas (ex: útero, tumores).",
+        "Pinçamento de pedículos firmes."
+      ],
+      "como_reconhecer": "Pinça hemostática com cremalheira que possui ranhuras transversais e dentes de rato bem visíveis no ápice da ponta.",
+      "pegadinha": "Extremamente traumática devido ao dente na ponta combinado com o esmagamento da cremalheira. Nunca usar em estruturas delicadas ou que devam ser preservadas sem trauma.",
+      "tags": [
+        "Traumática",
+        "Dente na Ponta",
+        "Preensão Forte"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p16_7.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p16_7.png",
+          "alt": "Pinça Kocher",
+          "legenda": "A pinça Kocher apresenta ranhuras transversais e dentes de rato bem visíveis no ápice da ponta."
+        }
+      ]
+    },
+    {
+      "id": "pinca_rochester",
+      "nome": "Pinça Rochester",
+      "grupo": "preensao_traumatica",
+      "funcao": "Pinçamento e hemostasia de vasos calibrosos e pedículos espessos.",
+      "caracteristicas": [
+        "Pinça hemostática robusta, longa e pesada.",
+        "Possui ranhuras transversais em toda a sua face de preensão.",
+        "Disponível em reta e curva."
+      ],
+      "usos": [
+        "Clamping de pedículos renais, uterinos e esplênicos.",
+        "Hemostasia de vasos de grande calibre em cirurgia profunda abdominal."
+      ],
+      "como_reconhecer": "Visualmente idêntica a uma pinça Crile, porém de dimensões muito maiores (comprimento longo e ramos espessos).",
+      "pegadinha": "Devido ao seu tamanho e peso, seu uso é reservado para cirurgias profundas e estruturas calibrosas, não devendo ser usada em tecidos superficiais.",
+      "tags": [
+        "Grande",
+        "Robusta",
+        "Pedículos Calibrosos"
+      ],
+      "imagem": "assets/teoria/imagens_guia/pinca_rochester.jpg",
+      "imagens": [
+        {
+          "src": "assets/teoria/imagens_guia/pinca_rochester.jpg",
+          "alt": "Pinça Rochester",
+          "legenda": "A pinça Rochester é robusta e longa, com estrias transversais em toda a sua face de preensão."
+        }
+      ]
+    },
+    {
+      "id": "afastador_farabeuf",
+      "nome": "Afastador Farabeuf",
+      "grupo": "exposicao",
+      "funcao": "Expor tecidos superficiais através de tração manual ativa.",
+      "caracteristicas": [
+        "Afastador manual/dinâmico de metal.",
+        "Formato em 'C' com duas lâminas de tamanhos ligeiramente diferentes nas extremidades.",
+        "Sempre utilizado em par."
+      ],
+      "usos": [
+        "Afastamento de pele, tecido subcutâneo e planos musculares superficiais.",
+        "Exposição do campo cirúrgico em cirurgias ortopédicas, vasculares periféricas e laparotomias."
+      ],
+      "como_reconhecer": "Lâmina dupla de metal dobrada nas pontas em ângulo reto, formando uma letra 'C' achatada.",
+      "pegadinha": "Exige que o auxiliar aplique força contínua de tração. Se tracionado com muita força, pode causar isquemia nas bordas da ferida.",
+      "tags": [
+        "Manual",
+        "Superficial",
+        "Duplo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p17_3.png"
+    },
+    {
+      "id": "valvula_suprapubica",
+      "nome": "Válvula Suprapúbica",
+      "grupo": "exposicao",
+      "funcao": "Afastamento da parede abdominal inferior em cirurgias pélvicas.",
+      "caracteristicas": [
+        "Afastador manual com uma lâmina larga e curva em forma de 'C' e um cabo anatômico na outra ponta."
+      ],
+      "usos": [
+        "Exposição da cavidade pélvica em cirurgias ginecológicas (histerectomia) e obstétricas (cesariana).",
+        "Pode ser acoplada à estrutura do Gosset para formar o afastador autoestático Balfour."
+      ],
+      "como_reconhecer": "Afastador com um cabo em formato de argola ou cabo curvo e uma lâmina metálica larga e curva côncava.",
+      "pegadinha": "A extremidade curva deve ser protegida com compressas úmidas para evitar lesões por pressão na bexiga ou parede abdominal.",
+      "tags": [
+        "Ginecologia",
+        "Larga",
+        "Pélvica"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_1.png"
+    },
+    {
+      "id": "afastador_doyen",
+      "nome": "Afastador Doyen",
+      "grupo": "exposicao",
+      "funcao": "Afastar vísceras abdominais e parede abdominal profunda.",
+      "caracteristicas": [
+        "Afastador manual com ângulo reto e ampla superfície de contato.",
+        "Lâmina larga, lisa e côncava."
+      ],
+      "usos": [
+        "Afastamento e proteção de alças intestinais durante cirurgias abdominais.",
+        "Afastamento de costelas/pulmão em cirurgias torácicas."
+      ],
+      "como_reconhecer": "Afastador em forma de 'L' ou ângulo de 90° com cabo de metal longo e lâmina muito larga e lisa.",
+      "tags": [
+        "Vísceras",
+        "Abdominal",
+        "Largo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_2.png"
+    },
+    {
+      "id": "afastador_langenbeck",
+      "nome": "Afastador Langenbeck",
+      "grupo": "exposicao",
+      "funcao": "Afastar tecidos moles em planos profundos e estreitos.",
+      "caracteristicas": [
+        "Afastador manual com cabo longo e uma única lâmina perpendicular estreita na ponta.",
+        "Formato em 'L'."
+      ],
+      "usos": [
+        "Exposição em cirurgias de tireoide, hérnias, cirurgias cervicais e pequenos acessos profundos."
+      ],
+      "como_reconhecer": "Cabo plano longo de metal e uma pequena ponta dobrada em ângulo reto (formato de 'L' fino).",
+      "pegadinha": "Ajuda a memorizar: o formato de 'L' perpendicular remete à primeira letra do nome: Langenbeck.",
+      "tags": [
+        "Fino",
+        "L-Format",
+        "Profundo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_3.png"
+    },
+    {
+      "id": "afastador_volkmann",
+      "nome": "Afastador Volkmann",
+      "grupo": "exposicao",
+      "funcao": "Afastamento e fixação de tecidos moles densos e musculatura.",
+      "caracteristicas": [
+        "Afastador manual com cabo e extremidade em formato de garras ou dentes curvos (2 a 6 dentes).",
+        "Pode ser rombo (atraumático) ou agudo (traumático)."
+      ],
+      "usos": [
+        "Afastamento de massas musculares e fáscias em cirurgias ortopédicas.",
+        "Fixação de bordas teciduais firmes."
+      ],
+      "como_reconhecer": "Afastador em forma de 'rastelo' ou garfo metálico com dentes curvos na ponta.",
+      "pegadinha": "A versão com dentes agudos/afiados pode perfurar vasos se não for utilizada com extrema cautela, devendo ser colocada apenas em fáscia ou músculo.",
+      "tags": [
+        "Garras",
+        "Ortopedia",
+        "Muscular"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_4.png"
+    },
+    {
+      "id": "afastador_harrington",
+      "nome": "Afastador Harrington (Coração)",
+      "grupo": "exposicao",
+      "funcao": "Afastar lobos hepáticos, vesícula e estruturas abdominais profundas.",
+      "caracteristicas": [
+        "Afastador manual de grande comprimento.",
+        "A lâmina distal tem formato plano e largo semelhante a um coração.",
+        "Atraumático, distribui a pressão."
+      ],
+      "usos": [
+        "Afastamento do fígado para expor as vias biliares (colecistectomia aberta).",
+        "Afastamento em cirurgias abdominais superiores profundas."
+      ],
+      "como_reconhecer": "Cabo longo e esguio com uma lâmina de metal em formato de coração na extremidade.",
+      "tags": [
+        "Fígado",
+        "Coração",
+        "Abdominal Superior"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p18_5.png"
+    },
+    {
+      "id": "afastador_deaver",
+      "nome": "Afastador Deaver",
+      "grupo": "exposicao",
+      "funcao": "Afastar vísceras e parede abdominal profunda.",
+      "caracteristicas": [
+        "Afastador manual longo, de metal flexível, em formato de semi-lua/interrogação.",
+        "Ampla área de afastamento."
+      ],
+      "usos": [
+        "Afastamento de fígado, baço e alças intestinais.",
+        "Muito utilizado em laparotomias profundas e cirurgia torácica."
+      ],
+      "como_reconhecer": "Tira metálica larga curvada continuamente como um ponto de interrogação ou semi-lua.",
+      "tags": [
+        "Semi-lua",
+        "Vísceras",
+        "Profundo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_1.png"
+    },
+    {
+      "id": "espatula_maleavel",
+      "nome": "Espátula Maleável",
+      "grupo": "exposicao",
+      "funcao": "Afastar tecidos de forma adaptável e proteger vísceras durante a síntese abdominal.",
+      "caracteristicas": [
+        "Lâmina metálica plana, lisa e flexível que pode ser dobrada pelo cirurgião em qualquer ângulo."
+      ],
+      "usos": [
+        "Afastamento sob medida em locais de difícil acesso.",
+        "Posicionada abaixo da parede abdominal durante o fechamento (síntese) da aponeurose para evitar que a agulha perfure as alças intestinais."
+      ],
+      "como_reconhecer": "Fita retangular metálica longa, lisa e maleável (pode ser moldada manualmente).",
+      "pegadinha": "Ao final da sutura da aponeurose, o cirurgião retira a espátula maleável antes de dar o último nó. Esquecer a espátula dentro da cavidade é um erro grave.",
+      "tags": [
+        "Flexível",
+        "Proteção",
+        "Sutura"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_2.png"
+    },
+    {
+      "id": "afastador_gosset",
+      "nome": "Afastador Gosset",
+      "grupo": "exposicao",
+      "funcao": "Manter a cavidade abdominal aberta de forma autoestática (sem auxílio manual constante).",
+      "caracteristicas": [
+        "Afastador autoestático composto por uma barra metálica horizontal com duas lâminas de parede ajustáveis por cremalheira/parafuso.",
+        "Abertura em 'X' ou deslizamento lateral."
+      ],
+      "usos": [
+        "Laparotomias exploradoras e cirurgias abdominais de média/grande duração."
+      ],
+      "como_reconhecer": "Estrutura metálica de haste com duas garras largas e um mecanismo de parafuso borboleta para travar a abertura.",
+      "tags": [
+        "Autoestático",
+        "Abdominal",
+        "Cremalheira"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_3.png"
+    },
+    {
+      "id": "afastador_finochietto",
+      "nome": "Afastador Finochietto",
+      "grupo": "exposicao",
+      "funcao": "Afastar as costelas em cirurgias torácicas de forma autoestática.",
+      "caracteristicas": [
+        "Afastador autoestático robusto com uma barra dentada e uma manivela giratória para aplicar força de afastamento nas costelas."
+      ],
+      "usos": [
+        "Toracotomias para acesso ao coração, pulmões e mediastino."
+      ],
+      "como_reconhecer": "Afastador grande com barra horizontal dentada, duas lâminas largas fixas perpendiculares e uma manivela de girar.",
+      "pegadinha": "A força aplicada pela manivela é muito grande, permitindo afastar as costelas, mas deve ser feita de forma gradual para evitar fratura costal.",
+      "tags": [
+        "Tórax",
+        "Costelas",
+        "Manivela"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p19_4.png"
+    },
+    {
+      "id": "pinca_desjardins",
+      "nome": "Pinça Desjardins",
+      "grupo": "especiais",
+      "funcao": "Exploração de vias biliares e remoção de cálculos.",
+      "caracteristicas": [
+        "Pinça longa com hastes delgadas e curvatura em forma de colher fenestrada na ponta."
+      ],
+      "usos": [
+        "Extração de cálculos (pedras) do colédoco ou vias urinárias."
+      ],
+      "como_reconhecer": "Pinça com hastes longas e flexíveis, com pontas em formato de anéis ovais fenestrados (como colheres vazadas).",
+      "tags": [
+        "Vias Biliares",
+        "Cálculos",
+        "Colher"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_1.png"
+    },
+    {
+      "id": "pinca_guyon",
+      "nome": "Pinça Guyon",
+      "grupo": "especiais",
+      "funcao": "Pinçamento seguro e atraumático de pedículos renais.",
+      "caracteristicas": [
+        "Pinça hemostática com curvatura em 'S' ou curva acentuada, com ramos robustos."
+      ],
+      "usos": [
+        "Pinçamento do pedículo renal em nefrectomias (retirada do rim)."
+      ],
+      "como_reconhecer": "Pinça longa com curva em 'S' suave e ranhuras transversais robustas nas garras.",
+      "tags": [
+        "Rim",
+        "Nefrectomia",
+        "Curva em S"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_3.png"
+    },
+    {
+      "id": "pinca_cheron",
+      "nome": "Pinça Cheron",
+      "grupo": "especiais",
+      "funcao": "Realizar a antissepsia de cavidades e transporte de gazes.",
+      "caracteristicas": [
+        "Pinça muito longa com dupla angulação nas hastes e extremidade oval serrilhada."
+      ],
+      "usos": [
+        "Antissepsia vaginal e uterina na ginecologia.",
+        "Transporte de gazes/compressas para hemostasia compressiva em cavidades profundas."
+      ],
+      "como_reconhecer": "Pinça longa com pontas ovais ranhuradas e uma angulação característica nas hastes próximas à cremalheira.",
+      "tags": [
+        "Antissepsia",
+        "Longa",
+        "Ginecologia"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_4.png"
+    },
+    {
+      "id": "pinca_allis",
+      "nome": "Pinça Allis",
+      "grupo": "especiais",
+      "funcao": "Apreensão firme de tecidos resistentes, geralmente destinados a exérese.",
+      "caracteristicas": [
+        "Apresenta dentes finos e múltiplos em sua extremidade distal (formato de garras pequenas).",
+        "Traumática quando aplicada sob tensão."
+      ],
+      "usos": [
+        "Apreensão de tecidos que serão extirpados (tumores, peças anatômicas).",
+        "Fixação de bordas de pele/subcutâneo."
+      ],
+      "como_reconhecer": "Pinça com cremalheira cujas garras terminam em uma linha horizontal de pequenos dentes que se tocam.",
+      "tags": [
+        "Dentes Múltiplos",
+        "Traumática",
+        "Exérese"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p20_2.png"
+    },
+    {
+      "id": "pinca_foerster",
+      "nome": "Pinça Foerster",
+      "grupo": "especiais",
+      "funcao": "Realizar a antissepsia de campo operatório e manipulação de vísceras.",
+      "caracteristicas": [
+        "Pinça longa com anéis ovais fenestrados na extremidade preensora.",
+        "Disponível nas versões reta e curva."
+      ],
+      "usos": [
+        "Foerster Reta: Pinçar gaze dobrada para realizar a antissepsia da pele do paciente (pintura).",
+        "Foerster Curva: Apreensão de vesícula biliar em colecistectomias abertas."
+      ],
+      "como_reconhecer": "Pinça longa com pontas em formato de anéis ovais (fenestrados), com ranhuras transversais na face interna desses anéis.",
+      "pegadinha": "A Foerster reta contamina-se após a antissepsia da pele e deve ser descartada da mesa, não retornando para o instrumental estéril.",
+      "tags": [
+        "Antissepsia",
+        "Anel Oval",
+        "Pintura"
+      ],
+      "imagem": "assets/teoria/imagens_guia/pinca_foerster.jpg"
+    },
+    {
+      "id": "pinca_collin",
+      "nome": "Pinça Collin",
+      "grupo": "especiais",
+      "funcao": "Apreensão atraumática de vísceras ocas e órgãos delicados.",
+      "caracteristicas": [
+        "Pinça com extremidades em forma de anéis circulares planos e lisos (círculos vazados)."
+      ],
+      "usos": [
+        "Manipulação de estômago, alças intestinais.",
+        "Preensão da língua pelo anestesiologista."
+      ],
+      "como_reconhecer": "Pinça com pontas circulares planas e vazadas (como pequenas argolas nas pontas).",
+      "tags": [
+        "Atraumática",
+        "Vísceras Ocas",
+        "Círculo"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_3.png"
+    },
+    {
+      "id": "pinca_duval",
+      "nome": "Pinça Duval",
+      "grupo": "especiais",
+      "funcao": "Apreensão atraumática de tecidos moles e delicados.",
+      "caracteristicas": [
+        "Extremidade preensora larga e triangular.",
+        "Atraumática, possui ranhuras finas longitudinais."
+      ],
+      "usos": [
+        "Apreensão do parênquima pulmonar ou alças intestinais."
+      ],
+      "como_reconhecer": "Pinça cujas garras terminam em formato triangular plano vazado.",
+      "tags": [
+        "Triangular",
+        "Pulmão",
+        "Atraumática"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_4.png"
+    },
+    {
+      "id": "clamps_intestinais",
+      "nome": "Clamps Intestinais",
+      "grupo": "especiais",
+      "funcao": "Oclusão temporária do lúmen intestinal (coproestase) sem causar isquemia.",
+      "caracteristicas": [
+        "Pinças muito longas com ramos preensores extremamente flexíveis.",
+        "Atraumática, ranhuras longitudinais."
+      ],
+      "usos": [
+        "Oclusão de alças intestinais durante enteroanastomoses para evitar extravasamento de fezes."
+      ],
+      "como_reconhecer": "Pinça muito longa com garras finas, longas e flexíveis que apresentam estrias longitudinais.",
+      "tags": [
+        "Intestino",
+        "Flexível",
+        "Coproestase"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p21_2.png"
+    },
+    {
+      "id": "pinca_mixter",
+      "nome": "Pinça Mixter (Ângulo Reto)",
+      "grupo": "especiais",
+      "funcao": "Isolamento e dissecção de vasos e pedículos profundos.",
+      "caracteristicas": [
+        "Pontas anguladas a 90° em relação às hastes, com ranhuras transversais."
+      ],
+      "usos": [
+        "Dissecção e isolamento do pedículo renal, hepático ou pulmonar.",
+        "Passagem de fios de sutura por trás de vasos de difícil acesso."
+      ],
+      "como_reconhecer": "Pinça longa cujas pontas fazem uma dobra brusca de 90 graus (ângulo reto).",
+      "tags": [
+        "90 Graus",
+        "Dissecção",
+        "Pedículo"
+      ],
+      "imagem": "assets/teoria/imagens_guia/pinca_mixter.jpg"
+    },
+    {
+      "id": "pinca_backhaus",
+      "nome": "Pinça Backhaus (Pinça de Campo)",
+      "grupo": "especiais",
+      "funcao": "Fixar os campos operatórios entre si e à pele do paciente.",
+      "caracteristicas": [
+        "Possui pontas extremamente agudas e curvas em formato de garras afiadas.",
+        "Traumática se aplicada incorretamente."
+      ],
+      "usos": [
+        "Fixação e delimitação dos campos cirúrgicos estéreis na pele do paciente no início da cirurgia."
+      ],
+      "como_reconhecer": "Pinça pequena com cremalheira e duas pontas afiadas e curvas que se cruzam como presas.",
+      "pegadinha": "Por ter pontas perfurantes, se pinçada acidentalmente na pele do paciente sem anestesia (ou fora da área estéril) causará dor e lesão. Deve prender o tecido do campo e apenas a epiderme.",
+      "tags": [
+        "Campos",
+        "Perfurante",
+        "Garras"
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p22_2.png"
+    },
+    {
+      "id": "porta_agulha_hegar",
+      "nome": "Porta-Agulhas Hegar",
+      "grupo": "sintese",
+      "funcao": "Prender e guiar a agulha de sutura.",
+      "caracteristicas": [
+        "Semelhante a uma pinça hemostática curta e robusta.",
+        "Apresenta cremalheira e argolas.",
+        "Face interna da ponta com ranhuras em cruz ou metal duro e um sulco central."
+      ],
+      "usos": [
+        "Síntese de tecidos em geral, especialmente em cavidades profundas.",
+        "Uso de agulhas curvas."
+      ],
+      "como_reconhecer": "Parece uma tesoura/pinça com argolas, mas a ponta é curta, muito espessa, com estrias cruzadas e um canal/sulco longitudinal no centro para assentar a agulha.",
+      "pegadinha": "Não possui lâmina de corte. Tentar usá-lo para cortar fios danifica o instrumental. O sulco central serve para dar estabilidade à agulha curva, evitando que ela gire.",
+      "tags": [
+        "Sutura",
+        "Cremalheira",
+        "Hegar"
+      ],
+      "imagem": "assets/teoria/imagens_guia/porta_agulhas_hegar.jpg"
+    },
+    {
+      "id": "porta_agulha_mathieu",
+      "nome": "Porta-Agulhas Mathieu",
+      "grupo": "sintese",
+      "funcao": "Prender e guiar a agulha de sutura em procedimentos rápidos.",
+      "caracteristicas": [
+        "Hastes livres, sem argolas de dedo.",
+        "Cremalheira na extremidade das hastes, ativada por pressão da palma da mão.",
+        "Sistema de mola interna."
+      ],
+      "usos": [
+        "Suturas rápidas e superficiais (pele).",
+        "Muito utilizado em cirurgia bucomaxilofacial e odontologia."
+      ],
+      "como_reconhecer": "Sem argolas. As duas hastes são unidas por uma mola central e travam por uma cremalheira na base quando apertadas.",
+      "pegadinha": "É liberado apertando novamente as hastes até o fim. Excelente para suturas sequenciais na superfície, mas difícil de controlar em cavidades profundas.",
+      "tags": [
+        "Mola",
+        "Sem Argolas",
+        "Superfície"
+      ],
+      "imagem": "assets/teoria/imagens_guia/porta_agulhas_mathieu.jpg"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "q1",
+      "pergunta": "Qual a diferença estrutural e de indicação entre a tesoura Mayo e a tesoura Metzenbaum?",
+      "resposta": "A tesoura Mayo tem relação haste/lâmina de 1:1, sendo robusta e indicada para materiais grosseiros (fios, drenos) e tecidos densos (fáscias). A Metzenbaum tem haste longa e lâmina curta, sendo delicada e indicada para divulsão e corte de tecidos orgânicos delicados.",
+      "instrumento_relacionado": "tesoura_metzenbaum",
+      "grupo": "dierese"
+    },
+    {
+      "id": "q2",
+      "pergunta": "Qual a diferença na face de preensão das pinças Kelly e Crile?",
+      "resposta": "A pinça Kelly possui ranhuras/estrias transversais apenas na metade distal (50%) da sua face preensora interna. A pinça Crile possui ranhuras em toda a sua extensão (100%).",
+      "instrumento_relacionado": "pinca_kelly",
+      "grupo": "hemostasia"
+    },
+    {
+      "id": "q3",
+      "pergunta": "Como deve ser a angulação de entrada, condução e saída do bisturi para uma incisão cutânea perfeita?",
+      "resposta": "A entrada deve ser feita a 90° em relação à pele, a condução a 45°, e a saída a 90° para evitar bordas em bisel (inclinadas), facilitando a coaptação na sutura.",
+      "instrumento_relacionado": "bisturi",
+      "grupo": "dierese"
+    },
+    {
+      "id": "q4",
+      "pergunta": "Qual pinça de preensão traumática apresenta ranhuras transversais totais e um dente de rato proeminente na extremidade?",
+      "resposta": "A pinça Kocher. Por possuir dente de rato e ranhuras, é altamente traumática e indicada para tecidos resistentes como aponeuroses.",
+      "instrumento_relacionado": "pinca_kocher",
+      "grupo": "preensao_traumatica"
+    },
+    {
+      "id": "q5",
+      "pergunta": "Qual o nome do afastador dinâmico em forma de 'C', comumente utilizado em pares para afastar tecidos superficiais?",
+      "resposta": "Afastador Farabeuf. É usado para expor pele, tecido subcutâneo e musculatura superficial.",
+      "instrumento_relacionado": "afastador_farabeuf",
+      "grupo": "exposicao"
+    },
+    {
+      "id": "q6",
+      "pergunta": "Para que serve a espátula maleável durante a sutura da aponeurose na parede abdominal?",
+      "resposta": "Ela é colocada abaixo da aponeurose para afastar e proteger as alças intestinais, impedindo que a agulha de sutura as perfure acidentalmente.",
+      "instrumento_relacionado": "espatula_maleavel",
+      "grupo": "exposicao"
+    },
+    {
+      "id": "q7",
+      "pergunta": "Diferencie afastadores dinâmicos (manuais) de afastadores autoestáticos.",
+      "resposta": "Afastadores dinâmicos exigem que um membro da equipe (geralmente o auxiliar) aplique tração contínua (ex: Farabeuf, Deaver). Afastadores autoestáticos possuem engrenagens ou cremalheiras que os mantêm abertos na posição sem auxílio manual (ex: Gosset, Finochietto).",
+      "instrumento_relacionado": "afastador_gosset",
+      "grupo": "exposicao"
+    },
+    {
+      "id": "q8",
+      "pergunta": "Qual a indicação principal do porta-agulhas de Mathieu e qual sua principal característica de design?",
+      "resposta": "É indicado para suturas rápidas de superfície. Sua característica é não possuir argolas para os dedos, sendo controlado pela pressão da palma da mão por um sistema de mola.",
+      "instrumento_relacionado": "porta_agulha_mathieu",
+      "grupo": "sintese"
+    },
+    {
+      "id": "q9",
+      "pergunta": "Por que a pinça Foerster reta usada para a antissepsia inicial (pintura) deve ser descartada após o uso?",
+      "resposta": "Porque ela entra em contato com a pele não degermada/pintada do paciente, tornando-se contaminada. Ela não deve retornar para a mesa principal de instrumentais.",
+      "instrumento_relacionado": "pinca_foerster",
+      "grupo": "especiais"
+    },
+    {
+      "id": "q10",
+      "pergunta": "Qual a principal diferença de tamanho e indicação entre a pinça hemostática Halsted e a pinça de preensão traumática Rochester?",
+      "resposta": "A Halsted (mosquito) é pequena e delicada, indicada para vasos de pequeno calibre e precisão. A Rochester é robusta e longa, indicada para pinçamento de vasos calibrosos e pedículos espessos.",
+      "instrumento_relacionado": "pinca_rochester",
+      "grupo": "preensao_traumatica"
+    },
+    {
+      "id": "q11",
+      "pergunta": "Qual a função da pinça Backhaus na mesa cirúrgica?",
+      "resposta": "Ela é uma pinça de campo, usada para fixar os campos cirúrgicos entre si e à epiderme do paciente.",
+      "instrumento_relacionado": "pinca_backhaus",
+      "grupo": "especiais"
+    },
+    {
+      "id": "q12",
+      "pergunta": "Para que serve a pinça Mixter (ou pinça em ângulo reto)?",
+      "resposta": "Serve para dissecção e isolamento de pedículos e vasos profundos (hepáticos, renais), facilitando a passagem de fios por trás deles.",
+      "instrumento_relacionado": "pinca_mixter",
+      "grupo": "especiais"
+    },
+    {
+      "id": "q13",
+      "pergunta": "Qual a diferença de indicação entre a pinça anatômica comum e a pinça dente de rato?",
+      "resposta": "A anatômica é atraumática e indicada para tecidos delicados, vasos e vísceras. A dente de rato é traumática e indicada para tecidos firmes e resistentes como pele e aponeurose.",
+      "instrumento_relacionado": "pinca_dente_de_rato",
+      "grupo": "preensao"
+    },
+    {
+      "id": "q14",
+      "pergunta": "Quais as regras gerais para a parte funcional e a concavidade das pinças na mesa do instrumentador?",
+      "resposta": "A parte funcional de todo instrumento deve estar voltada para baixo (direcionada ao instrumentador) e a concavidade das pinças curvas também deve estar voltada para baixo.",
+      "instrumento_relacionado": "pinca_kelly",
+      "grupo": "hemostasia"
+    },
+    {
+      "id": "q15",
+      "pergunta": "Como o instrumentador deve passar o bisturi para o cirurgião?",
+      "resposta": "A lâmina deve estar virada para baixo, apontada para o próprio instrumentador, e o instrumento deve ser entregue segurando pela extremidade funcional, apresentando o cabo de forma firme na mão do cirurgião.",
+      "instrumento_relacionado": "bisturi",
+      "grupo": "dierese"
+    }
+  ]
+}
