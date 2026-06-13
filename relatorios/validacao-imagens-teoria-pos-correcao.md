@@ -2,16 +2,16 @@
 
 Este relatório apresenta o resultado da validação automática executada sobre os mapeamentos de imagem da aba **Teoria Cirúrgica** (Módulos de Instrumental, Centro Cirúrgico, Preparo do Paciente, Nós e Síntese).
 
-Data de geração: 2026-05-31
+Data de geração: 2026-06-13
 
 ---
 
 ## 1. Estatísticas Gerais
-- **Total de referências de imagem validadas**: 80
+- **Total de referências de imagem validadas**: 83
 - **Imagens ausentes / caminhos quebrados**: 0
 - **Imagens suspeitas (< 2KB)**: 0
-- **Itens sem imagem (Placeholder / Em revisão)**: 7
-- **Imagens compartilhadas / duplicadas**: 1
+- **Itens sem imagem (Placeholder / Em revisão)**: 4
+- **Imagens compartilhadas / duplicadas**: 0
 
 ---
 
@@ -30,9 +30,6 @@ Data de geração: 2026-05-31
 ## 4. Itens sem Imagem (Mapeamento Vazio / Em revisão)
 *Estes cards/tópicos estão usando fallback visual elegante ("Imagem em revisão") na interface.*
 
-- **[Instrumental Cirúrgico]** Instrumento: "Pinça Foerster" (ID: `pinca_foerster`)
-- **[Instrumental Cirúrgico]** Instrumento: "Pinça Mixter (Ângulo Reto)" (ID: `pinca_mixter`)
-- **[Instrumental Cirúrgico]** Instrumento: "Porta-Agulhas Mathieu" (ID: `porta_agulha_mathieu`)
 - **[Centro Cirúrgico e Paramentação]** Tópico: "Ambiente Cirúrgico vs Sala Cirúrgica" (ID: `ambiente_vs_sala`)
 - **[Preparo do Paciente]** Tópico: "Fatores de Contaminação" (ID: `fatores_contaminacao`)
 - **[Preparo do Paciente]** Tópico: "Banho e Tricotomia Pré-Operatória" (ID: `banho_tricotomia`)
@@ -43,7 +40,7 @@ Data de geração: 2026-05-31
 ## 5. Imagens Compartilhadas (Duplicadas)
 *Imagens vinculadas a múltiplos cards. Útil para verificar se instrumentos diferentes estão usando a mesma representação visual (ex: Kelly e Crile).*
 
-- `assets/teoria/modulo_curso_2025/img_p14_2.png` é compartilhada por: "Tesoura Mayo" (ID: `tesoura_mayo` no módulo *Instrumental Cirúrgico*), "Tesoura Metzenbaum" (ID: `tesoura_metzenbaum` no módulo *Instrumental Cirúrgico*)
+*Nenhuma imagem compartilhada entre diferentes itens.*
 
 ---
 
