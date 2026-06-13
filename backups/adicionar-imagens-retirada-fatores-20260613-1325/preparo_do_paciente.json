@@ -1,0 +1,189 @@
+{
+  "id": "preparo_do_paciente",
+  "titulo": "Preparo do Paciente",
+  "categoria": "Fundamentos Cirúrgicos",
+  "descricao": "Fatores de contaminação cirúrgica, normas de banho e vestimentas, tricotomia cirúrgica correta, técnicas passo a passo de degermação e pintura do paciente (antissepsia), e aplicação e fixação dos campos operatórios.",
+  "fonte": "Baseado no capítulo 'Preparo do paciente' do Manual de Curso LACIR 2025.",
+  "topicos": [
+    {
+      "id": "fatores_contaminacao",
+      "titulo": "Fatores de Contaminação",
+      "conteudo": [
+        "Fatores ligados ao paciente: Idade avançada, alterações metabólicas (como diabetes) e desnutrição.",
+        "Fatores ligados ao ambiente e procedimento: Tempo de internação pré-operatória, duração da cirurgia (risco dobra a cada hora), contaminação do ar da sala, uso de drenos/sondas e tamanho da incisão."
+      ]
+    },
+    {
+      "id": "banho_tricotomia",
+      "titulo": "Banho e Tricotomia Pré-Operatória",
+      "conteudo": [
+        "Banho: Deve ser tomado na noite anterior à cirurgia. Tomar banho imediatamente antes do ato cirúrgico remove a camada lipídica protetora, aumentando a descamação da pele e a dispersão bacteriana (máxima dispersão ocorre entre 30 e 90 minutos pós-banho, normalizando após 2 horas).",
+        "Tricotomia: Não reduz o risco de infecção; serve apenas para evitar a entrada de pelos na ferida. Deve ser realizada no dia da cirurgia, no centro cirúrgico, na menor extensão possível.",
+        "Equipamento de tricotomia: Utilizar máquina de corte ou barbeador elétrico. Evitar o uso de lâminas de barbear convencionais (gilete), pois causam microcortes que servem como porta de entrada e multiplicação bacteriana. Evitar tricotomia na véspera (alto risco de foliculite)."
+      ],
+      "imagem": "assets/teoria/imagens_guia/tricotomia_cirurgica.jpg"
+    },
+    {
+      "id": "degermação_paciente",
+      "titulo": "Degermação do Paciente",
+      "conteudo": [
+        "Executada pelo 1º ou 2º auxiliar usando luvas de procedimento (não estéreis).",
+        "Material: Esponja/escova com PVPI degermante ou Clorexidina degermante.",
+        "Técnica (ex: cirurgia abdominal): Movimentos circulares aleatórios com a face macia (esponja) da fúrcula esternal até o terço superior das coxas (incluindo genitália). Após isso, usa-se a face de cerdas para escovar a mesma região, poupando mamilos e genitália.",
+        "Retirada do sabão: Feita com compressas estéreis secas dobradas in sanfona, seguradas pelas pontas. Secar com movimentos únicos, de mesmo sentido, de medial para lateral, sem retornar à área anterior. Utiliza-se 1 compressa para a linha média, 2 para as laterais e uma 4ª compressa exclusiva para a genitália."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p25_2.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p25_1.png",
+          "alt": "Degermação - Passo 1",
+          "legenda": "Passo 1: Aplicação do antisséptico degermante com esponja em movimentos circulares do centro para a periferia."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p25_2.png",
+          "alt": "Degermação - Passo 2",
+          "legenda": "Passo 2: Escovação com a face de cerdas da esponja/escova nas regiões de maior resistência (poupando mamilos e genitália)."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p25_4.png",
+          "alt": "Degermação - Passo 3",
+          "legenda": "Passo 3: Remoção do sabão com compressa estéril em movimentos longitudinais únicos, sem retroceder."
+        }
+      ]
+    },
+    {
+      "id": "pintura_antissepsia",
+      "titulo": "Pintura (Antissepsia do Paciente)",
+      "conteudo": [
+        "Feita pelo auxiliar devidamente paramentado e com luvas estéreis.",
+        "Montagem: Dobrar 4 gazes estéreis duas vezes em forma de triângulo. Três gazes ficam presas entre os dedos da mão não-dominante (que segura a cuba com antisséptico alcoólico). A quarta gaze é presa em uma pinça de antissepsia (ex: Foerster).",
+        "Técnica de pintura: Molhar a gaze da pinça na cuba.",
+        "Movimento 1 (Linha média): Movimento único de fúrcula esternal ao púbis. Descartar gaze.",
+        "Movimento 2 (Hemicorpo 1): Gaze nova, movimento medial-lateral perpendicular de um lado. Descartar gaze.",
+        "Movimento 3 (Hemicorpo 2): Contornar os pés do paciente, gaze nova, pintar o outro hemicorpo. Descartar gaze.",
+        "Ilhas: Se houver áreas não pintadas (ilhas), usa-se a 4ª gaze para preenchê-las.",
+        "A pinça de pintura é considerada contaminada ao fim do processo e não deve retornar à mesa de instrumentais."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p27_1.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p27_1.png",
+          "alt": "Pintura - Passo 1",
+          "legenda": "Passo 1: Passagem longitudinal única da gaze na linha média (fúrcula ao púbis)."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p27_3.png",
+          "alt": "Pintura - Passo 2",
+          "legenda": "Passo 2: Pintura transversal em hemicorpo lateral a partir da linha média."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p27_5.png",
+          "alt": "Pintura - Passo 3",
+          "legenda": "Passo 3: Contornando os pés do paciente, iniciar pintura do outro hemicorpo."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p27_7.png",
+          "alt": "Pintura - Passo 4",
+          "legenda": "Passo 4: Preenchimento de áreas que ficaram sem cobertura de antisséptico alcoólico (ilhas)."
+        }
+      ]
+    },
+    {
+      "id": "campos_cirurgicos",
+      "titulo": "Colocação e Fixação dos Campos",
+      "conteudo": [
+        "Campos Simples limitam a área operatória; Campos Duplos cobrem as mesas de instrumental (agem como barreira estéril física e emborrachada).",
+        "Sequência de colocação:",
+        "1. Campo Podálico (inferior): Colocado primeiro (região considerada mais contaminada) por técnica de 4 mãos (auxiliar e cirurgião segurando juntos) sem arrastar sobre o paciente.",
+        "2. Campo Cefálico (superior): Colocado a 4 mãos por cima do paciente.",
+        "3. Campos Laterais: Colocados a 2 mãos de forma ipsilateral. Possuem as extremidades mediais rebatidas (dobradas), permitindo ao cirurgião ajustar o tamanho da área exposta.",
+        "Fixação: Os auxiliares se posicionam nas laterais. O auxiliar A eleva a dobra do campo lateral para expor a junção. O auxiliar B prende a Backhaus voltada para baixo nas junções dos campos, fixando-os à epiderme. Unir os campos com pinça dente de rato antes de prender a Backhaus facilita a fixação."
+      ],
+      "imagem": "assets/teoria/modulo_curso_2025/img_p28_1.png",
+      "imagens": [
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p28_1.png",
+          "alt": "Campos - Passo 1",
+          "legenda": "Passo 1: Preparação e dobramento dos campos a serem dispostos."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p28_2.png",
+          "alt": "Campos - Passo 2",
+          "legenda": "Passo 2: Apresentação e posicionamento inicial a 4 mãos."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p28_4.png",
+          "alt": "Campos - Passo 3",
+          "legenda": "Passo 3: Posicionamento do campo podálico cobrindo a região inferior."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p28_6.png",
+          "alt": "Campos - Passo 4",
+          "legenda": "Passo 4: Posicionamento do campo cefálico cobrindo a região superior."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p29_1.png",
+          "alt": "Campos - Passo 5",
+          "legenda": "Passo 5: Alinhamento dos campos cefálico e podálico."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p29_4.png",
+          "alt": "Campos - Passo 6",
+          "legenda": "Passo 6: Colocação dos campos laterais com eversão da borda medial."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p29_6.png",
+          "alt": "Campos - Passo 7",
+          "legenda": "Passo 7: Ajuste final da janela cirúrgica delimitada pelos campos."
+        },
+        {
+          "src": "assets/teoria/modulo_curso_2025/img_p30_1.png",
+          "alt": "Campos - Passo 8",
+          "legenda": "Passo 8: Fixação das junções na pele do paciente com pinças de Backhaus."
+        }
+      ]
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "pp_q1",
+      "pergunta": "Qual a recomendação temporal para o banho pré-operatório do paciente e por quê?",
+      "resposta": "Deve ser tomado na noite anterior à cirurgia. O banho imediato (menos de 2h antes) remove a camada lipídica de proteção e aumenta a descamação da pele, dispersando mais microrganismos. O nível de germes no ar normaliza apenas 2h após o banho."
+    },
+    {
+      "id": "pp_q2",
+      "pergunta": "Qual o objetivo real da tricotomia e qual a técnica adequada?",
+      "resposta": "O objetivo é apenas evitar que pelos entrem na ferida cirúrgica (não reduz infecção por si só). Deve ser feita no dia da cirurgia, no próprio CC, usando barbeador elétrico ou máquina de cortar cabelo. O uso de lâminas de barbear comuns é contraindicado pois causa microcortes na pele."
+    },
+    {
+      "id": "pp_q3",
+      "pergunta": "Na degermação do paciente, qual lado da escova é usado nas áreas delicadas como mamilos e genitália?",
+      "resposta": "Usa-se apenas o lado macio (esponja) com movimentos circulares. O lado das cerdas de nylon é traumático e deve poupar mamilos e genitália."
+    },
+    {
+      "id": "pp_q4",
+      "pergunta": "Como devem ser usadas as compressas em sanfona para secar o paciente após a degermação?",
+      "resposta": "Devem ser passadas em sentido único de medial para lateral, sem retornar à área seca. Deve-se usar uma compressa para a linha média, duas para as laterais e uma quarta compressa exclusiva para a genitália."
+    },
+    {
+      "id": "pp_q5",
+      "pergunta": "Descreva a disposição das gazes na mão do auxiliar durante a pintura do paciente.",
+      "resposta": "O auxiliar dobra 4 gazes em formato triangular. Três delas são presas entre os dedos da mão não-dominante (que também segura a cuba com o antisséptico). A quarta gaze é montada na pinça Foerster."
+    },
+    {
+      "id": "pp_q6",
+      "pergunta": "Por que a pinça Foerster usada na antissepsia do paciente não deve retornar à mesa de instrumental?",
+      "resposta": "Porque após entrar em contato com o paciente, ela é considerada contaminada. Ela deve ser colocada em um local isolado ou no expurgo, nunca na mesa estéril."
+    },
+    {
+      "id": "pp_q7",
+      "pergunta": "Por que os campos cirúrgicos são colocados na ordem podálico, cefálico e depois laterais?",
+      "resposta": "Porque a região podálica (pés) é considerada mais contaminada, devendo ser isolada primeiro. Em seguida coloca-se o cefálico e, por fim, os campos laterais."
+    },
+    {
+      "id": "pp_q8",
+      "pergunta": "Qual o propósito da dobra de eversão (rebatida) nas extremidades mediais dos campos laterais?",
+      "resposta": "Permitir ao cirurgião ajustar (ampliar ou reduzir) a largura da área cirúrgica exposta após a colocação, além de ocultar as garras da pinça Backhaus que fixam os campos."
+    }
+  ]
+}

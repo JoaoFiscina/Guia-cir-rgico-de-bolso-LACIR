@@ -148,6 +148,14 @@
         "Princípio básico de assepsia: A porção do fio que ficou exposta ao ambiente externo (contaminada) NUNCA deve passar por dentro do trajeto cicatrizado sob a pele.",
         "Técnica: Segura-se a extremidade do nó com a pinça anatômica, traciona-se levemente para expor a porção limpa do fio sob o nó, realiza-se a secção com tesoura de Spencer rente à pele e puxa-se o fio pelo lado cortado.",
         "Procedimento sequencial: Geralmente retira-se primeiro os pontos alternados/ímpares (1º, 3º, 5º) para avaliar a estabilidade da ferida antes de remover todos."
+      ],
+      "imagem": "assets/teoria/imagens_guia/retirada_de_pontos.jpg",
+      "imagens": [
+        {
+          "src": "assets/teoria/imagens_guia/retirada_de_pontos.jpg",
+          "alt": "Remoção de pontos cirúrgicos",
+          "legenda": "Técnica de retirada/remoção de pontos cirúrgicos."
+        }
       ]
     }
   ],
