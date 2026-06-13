@@ -10,7 +10,7 @@ Data de geração: 2026-06-13
 - **Total de referências de imagem validadas**: 86
 - **Imagens ausentes / caminhos quebrados**: 0
 - **Imagens suspeitas (< 2KB)**: 0
-- **Itens sem imagem (Placeholder / Em revisão)**: 1
+- **Itens sem imagem (Placeholder / Em revisão)**: 0
 - **Imagens compartilhadas / duplicadas**: 0
 
 ---
@@ -30,7 +30,7 @@ Data de geração: 2026-06-13
 ## 4. Itens sem Imagem (Mapeamento Vazio / Em revisão)
 *Estes cards/tópicos estão usando fallback visual elegante ("Imagem em revisão") na interface.*
 
-- **[Centro Cirúrgico e Paramentação]** Tópico: "Ambiente Cirúrgico vs Sala Cirúrgica" (ID: `ambiente_vs_sala`)
+*Todos os tópicos possuem imagem associada.*
 
 ---
 

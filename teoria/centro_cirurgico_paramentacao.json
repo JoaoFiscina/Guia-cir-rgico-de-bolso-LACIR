@@ -2,19 +2,9 @@
   "id": "centro_cirurgico_paramentacao",
   "titulo": "Centro Cirúrgico e Paramentação",
   "categoria": "Fundamentos Cirúrgicos",
-  "descricao": "Diferença entre ambiente e sala cirúrgica, zonas de circulação, padrões ambientais da sala operatória, paramentação cirúrgica, lavagem cirúrgica e antissepsia das mãos, e o posicionamento da equipe.",
+  "descricao": "Zonas de circulação, padrões ambientais da sala operatória, paramentação cirúrgica, lavagem cirúrgica e antissepsia das mãos, e o posicionamento da equipe.",
   "fonte": "Baseado no capítulo 'Centro cirúrgico e paramentação' do Manual de Curso LACIR 2025.",
   "topicos": [
-    {
-      "id": "ambiente_vs_sala",
-      "titulo": "Ambiente Cirúrgico vs Sala Cirúrgica",
-      "conteudo": [
-        "Ambiente cirúrgico é a unidade hospitalar completa onde se realizam as intervenções cirúrgicas, englobando vestiários, secretaria, recuperação pós-anestésica, etc.",
-        "Sala cirúrgica é a sala específica dentro do ambiente cirúrgico onde, efetivamente, se consome o ato operatório (Goffi, 2007).",
-        "O Centro Cirúrgico (CC) deve ser localizado em região central, andares superiores, próximo à UTI e sala de emergência, e protegido de poluição ambiental."
-      ],
-      "imagem": ""
-    },
     {
       "id": "zonas_centro_cirurgico",
       "titulo": "Zonas do Centro Cirúrgico",
@@ -158,11 +148,6 @@
     }
   ],
   "perguntas": [
-    {
-      "id": "cp_q1",
-      "pergunta": "Qual a diferença entre ambiente cirúrgico e sala cirúrgica?",
-      "resposta": "O ambiente cirúrgico é a unidade hospitalar inteira voltada para o ato cirúrgico (inclui vestiários, recuperação pós-anestésica, etc.). A sala cirúrgica é o quarto específico dentro desse ambiente onde o ato operatório é consumado."
-    },
     {
       "id": "cp_q2",
       "pergunta": "Quais são as três zonas do centro cirúrgico baseadas no nível de contaminação?",
