@@ -3,7 +3,7 @@ const CONFIG_PATH = "config/app-config.json";
 const MANIFEST_FILENAME = "procedimentos-manifest.json";
 const SUPPORTED_EXTENSIONS = [".json", ".txt"];
 const DEBUG_PREFIX = "[Guia LACIR]";
-const ACCESS_PASSWORD = "Lacir2026";
+const ACCESS_PASSWORD = "CICC2026";
 const ACCESS_SESSION_KEY = "lacir-access-unlocked";
 const INACTIVITY_TIMEOUT = 15 * 60 * 1000; // 15 minutos em milissegundos
 const MAX_SESSION_DURATION = 2 * 60 * 60 * 1000; // 2 horas em milissegundos
@@ -148,7 +148,6 @@ const elements = {
   statusPanel: document.querySelector(".status-panel"),
   toggleFavoritesFilterButton: document.querySelector("#toggleFavoritesFilterButton"),
   selectedProcedureFavoriteButton: document.querySelector("#selectedProcedureFavoriteButton"),
-  mobileSidebarToggle: document.querySelector("#mobileSidebarToggle"),
   focusModeButton: document.querySelector("#focusModeButton"),
   practiceSectionTab: document.querySelector("#practiceSectionTab"),
   theorySectionTab: document.querySelector("#theorySectionTab"),
@@ -346,18 +345,10 @@ function bindEvents() {
     }
 
     selectProcedure(procedureId);
-    const sidebarEl = document.querySelector(".sidebar");
-    if (sidebarEl) {
-      sidebarEl.classList.remove("is-expanded");
-    }
   });
 
   elements.randomProcedureButton.addEventListener("click", () => {
     selectRandomProcedure();
-    const sidebarEl = document.querySelector(".sidebar");
-    if (sidebarEl) {
-      sidebarEl.classList.remove("is-expanded");
-    }
   });
 
   elements.reloadProceduresButton.addEventListener("click", async () => {
@@ -594,12 +585,6 @@ function bindEvents() {
     elements.focusModeButton.addEventListener("click", () => {
       appState.focusMode = !appState.focusMode;
       toggleFocusMode(appState.focusMode);
-    });
-  }
-
-  if (elements.mobileSidebarToggle && elements.sidebar) {
-    elements.mobileSidebarToggle.addEventListener("click", () => {
-      elements.sidebar.classList.toggle("is-expanded");
     });
   }
 

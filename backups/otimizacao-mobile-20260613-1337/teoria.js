@@ -33,17 +33,6 @@
     cacheElements();
     loadReviewHistory();
     setupLightbox();
-
-    const teoriaSidebarToggle = document.getElementById("mobileTeoriaSidebarToggle");
-    const teoriaSidebar = document.querySelector(".teoria-sidebar");
-    if (teoriaSidebarToggle && teoriaSidebar) {
-      if (!teoriaSidebarToggle.dataset.hasListener) {
-        teoriaSidebarToggle.addEventListener("click", () => {
-          teoriaSidebar.classList.toggle("is-expanded");
-        });
-        teoriaSidebarToggle.dataset.hasListener = "true";
-      }
-    }
     
     if (!teoriaState.manifest) {
       fetchManifest();
@@ -218,20 +207,10 @@
 
   // Selecionar um módulo de teoria
   async function selectModule(moduleId, fileUrl) {
-    if (teoriaState.activeModuleId === moduleId && teoriaState.activeModuleData) {
-      const teoriaSidebar = document.querySelector(".teoria-sidebar");
-      if (teoriaSidebar) {
-        teoriaSidebar.classList.remove("is-expanded");
-      }
-      return;
-    }
+    if (teoriaState.activeModuleId === moduleId && teoriaState.activeModuleData) return;
 
     logInfo(`Carregando módulo: ${moduleId} (${fileUrl})`);
     teoriaState.activeModuleId = moduleId;
-    const teoriaSidebar = document.querySelector(".teoria-sidebar");
-    if (teoriaSidebar) {
-      teoriaSidebar.classList.remove("is-expanded");
-    }
     teoriaState.selectedInstrumentId = null;
     teoriaState.activeGroupFilter = "all";
     teoriaState.searchTerm = "";

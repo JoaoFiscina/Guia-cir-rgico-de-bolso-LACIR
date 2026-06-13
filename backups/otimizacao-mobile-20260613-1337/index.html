@@ -193,90 +193,85 @@
       <div id="practiceSection" class="main-section">
         <div class="layout">
         <aside class="sidebar">
-          <button type="button" id="mobileSidebarToggle" class="button button-secondary mobile-sidebar-toggle">
-            🔍 Buscar e Selecionar Roteiro
-          </button>
-          <div class="sidebar-content-wrapper">
-            <section class="panel sidebar-intro">
-              <div class="panel-heading">
-                <div>
-                  <p class="eyebrow">Seleção</p>
-                  <h2>Roteiros</h2>
-                </div>
-
-                <span id="procedureCountBadge" class="badge neutral-badge">0 / 0</span>
+          <section class="panel sidebar-intro">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Seleção</p>
+                <h2>Roteiros</h2>
               </div>
 
-              <p class="sidebar-copy">
-                Busque por nome, filtre por categoria e escolha um roteiro para estudar no modo
-                completo ou na sequência passo a passo.
-              </p>
+              <span id="procedureCountBadge" class="badge neutral-badge">0 / 0</span>
+            </div>
 
-              <label class="field">
-                <span>Buscar por nome</span>
-                <input
-                  type="search"
-                  id="searchInput"
-                  placeholder="Ex.: punção lombar, paracentese, sutura..."
-                  autocomplete="off"
-                />
-              </label>
+            <p class="sidebar-copy">
+              Busque por nome, filtre por categoria e escolha um roteiro para estudar no modo
+              completo ou na sequência passo a passo.
+            </p>
 
-              <label class="field">
-                <span>Categoria</span>
-                <select id="categoryFilter">
-                  <option value="all">Todas as categorias</option>
+            <label class="field">
+              <span>Buscar por nome</span>
+              <input
+                type="search"
+                id="searchInput"
+                placeholder="Ex.: punção lombar, paracentese, sutura..."
+                autocomplete="off"
+              />
+            </label>
+
+            <label class="field">
+              <span>Categoria</span>
+              <select id="categoryFilter">
+                <option value="all">Todas as categorias</option>
+              </select>
+            </label>
+
+            <div class="favorites-filter-container">
+              <button type="button" id="toggleFavoritesFilterButton" class="button button-secondary button-full">
+                Filtrar favoritos <span>☆</span>
+              </button>
+            </div>
+
+            <div id="loadMessage" class="message hidden" aria-live="polite"></div>
+          </section>
+
+          <section class="panel procedure-panel">
+            <div id="quickProcedurePicker" class="quick-picker" style="border: none; padding: 0; background: transparent; margin: 0; display: grid; gap: 12px;">
+              <label class="field" style="margin-top: 0;">
+                <span>Selecione um procedimento</span>
+                <select id="quickProcedureSelect" class="procedure-select-dropdown">
+                  <option value="">Escolha um roteiro...</option>
                 </select>
               </label>
 
-              <div class="favorites-filter-container">
-                <button type="button" id="toggleFavoritesFilterButton" class="button button-secondary button-full">
-                  Filtrar favoritos <span>☆</span>
-                </button>
+              <button
+                type="button"
+                id="randomProcedureButton"
+                class="button button-primary quick-random-button"
+                style="width: 100%;"
+              >
+                🎲 Aleatorizar escolha
+              </button>
+
+              <p id="quickProcedureHint" class="quick-picker-hint" style="margin-top: 4px;">
+                O sorteio usa os roteiros visíveis com os filtros atuais.
+              </p>
+            </div>
+
+            <div id="procedureList" style="display: none !important;"></div>
+          </section>
+
+          <section class="panel issues-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Validação</p>
+                <h2>Erros de importação</h2>
               </div>
 
-              <div id="loadMessage" class="message hidden" aria-live="polite"></div>
-            </section>
+              <span id="issueCountBadge" class="badge muted">0</span>
+            </div>
 
-            <section class="panel procedure-panel">
-              <div id="quickProcedurePicker" class="quick-picker" style="border: none; padding: 0; background: transparent; margin: 0; display: grid; gap: 12px;">
-                <label class="field" style="margin-top: 0;">
-                  <span>Selecione um procedimento</span>
-                  <select id="quickProcedureSelect" class="procedure-select-dropdown">
-                    <option value="">Escolha um roteiro...</option>
-                  </select>
-                </label>
-
-                <button
-                  type="button"
-                  id="randomProcedureButton"
-                  class="button button-primary quick-random-button"
-                  style="width: 100%;"
-                >
-                  🎲 Aleatorizar escolha
-                </button>
-
-                <p id="quickProcedureHint" class="quick-picker-hint" style="margin-top: 4px;">
-                  O sorteio usa os roteiros visíveis com os filtros atuais.
-                </p>
-              </div>
-
-              <div id="procedureList" style="display: none !important;"></div>
-            </section>
-
-            <section class="panel issues-panel">
-              <div class="panel-heading">
-                <div>
-                  <p class="eyebrow">Validação</p>
-                  <h2>Erros de importação</h2>
-                </div>
-
-                <span id="issueCountBadge" class="badge muted">0</span>
-              </div>
-
-              <div id="issuesList" class="issues-list" aria-live="polite"></div>
-            </section>
-          </div>
+            <div id="issuesList" class="issues-list" aria-live="polite"></div>
+          </section>
         </aside>
 
         <main class="content">
@@ -471,25 +466,20 @@
       <div id="theorySection" class="main-section hidden">
         <div class="teoria-layout">
           <aside class="teoria-sidebar">
-            <button type="button" id="mobileTeoriaSidebarToggle" class="button button-secondary mobile-sidebar-toggle">
-              🏥 Selecionar Módulo Teórico
-            </button>
-            <div class="teoria-sidebar-content-wrapper">
-              <section class="panel teoria-sidebar-panel">
-                <div class="panel-heading">
-                  <div>
-                    <p class="eyebrow">Conteúdo</p>
-                    <h2>Teoria Cirúrgica</h2>
-                  </div>
+            <section class="panel teoria-sidebar-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Conteúdo</p>
+                  <h2>Teoria Cirúrgica</h2>
                 </div>
-                <p class="sidebar-copy">
-                  Estude os fundamentos cirúrgicos teóricos, visite materiais e teste seus conhecimentos com perguntas rápidas.
-                </p>
-                <div id="teoriaModulesList" class="teoria-modules-list">
-                  <!-- Modules loaded dynamically -->
-                </div>
-              </section>
-            </div>
+              </div>
+              <p class="sidebar-copy">
+                Estude os fundamentos cirúrgicos teóricos, visite materiais e teste seus conhecimentos com perguntas rápidas.
+              </p>
+              <div id="teoriaModulesList" class="teoria-modules-list">
+                <!-- Modules loaded dynamically -->
+              </div>
+            </section>
           </aside>
 
           <main class="teoria-content">
